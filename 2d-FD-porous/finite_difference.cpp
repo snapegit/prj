@@ -6,12 +6,18 @@
 #include <stdexcept>
 #include <iostream>
 
+/* typedef creates type aliases, here member functios of the eigen library
+no new structs or types, only giving things new names */
+
 //! Sparse Matrix type. Makes using this type easier.
 typedef Eigen::SparseMatrix<double> SparseMatrix;
 
 //! Used for filling the sparse matrix.
 typedef Eigen::Triplet<double> Triplet;
-
+/* snippet from the Eigen documentation:
+class Eigen::Triplet< Scalar, StorageIndex >
+A small structure to hold a non zero as a triplet (i,j,value)
+see documentation: usage example to populate a SparseMatrix with Triplets*/ 
 
 //! Vector type
 typedef Eigen::VectorXd Vector;
@@ -28,11 +34,53 @@ void createPorousMediaMatrix2D(SparseMatrix& A, FunctionPointer sigma, int N, do
     std::vector<Triplet> triplets;
     A.resize(N*N, N*N);
     triplets.reserve(5*N*N-4*N);
+    
+    // define local helper functions
+    // function to calculate actual x-coordinate from the index
+    double x(int i){
+	    // type conversion
+	    double index = i;
+	    // calculate coordinate, incl. frame of zeros
+	    return (index+1)*dx
+    };
+    // function to calculate actual y-coordinate from the index
+    double y(int j){
+	    // type conversion
+	    double index = j;
+	    // calculate coordinate, incl. frame of zeros
+	    return (index+1)*dx
+    };
+    // function to calculate entries on the main diagonal
+    /////////////////////////////////////////////////////
+    // possible error: function sigma denoted as s is not
+    // handed over to this function
+    /////////////////////////////////////////////////////
+    double S(i,j){
+    	return s(x(i+0.5),y(j))+s(x(-0.5),y(j))+s(x(i),y(j+0.5))+s(x(i),y(j-0.5));
+    }
 
-    // Fill up triples
+    /* The A-matrix is a sparse matrix which is tridiagonal along its main diagonal
+    all other N\times N sub-matrices are diagonal */
+   
+    // populate Triplets with indices and computes values for \sigma_{ij}
+    // each iteration of j advances N rows down in the A matrx
+    for(int j=0; j<N;++j){
+	    // each iteration of i advances one  individual column to the right of the A matrix
+	    for(int i=0; i<N; ++i){
+		// main diagonal of the A matrix is described by N*j+i
+		diagIndex=N*j+i;
+	    	// main diagonal of A are S_{ij}
+		triplets.push_back(Triplet(diagIndex, diagIndex, S(i,j));
+		// diagnoal above main diagonal of A
+		triplets.push_back();
+		// diagonal below main diagnoal of A
+		triplets.push_back();
+    	    }    
+    }
 
 // (write your solution here)
     A.setFromTriplets(triplets.begin(), triplets.end());
+
 }
 //----------------poissonEnd----------------
 
