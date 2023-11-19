@@ -34,6 +34,8 @@ void createPorousMediaMatrix2D(SparseMatrix& A, FunctionPointer sigma, int N, do
     std::vector<Triplet> triplets;
     A.resize(N*N, N*N);
     triplets.reserve(5*N*N-4*N);
+    // short-hand notation for \sigma(x,y)=:s
+    FunctionPointer s=sigma;
     
     // define local helper functions
     // function to calculate actual x-coordinate from the index
@@ -50,37 +52,36 @@ void createPorousMediaMatrix2D(SparseMatrix& A, FunctionPointer sigma, int N, do
 	    // calculate coordinate, incl. frame of zeros
 	    return (index+1)*dx
     };
-    // function to calculate entries on the main diagonal
-    /////////////////////////////////////////////////////
-    // possible error: function sigma denoted as s is not
-    // handed over to this function
-    /////////////////////////////////////////////////////
-    double S(i,j){
+    // function to calculate entries on the main diagonal of A
+    double S(int i,int j, FunctionPointer s){
     	return s(x(i+0.5),y(j))+s(x(-0.5),y(j))+s(x(i),y(j+0.5))+s(x(i),y(j-0.5));
-    }
+    };
 
     /* The A-matrix is a sparse matrix which is tridiagonal along its main diagonal
-    all other N\times N sub-matrices are diagonal */
+     * all other N\times N sub-matrices are diagonal */
    
     // populate Triplets with indices and computes values for \sigma_{ij}
     // each iteration of j advances N rows down in the A matrx
     for(int j=0; j<N;++j){
-	    // each iteration of i advances one  individual column to the right of the A matrix
-	    for(int i=0; i<N; ++i){
+    	// each iteration of i advances one  individual column to the right of the A matrix
+	for(int i=0; i<N; ++i){
 		// main diagonal of the A matrix is described by N*j+i
+		// if conditions to avoid access outside the boundaries
 		diagIndex=N*j+i;
-	    	// main diagonal of A are S_{ij}
+	 	// S_{ij} on main diagonal of A
 		triplets.push_back(Triplet(diagIndex, diagIndex, S(i,j));
-		// diagnoal above main diagonal of A
-		triplets.push_back();
-		// diagonal below main diagnoal of A
-		triplets.push_back();
-    	    }    
+		if(i != N-1){// diagnoal above main diagonal of A
+			triplets.push_back(Triplet(diagIndex, diagIndex+1, -s(x(i+0.5),y(j));
+		}
+		if(i != 0){// diagonal below main diagonal of A
+			triplets.push_back(diagIndex+1, diagIndex, -s(x(i-0.5),y(j));
+		}
+		if(j < N-1){// entries of diagonal sub-matrices next to main diagonal
+			triplets.push_back(diagIndex, diagIndex+N, s(x(i),y(j+0.5));
+		}
+        }    
     }
-
-// (write your solution here)
     A.setFromTriplets(triplets.begin(), triplets.end());
-
 }
 //----------------poissonEnd----------------
 
