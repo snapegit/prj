@@ -116,7 +116,29 @@ Vector poissonSolve(FunctionPointer f, FunctionPointer sigma, int N) {
     double dx = 1.0 / (N + 1);
 
     // Compute A, rhs and u
-// (write your solution here)
+
+    /* declaration, unititialized objects
+     * sparse matrix using a specialized type from the Eigen library
+     * right hand side =  residual function "Störfunktion" evaluated
+     * at points of discretized domain = mesh */
+    SparseMatrix A; // see typedef, alias for Eigen:SparseMatrix<double>
+    Vector F; // right hand side of SLE
+    // call function to populate A
+    createPorousMediaMatrix2D(A, sigma, N, dx);
+    // create right-hand-side of SLE
+    createRHS(F, f, N, dx);
+
+    
+    /* using library function of Eigen to solve system of linear equations SLE
+     * computationally efficient => LU-decomposition
+     * engl. LU-decomposition <=> ger. LR-Zerlegung
+     * A = L*U */
+    // declare variable which stores LU-decomp using specialized type of Eigen library
+    Eigen::SparseLU<SparseMatrix> LUdecomp;
+    // call memberfunction SparseLU (optimized for sparse matrices) to calculate LU-decomp
+    LUdecomp.compute(A);
+    
+
     return u;
 }
 //----------------solveEnd----------------
