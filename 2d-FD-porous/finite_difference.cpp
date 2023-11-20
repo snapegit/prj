@@ -61,7 +61,7 @@ void createPorousMediaMatrix2D(SparseMatrix& A, FunctionPointer sigma, int N, do
      * all other N\times N sub-matrices are diagonal */
    
     // populate Triplets with indices and computes values for \sigma_{ij}
-    // each iteration of j advances N rows down in the A matrx
+    // each iteration of j advances N rows down in the A matrix
     for(int j=0; j<N;++j){
     	// each iteration of i advances one  individual column to the right of the A matrix
 	for(int i=0; i<N; ++i){
@@ -122,13 +122,12 @@ Vector poissonSolve(FunctionPointer f, FunctionPointer sigma, int N) {
      * right hand side =  residual function "Störfunktion" evaluated
      * at points of discretized domain = mesh */
     SparseMatrix A; // see typedef, alias for Eigen:SparseMatrix<double>
-    Vector F; // right hand side of SLE
+    Vector RHS; // right hand side of SLE
     // call function to populate A
     createPorousMediaMatrix2D(A, sigma, N, dx);
     // create right-hand-side of SLE
-    createRHS(F, f, N, dx);
-
-    
+    createRHS(RHS, f, N, dx);
+       
     /* using library function of Eigen to solve system of linear equations SLE
      * computationally efficient => LU-decomposition
      * engl. LU-decomposition <=> ger. LR-Zerlegung
@@ -137,14 +136,40 @@ Vector poissonSolve(FunctionPointer f, FunctionPointer sigma, int N) {
     Eigen::SparseLU<SparseMatrix> LUdecomp;
     // call memberfunction SparseLU (optimized for sparse matrices) to calculate LU-decomp
     LUdecomp.compute(A);
-    
+   
+   // resize u vector, +2 necessary to cover frame of zeros => Dirichlet BC
+   u.resize((N+2)*(N+2));
+   /* initialize u vetor with zeros, values which corrspond to the zero boundary would
+    * otherwise stay unininitialized => unexpected behaviour */
+   u.setZero();
+   
+   /* matrix was only populated for values excluding the zero boundary, hence the vector
+    * uWithoutBoundary only stores values of u in the grid wihtout the zero boundary
+    * LinAlg: LU-decomp is analytically solved in two steps
+    * 1.) Ly = RHS, solve for y
+    * 2.) U*u = y, solve for u which is the sought after solution
+    * numerical advantage of this method: L and U are upper-/lower-diagonal 
+    * Eigen executes these two steps implicitly at once when calling the .solve member function
+    * on an object of type Eigen::SparseLU with the RHS of the equation as an argument */
+   Vector uWithoutBoundary = LUdecomp.solve(RHS);
 
-    return u;
+   /* expand u from size (N*N) without the values on the boundary to size (N+2)(N+2)
+    * with zeros on the boundary => DIRICHLET boundary condition 
+    * sequence: 0 followed by N values followd by a 0 etc.
+    * only the non-zero elements of u are traversed in the following for loops
+    * all zeros were already set during initialisation */
+   for(int i=1; i < N+1; ++i){
+   	for(int j=1; j < N+1; ++j){
+		// address vector elements using brackets
+		u[i*(N+2)+j] = uWithoutBoundary[(i-1)*N+j-1];
+	}
+   }
+
+   return u;
 }
 //----------------solveEnd----------------
 
 
-//! Gives the Right hand side F at the point x, y
 double F(double x, double y) {
   return 4*M_PI*M_PI*sin(2*M_PI*x)*sin(2*M_PI*y)*(4*cos(2*M_PI*x)*cos(2*M_PI*y)+M_PI);
 }
