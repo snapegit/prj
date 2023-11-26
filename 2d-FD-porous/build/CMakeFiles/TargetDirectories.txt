@@ -1,0 +1,4 @@
+/workspaces/prj/2d-FD-porous/build/CMakeFiles/rebuild_cache.dir
+/workspaces/prj/2d-FD-porous/build/CMakeFiles/edit_cache.dir
+/workspaces/prj/2d-FD-porous/build/CMakeFiles/finite_difference.dir
+/workspaces/prj/2d-FD-porous/build/CMakeFiles/Eigen.dir

@@ -46,7 +46,7 @@ double y(int j, double dx){
 }
 // function to calculate entries on the main diagonal of A
 double S(int i,int j, FunctionPointer s, double dx){
-return s(x(i+0.5,dx),y(j,dx))+s(x(i-0.5,dx),y(j,dx))+s(x(i,dx),y(j+0.5,dx))+s(x(i,dx),y(j-0.5,dx));
+    return s(x(i+0.5,dx),y(j,dx))+s(x(i-0.5,dx),y(j,dx))+s(x(i,dx),y(j+0.5,dx))+s(x(i,dx),y(j-0.5,dx));
 }
 
 //----------------poissonBegin----------------
@@ -72,7 +72,7 @@ void createPorousMediaMatrix2D(SparseMatrix& A, FunctionPointer sigma, int N, do
 		// if conditions to avoid access outside the boundaries
 		int diagIndex=N*j+i;
 	 	// S_{ij} on main diagonal of A
-		triplets.push_back(Triplet(diagIndex, diagIndex, S(i,j)));
+		triplets.push_back(Triplet(diagIndex, diagIndex, S(i,j,s,dx)));
 		if(i != N-1){// diagnoal above main diagonal of A
 			triplets.push_back(Triplet(diagIndex, diagIndex+1, -s(x(i+0.5,dx),y(j,dx))));
 		}
