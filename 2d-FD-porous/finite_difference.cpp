@@ -180,7 +180,9 @@ double F(double x, double y) {
 //----------------convergenceBegin----------------
 //! Gives the exact solution at the point x,y
 double exactSolution(double x, double y) {
-// (write your solution here)
+//------------my solution--------------------------------------
+// exact solution is given in problem description
+//return sin(2*M_PI*x)*sin(2*M_PI*y);
 return 0; //remove when implemented
 }
 
@@ -196,9 +198,36 @@ void convergeStudy(FunctionPointer F, FunctionPointer sigma) {
     for (int k = startK; k < endK; ++k) {
         const int N = 1<<k; // 2^k
 
-// (write your solution here)
+	//-------------my solution-------------------------------------------
+        Vector u =  poissonSolve(F, sigma, N);
+	/* define vectors holding the indices along x and y
+	 * +2 to include the zero boundary */
+      	Vector X(N+2);
+	Vector Y(N+2);
+	// populate x-axis with indices
+	for (int i = 0; i < N + 2; ++i) {
+    		X(i) = static_cast<double>(i) / (N+1);
+	} 
+	// populate y-axis with indices
+	for (int j = 0; j < N + 2; ++j) {
+    		Y(j) = static_cast<double>(j) / (N+1);
+	}
+	double maxErr = 0;
+	for (int i = 0; i < N+2; ++i) {//iterate over x-axis
+	    for (int j = 0; j < N+2; ++j) {//iterate over y-axis
+		double abs=u(j*(N+2);
+		if(abs<0){
+			abs=(-1)*abs;
+		}
+                double localErr = abs-exactSolution(X(i),Y(j)));
+		if( maxErr < localError){
+			maxError = localErr;
+		}
+            }
+        }
+        errors[k-startK] = maxError;
+        resolutions[k-startK] = N;
     }
-
     writeToFile("errors.txt", errors);
     writeToFile("resolutions.txt", resolutions);
 }
