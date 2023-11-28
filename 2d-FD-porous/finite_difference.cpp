@@ -29,10 +29,11 @@ typedef Eigen::VectorXd Vector;
 //! Our function pointer, typedef'd to make it easier to use
 typedef double(*FunctionPointer)(double, double);
 
-/* QUESTION---------------------------------------------
- * Is it allowd to add/change code outside the provided/inteded space? */
 
-//------------- define helper functions ---------------
+/* restriction: The solution must only be added
+ * within the provided space
+ * **1 lambda functions are used instead below
+//--------------- helper functions -----------------------
 // function to calculate actual x-coordinate from the index
 double x(int i, double dx){
     // type conversion
@@ -51,6 +52,7 @@ double y(int j, double dx){
 double S(int i,int j, FunctionPointer s, double dx){
     return s(x(i+0.5,dx),y(j,dx))+s(x(i-0.5,dx),y(j,dx))+s(x(i,dx),y(j+0.5,dx))+s(x(i,dx),y(j-0.5,dx));
 }
+*/
 
 //----------------poissonBegin----------------
 //! Create the Poisson matrix for 2D finite difference.
@@ -62,7 +64,22 @@ void createPorousMediaMatrix2D(SparseMatrix& A, FunctionPointer sigma, int N, do
     triplets.reserve(5*N*N-4*N);
     // short-hand notation for \sigma(x,y)=:s
     FunctionPointer s=sigma;
-    
+    /* **1 see info above
+     * lambda functions are necessary because function defintions
+     * within functions are not allowed
+     * passing the parameters of lambda functions by reference */
+    // function to calculate actual x-coordinate from the index
+    auto x = [&](int i){
+    	return (static_cast<double>(i)+1)*dx;
+    };
+    // function to calculate actual y-coordinate from the index
+    auto y = [&](int j){
+	return (static_cast<double>(j)+1)*dx;
+    };
+    // function to calculate entries on the main diagonal of A
+    auto S = [&](int i,int j, FunctionPointer s){
+	return s(x(i+0.5),y(j))+s(x(i-0.5),y(j))+s(x(i),y(j+0.5))+s(x(i),y(j-0.5));
+    };
     /* The A-matrix is a sparse matrix which is tridiagonal along its main diagonal
      * all other N\times N sub-matrices are diagonal */
    
@@ -75,15 +92,15 @@ void createPorousMediaMatrix2D(SparseMatrix& A, FunctionPointer sigma, int N, do
 		// if conditions to avoid access outside the boundaries
 		int diagIndex=N*j+i;
 	 	// S_{ij} on main diagonal of A
-		triplets.push_back(Triplet(diagIndex, diagIndex, S(i,j,s,dx)));
+		triplets.push_back(Triplet(diagIndex, diagIndex, S(i,j,s)));
 		if(i != N-1){// diagnoal above main diagonal of A
-			triplets.push_back(Triplet(diagIndex, diagIndex+1, -s(x(i+0.5,dx),y(j,dx))));
+			triplets.push_back(Triplet(diagIndex, diagIndex+1, -s(x(i+0.5),y(j))));
 		}
 		if(i != 0){// diagonal below main diagonal of A
-			triplets.push_back(Triplet(diagIndex+1, diagIndex, -s(x(i-0.5,dx),y(j,dx))));
+			triplets.push_back(Triplet(diagIndex+1, diagIndex, -s(x(i-0.5),y(j))));
 		}
 		if(j < N-1){// entries of diagonal sub-matrices next to main diagonal
-			triplets.push_back(Triplet(diagIndex, diagIndex+N, s(x(i,dx),y(j+0.5,dx))));
+			triplets.push_back(Triplet(diagIndex, diagIndex+N, s(x(i),y(j+0.5))));
 		}
         }    
     }
