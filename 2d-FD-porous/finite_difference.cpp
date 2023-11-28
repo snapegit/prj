@@ -1,10 +1,13 @@
-#include <Eigen/Sparse>
+//#include <Eigen/Sparse>
+#include "./build/Eigen/Eigen/Sparse"
 #include <iostream>
 #include "writer.hpp"
 #include <cmath>
-#include <Eigen/SparseCholesky>
+//#include <Eigen/SparseCholesky>
+#include "./build/Eigen/Eigen/SparseCholesky"
 #include <stdexcept>
 #include <iostream>
+
 
 /* typedef creates type aliases, here member functios of the eigen library
 no new structs or types, only giving things new names */
@@ -77,10 +80,10 @@ void createPorousMediaMatrix2D(SparseMatrix& A, FunctionPointer sigma, int N, do
 			triplets.push_back(Triplet(diagIndex, diagIndex+1, -s(x(i+0.5,dx),y(j,dx))));
 		}
 		if(i != 0){// diagonal below main diagonal of A
-			triplets.push_back(diagIndex+1, diagIndex, -s(x(i-0.5,dx),y(j,dx)));
+			triplets.push_back(Triplet(diagIndex+1, diagIndex, -s(x(i-0.5,dx),y(j,dx))));
 		}
 		if(j < N-1){// entries of diagonal sub-matrices next to main diagonal
-			triplets.push_back(diagIndex, diagIndex+N, s(x(i,dx),y(j+0.5,dx)));
+			triplets.push_back(Triplet(diagIndex, diagIndex+N, s(x(i,dx),y(j+0.5,dx))));
 		}
         }    
     }
@@ -215,17 +218,17 @@ void convergeStudy(FunctionPointer F, FunctionPointer sigma) {
 	double maxErr = 0;
 	for (int i = 0; i < N+2; ++i) {//iterate over x-axis
 	    for (int j = 0; j < N+2; ++j) {//iterate over y-axis
-		double abs=u(j*(N+2);
+		double abs=u(j*(N+2));
 		if(abs<0){
 			abs=(-1)*abs;
 		}
-                double localErr = abs-exactSolution(X(i),Y(j)));
-		if( maxErr < localError){
-			maxError = localErr;
+                double localErr = abs-exactSolution(X(i),Y(j));
+		if( maxErr < localErr){
+			maxErr = localErr;
 		}
             }
         }
-        errors[k-startK] = maxError;
+        errors[k-startK] = maxErr;
         resolutions[k-startK] = N;
     }
     writeToFile("errors.txt", errors);
