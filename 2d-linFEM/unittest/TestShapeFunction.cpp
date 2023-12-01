@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "shape.hpp"
+#include "../shape.hpp"
 
 TEST(TestShapeFunction, CornerTest) {
     // In this test, we check that the shape function

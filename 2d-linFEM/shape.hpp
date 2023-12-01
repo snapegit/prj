@@ -13,6 +13,23 @@
 //! @param x x coordinate in the reference element.
 //! @param y y coordinate in the reference element.
 inline double lambda(int i, double x, double y) {
-// (write your solution here)
-return 0; //remove when implemented
+// begin solution ----------------------------------
+    double lambda = 0; // initializing temporary variable lambda
+    /* assert that x,y assume admissable values
+     * more elegnat implementation using: #included cassert */
+    if (x > 1 || y > 1 || x < 0 || y < 0) {
+        return 0; // terminates function
+    }
+    switch (i) // i is the index (numerbing) of the node of the reference element
+    {
+    case 0:
+        return 1-x-y;
+    case 1:
+        return x;
+    case 2:
+        return y;
+    default:
+        return lambda;
+    }
+// end solution ------------------------------------
 }
