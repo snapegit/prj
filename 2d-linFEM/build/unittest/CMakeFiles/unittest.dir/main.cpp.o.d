@@ -1,6 +1,6 @@
 unittest/CMakeFiles/unittest.dir/main.cpp.o: \
   /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/unittest/main.cpp \
-  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/_deps/googletest-src/googletest/include/gtest/gtest.h \
+  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/unittest/gtest_source/googletest/include/gtest/gtest.h \
   /data/data/com.termux/files/usr/include/c++/v1/limits \
   /data/data/com.termux/files/usr/include/c++/v1/__assert \
   /data/data/com.termux/files/usr/include/c++/v1/__config \
@@ -712,15 +712,15 @@ unittest/CMakeFiles/unittest.dir/main.cpp.o: \
   /data/data/com.termux/files/usr/include/c++/v1/streambuf \
   /data/data/com.termux/files/usr/include/c++/v1/__bsd_locale_fallbacks.h \
   /data/data/com.termux/files/usr/include/c++/v1/cstdarg \
-  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h \
-  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h \
+  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/unittest/gtest_source/googletest/include/gtest/internal/gtest-internal.h \
+  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/unittest/gtest_source/googletest/include/gtest/internal/gtest-port.h \
   /data/data/com.termux/files/usr/include/sys/stat.h \
   /data/data/com.termux/files/usr/include/linux/stat.h \
   /data/data/com.termux/files/usr/include/c++/v1/iostream \
   /data/data/com.termux/files/usr/include/c++/v1/istream \
   /data/data/com.termux/files/usr/include/c++/v1/sstream \
-  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h \
-  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h \
+  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/unittest/gtest_source/googletest/include/gtest/internal/gtest-port-arch.h \
+  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/unittest/gtest_source/googletest/include/gtest/internal/custom/gtest-port.h \
   /data/data/com.termux/files/usr/include/unistd.h \
   /data/data/com.termux/files/usr/include/bits/fcntl.h \
   /data/data/com.termux/files/usr/include/bits/getopt.h \
@@ -739,22 +739,22 @@ unittest/CMakeFiles/unittest.dir/main.cpp.o: \
   /data/data/com.termux/files/usr/include/c++/v1/map \
   /data/data/com.termux/files/usr/include/c++/v1/__tree \
   /data/data/com.termux/files/usr/include/c++/v1/set \
-  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/_deps/googletest-src/googletest/include/gtest/gtest-message.h \
-  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-filepath.h \
-  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-string.h \
-  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h \
+  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/unittest/gtest_source/googletest/include/gtest/gtest-message.h \
+  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/unittest/gtest_source/googletest/include/gtest/internal/gtest-filepath.h \
+  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/unittest/gtest_source/googletest/include/gtest/internal/gtest-string.h \
+  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/unittest/gtest_source/googletest/include/gtest/internal/gtest-type-util.h \
   /data/data/com.termux/files/usr/include/c++/v1/cxxabi.h \
   /data/data/com.termux/files/usr/include/c++/v1/__cxxabi_config.h \
-  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/_deps/googletest-src/googletest/include/gtest/gtest-death-test.h \
-  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal.h \
-  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/_deps/googletest-src/googletest/include/gtest/gtest-param-test.h \
-  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h \
-  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-linked_ptr.h \
+  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/unittest/gtest_source/googletest/include/gtest/gtest-death-test.h \
+  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/unittest/gtest_source/googletest/include/gtest/internal/gtest-death-test-internal.h \
+  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/unittest/gtest_source/googletest/include/gtest/gtest-param-test.h \
+  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/unittest/gtest_source/googletest/include/gtest/internal/gtest-param-util.h \
+  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/unittest/gtest_source/googletest/include/gtest/internal/gtest-linked_ptr.h \
   /data/data/com.termux/files/usr/include/assert.h \
-  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/_deps/googletest-src/googletest/include/gtest/gtest-printers.h \
-  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-printers.h \
-  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util-generated.h \
-  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/_deps/googletest-src/googletest/include/gtest/gtest_prod.h \
-  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/_deps/googletest-src/googletest/include/gtest/gtest-test-part.h \
-  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/_deps/googletest-src/googletest/include/gtest/gtest-typed-test.h \
-  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h
+  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/unittest/gtest_source/googletest/include/gtest/gtest-printers.h \
+  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/unittest/gtest_source/googletest/include/gtest/internal/custom/gtest-printers.h \
+  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/unittest/gtest_source/googletest/include/gtest/internal/gtest-param-util-generated.h \
+  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/unittest/gtest_source/googletest/include/gtest/gtest_prod.h \
+  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/unittest/gtest_source/googletest/include/gtest/gtest-test-part.h \
+  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/unittest/gtest_source/googletest/include/gtest/gtest-typed-test.h \
+  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/unittest/gtest_source/googletest/include/gtest/gtest_pred_impl.h

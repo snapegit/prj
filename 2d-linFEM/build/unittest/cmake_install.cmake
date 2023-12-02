@@ -42,9 +42,3 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/data/data/com.termux/files/usr/bin/llvm-objdump")
 endif()
 
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/_deps/googletest-build/cmake_install.cmake")
-
-endif()
-

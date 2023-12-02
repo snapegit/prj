@@ -83,30 +83,30 @@ CMakeFiles/unittest.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unittest.dir/main.cpp.s"
 	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/unittest/main.cpp -o CMakeFiles/unittest.dir/main.cpp.s
 
-CMakeFiles/unittest.dir/TestShapeFunction.cpp.o: CMakeFiles/unittest.dir/flags.make
-CMakeFiles/unittest.dir/TestShapeFunction.cpp.o: /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/unittest/TestShapeFunction.cpp
-CMakeFiles/unittest.dir/TestShapeFunction.cpp.o: CMakeFiles/unittest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/unittest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/unittest.dir/TestShapeFunction.cpp.o"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unittest.dir/TestShapeFunction.cpp.o -MF CMakeFiles/unittest.dir/TestShapeFunction.cpp.o.d -o CMakeFiles/unittest.dir/TestShapeFunction.cpp.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/unittest/TestShapeFunction.cpp
+CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.o: CMakeFiles/unittest.dir/flags.make
+CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.o: /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/unittest/TestGradientShapeFunction.cpp
+CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.o: CMakeFiles/unittest.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/unittest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.o"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.o -MF CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.o.d -o CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/unittest/TestGradientShapeFunction.cpp
 
-CMakeFiles/unittest.dir/TestShapeFunction.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/unittest.dir/TestShapeFunction.cpp.i"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/unittest/TestShapeFunction.cpp > CMakeFiles/unittest.dir/TestShapeFunction.cpp.i
+CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.i"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/unittest/TestGradientShapeFunction.cpp > CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.i
 
-CMakeFiles/unittest.dir/TestShapeFunction.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unittest.dir/TestShapeFunction.cpp.s"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/unittest/TestShapeFunction.cpp -o CMakeFiles/unittest.dir/TestShapeFunction.cpp.s
+CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.s"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/unittest/TestGradientShapeFunction.cpp -o CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.s
 
 # Object files for target unittest
 unittest_OBJECTS = \
 "CMakeFiles/unittest.dir/main.cpp.o" \
-"CMakeFiles/unittest.dir/TestShapeFunction.cpp.o"
+"CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.o"
 
 # External object files for target unittest
 unittest_EXTERNAL_OBJECTS =
 
 unittest: CMakeFiles/unittest.dir/main.cpp.o
-unittest: CMakeFiles/unittest.dir/TestShapeFunction.cpp.o
+unittest: CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.o
 unittest: CMakeFiles/unittest.dir/build.make
 unittest: _deps/googletest-build/googlemock/gtest/libgtest.a
 unittest: CMakeFiles/unittest.dir/link.txt

@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "grad_shape.hpp"
+#include "../grad_shape.hpp"
 
 TEST(TestGradientShapeFunction, ValueTest) {
     // We check that the gradient is correct for each shape function

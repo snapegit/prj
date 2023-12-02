@@ -37,7 +37,9 @@ void computeStiffnessMatrix(MatrixType& stiffnessMatrix,
     double volumeFactor = std::abs(coordinateTransform.determinant());
     
     Eigen::Matrix2d elementMap = coordinateTransform.inverse().transpose();
-// (write your solution here)
+// begin my solution------------------------------------------------------------------------------
+
+// end my solution--------------------------------------------------------------------------------
     
 }
 //----------------compMatrixEnd----------------

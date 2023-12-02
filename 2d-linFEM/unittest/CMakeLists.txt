@@ -1,23 +1,22 @@
 cmake_minimum_required (VERSION 3.1.0)
 
-#ExternalProject_Add(
-#    GTestDownload
-#    URL https://github.com/google/googletest/archive/release-1.8.1.zip
-#    SOURCE_DIR ${CMAKE_CURRENT_BINARY_DIR}/gtest_source
-#    BINARY_DIR ${CMAKE_CURRENT_BINARY_DIR}/gtest_binary
-#    CMAKE_ARGS "-Dgtest_force_shared_crt=ON" ${EXTERNAL_PROJECT_CMAKE_ARGS_PREFIX} -DCMAKE_INSTALL_PREFIX=${CMAKE_CURRENT_BINARY_DIR}/gtest_binary
-#    INSTALL_COMMAND  ""
-#    )
+ExternalProject_Add(
+    GTestDownload
+    URL https://github.com/google/googletest/archive/release-1.8.1.zip
+    SOURCE_DIR ${CMAKE_CURRENT_BINARY_DIR}/gtest_source
+    BINARY_DIR ${CMAKE_CURRENT_BINARY_DIR}/gtest_binary
+    CMAKE_ARGS "-Dgtest_force_shared_crt=ON" ${EXTERNAL_PROJECT_CMAKE_ARGS_PREFIX} -DCMAKE_INSTALL_PREFIX=${CMAKE_CURRENT_BINARY_DIR}/gtest_binary
+    INSTALL_COMMAND  ""
+    )
 
 # alternative implementation
-include(FetchContent)
+#include(FetchContent)
 
-FetchContent_Declare(
-    googletest
-    URL https://github.com/google/googletest/archive/release-1.8.1.zip
-)
-
-FetchContent_MakeAvailable(googletest)
+#FetchContent_Declare(
+#    googletest
+#    URL https://github.com/google/googletest/archive/release-1.8.1.zip
+#)
+#FetchContent_MakeAvailable(googletest)
 
 # Now, googletest is available for use as a dependency
 add_library(GTest::gtest INTERFACE IMPORTED)
@@ -41,7 +40,7 @@ ADD_EXECUTABLE(unittest
     # TestCoordinateTransform.cpp
     # TestDirichletBoundary.cpp
     # TestElementVector.cpp 
-    # TestGradientShapeFunction.cpp 
+    TestGradientShapeFunction.cpp 
     # TestL2Norm.cpp 
     TestShapeFunction.cpp 
     # TestStiffnessMatrix.cpp

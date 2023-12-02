@@ -10,8 +10,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.27.9/CMakeSystem.cmake"
   "CMakeLists.txt"
   "googletest-populate-prefix/tmp/googletest-populate-mkdirs.cmake"
+  "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake"
   "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeGenericSystem.cmake"
   "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake"
+  "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeSystem.cmake.in"
   "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake"
   "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake"
   "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/ExternalProject.cmake"
@@ -23,6 +25,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/ExternalProject/extractfile.cmake.in"
   "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/ExternalProject/mkdirs.cmake.in"
   "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/ExternalProject/shared_internal_commands.cmake"
+  "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Platform/Android-Determine.cmake"
   "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Platform/Android-Initialize.cmake"
   "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Platform/Android.cmake"
   "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake"
@@ -38,6 +41,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "CMakeFiles/3.27.9/CMakeSystem.cmake"
   "googletest-populate-prefix/tmp/googletest-populate-mkdirs.cmake"
   "googletest-populate-prefix/src/googletest-populate-stamp/download-googletest-populate.cmake"
   "googletest-populate-prefix/src/googletest-populate-stamp/extract-googletest-populate.cmake"

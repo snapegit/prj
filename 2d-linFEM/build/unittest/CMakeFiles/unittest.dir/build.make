@@ -83,10 +83,24 @@ unittest/CMakeFiles/unittest.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unittest.dir/main.cpp.s"
 	cd /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/unittest && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/unittest/main.cpp -o CMakeFiles/unittest.dir/main.cpp.s
 
+unittest/CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.o: unittest/CMakeFiles/unittest.dir/flags.make
+unittest/CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.o: /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/unittest/TestGradientShapeFunction.cpp
+unittest/CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.o: unittest/CMakeFiles/unittest.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object unittest/CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.o"
+	cd /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/unittest && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT unittest/CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.o -MF CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.o.d -o CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/unittest/TestGradientShapeFunction.cpp
+
+unittest/CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.i"
+	cd /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/unittest && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/unittest/TestGradientShapeFunction.cpp > CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.i
+
+unittest/CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.s"
+	cd /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/unittest && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/unittest/TestGradientShapeFunction.cpp -o CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.s
+
 unittest/CMakeFiles/unittest.dir/TestShapeFunction.cpp.o: unittest/CMakeFiles/unittest.dir/flags.make
 unittest/CMakeFiles/unittest.dir/TestShapeFunction.cpp.o: /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/unittest/TestShapeFunction.cpp
 unittest/CMakeFiles/unittest.dir/TestShapeFunction.cpp.o: unittest/CMakeFiles/unittest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object unittest/CMakeFiles/unittest.dir/TestShapeFunction.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object unittest/CMakeFiles/unittest.dir/TestShapeFunction.cpp.o"
 	cd /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/unittest && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT unittest/CMakeFiles/unittest.dir/TestShapeFunction.cpp.o -MF CMakeFiles/unittest.dir/TestShapeFunction.cpp.o.d -o CMakeFiles/unittest.dir/TestShapeFunction.cpp.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/unittest/TestShapeFunction.cpp
 
 unittest/CMakeFiles/unittest.dir/TestShapeFunction.cpp.i: cmake_force
@@ -100,17 +114,18 @@ unittest/CMakeFiles/unittest.dir/TestShapeFunction.cpp.s: cmake_force
 # Object files for target unittest
 unittest_OBJECTS = \
 "CMakeFiles/unittest.dir/main.cpp.o" \
+"CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.o" \
 "CMakeFiles/unittest.dir/TestShapeFunction.cpp.o"
 
 # External object files for target unittest
 unittest_EXTERNAL_OBJECTS =
 
 unittest/unittest: unittest/CMakeFiles/unittest.dir/main.cpp.o
+unittest/unittest: unittest/CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.o
 unittest/unittest: unittest/CMakeFiles/unittest.dir/TestShapeFunction.cpp.o
 unittest/unittest: unittest/CMakeFiles/unittest.dir/build.make
-unittest/unittest: _deps/googletest-build/googlemock/gtest/libgtest.a
 unittest/unittest: unittest/CMakeFiles/unittest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable unittest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable unittest"
 	cd /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/unittest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unittest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

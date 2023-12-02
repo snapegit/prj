@@ -226,29 +226,29 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googlemock/gtest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
-TestShapeFunction.o: TestShapeFunction.cpp.o
-.PHONY : TestShapeFunction.o
+TestGradientShapeFunction.o: TestGradientShapeFunction.cpp.o
+.PHONY : TestGradientShapeFunction.o
 
 # target to build an object file
-TestShapeFunction.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/TestShapeFunction.cpp.o
-.PHONY : TestShapeFunction.cpp.o
+TestGradientShapeFunction.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.o
+.PHONY : TestGradientShapeFunction.cpp.o
 
-TestShapeFunction.i: TestShapeFunction.cpp.i
-.PHONY : TestShapeFunction.i
+TestGradientShapeFunction.i: TestGradientShapeFunction.cpp.i
+.PHONY : TestGradientShapeFunction.i
 
 # target to preprocess a source file
-TestShapeFunction.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/TestShapeFunction.cpp.i
-.PHONY : TestShapeFunction.cpp.i
+TestGradientShapeFunction.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.i
+.PHONY : TestGradientShapeFunction.cpp.i
 
-TestShapeFunction.s: TestShapeFunction.cpp.s
-.PHONY : TestShapeFunction.s
+TestGradientShapeFunction.s: TestGradientShapeFunction.cpp.s
+.PHONY : TestGradientShapeFunction.s
 
 # target to generate assembly for a file
-TestShapeFunction.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/TestShapeFunction.cpp.s
-.PHONY : TestShapeFunction.cpp.s
+TestGradientShapeFunction.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unittest.dir/build.make CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.s
+.PHONY : TestGradientShapeFunction.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -291,9 +291,9 @@ help:
 	@echo "... gtest"
 	@echo "... gtest_main"
 	@echo "... unittest"
-	@echo "... TestShapeFunction.o"
-	@echo "... TestShapeFunction.i"
-	@echo "... TestShapeFunction.s"
+	@echo "... TestGradientShapeFunction.o"
+	@echo "... TestGradientShapeFunction.i"
+	@echo "... TestGradientShapeFunction.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
