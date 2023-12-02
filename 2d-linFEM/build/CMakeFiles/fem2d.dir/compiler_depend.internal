@@ -3,6 +3,69 @@
 
 CMakeFiles/fem2d.dir/fem2d.cpp.o
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/fem2d.cpp
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/Cholesky
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/Core
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/Dense
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/Eigenvalues
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/Geometry
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/Householder
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/Jacobi
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/LU
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/QR
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/SVD
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Cholesky/LDLT.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Cholesky/LLT.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Core/util/DisableStupidWarnings.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Core/util/ReenableStupidWarnings.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Eigenvalues/ComplexSchur.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Eigenvalues/HessenbergDecomposition.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Eigenvalues/RealQZ.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Eigenvalues/RealSchur.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Eigenvalues/Tridiagonalization.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Eigenvalues/ComplexEigenSolver.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Eigenvalues/ComplexSchur.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Eigenvalues/EigenSolver.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Eigenvalues/HessenbergDecomposition.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Eigenvalues/RealQZ.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Eigenvalues/RealSchur.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Eigenvalues/Tridiagonalization.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Geometry/AlignedBox.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Geometry/AngleAxis.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Geometry/EulerAngles.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Geometry/Homogeneous.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Geometry/Hyperplane.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Geometry/OrthoMethods.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Geometry/ParametrizedLine.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Geometry/Quaternion.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Geometry/Rotation2D.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Geometry/RotationBase.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Geometry/Scaling.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Geometry/Transform.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Geometry/Translation.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Geometry/Umeyama.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Householder/BlockHouseholder.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Householder/Householder.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Householder/HouseholderSequence.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/Jacobi/Jacobi.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/LU/Determinant.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/LU/FullPivLU.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/LU/InverseImpl.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/LU/PartialPivLU.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/QR/ColPivHouseholderQR.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/QR/CompleteOrthogonalDecomposition.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/QR/FullPivHouseholderQR.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/QR/HouseholderQR.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/SVD/BDCSVD.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/SVD/JacobiSVD.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/SVD/SVDBase.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/SVD/UpperBidiagonalization.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/misc/Image.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/misc/Kernel.h
+ /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/src/misc/RealSvd2x2.h
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/H1_norm.hpp
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/L2_norm.hpp
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/Lshape.hpp
@@ -11,9 +74,7 @@ CMakeFiles/fem2d.dir/fem2d.cpp.o
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/Dense
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/Eigenvalues
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/Geometry
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/Householder
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/IterativeLinearSolvers
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/Jacobi
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/LU
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/OrderingMethods
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/QR
@@ -23,8 +84,6 @@ CMakeFiles/fem2d.dir/fem2d.cpp.o
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/SparseCore
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/SparseLU
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/SparseQR
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Cholesky/LDLT.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Cholesky/LLT.h
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/plugins/BlockMethods.h
@@ -136,39 +195,6 @@ CMakeFiles/fem2d.dir/fem2d.cpp.o
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Core/util/StaticAssert.h
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Core/util/XprHelper.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Geometry/AlignedBox.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Geometry/AngleAxis.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Geometry/EulerAngles.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Geometry/Homogeneous.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Geometry/Hyperplane.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Geometry/OrthoMethods.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Geometry/Quaternion.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Geometry/Rotation2D.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Geometry/RotationBase.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Geometry/Scaling.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Geometry/Transform.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Geometry/Translation.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Geometry/Umeyama.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Householder/Householder.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h
@@ -177,23 +203,10 @@ CMakeFiles/fem2d.dir/fem2d.cpp.o
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/IterativeLinearSolvers/IterativeSolverBase.h
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/IterativeLinearSolvers/LeastSquareConjugateGradient.h
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/IterativeLinearSolvers/SolveWithGuess.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Jacobi/Jacobi.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/LU/Determinant.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/LU/FullPivLU.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/LU/InverseImpl.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/LU/PartialPivLU.h
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Core/util/NonMPL2.h
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/OrderingMethods/Amd.h
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/QR/HouseholderQR.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/SVD/BDCSVD.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/SVD/JacobiSVD.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/SVD/SVDBase.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Core/util/NonMPL2.h
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky.h
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h
@@ -250,9 +263,6 @@ CMakeFiles/fem2d.dir/fem2d.cpp.o
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_pruneL.h
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_relax_snode.h
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/SparseQR/SparseQR.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/misc/Image.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/misc/Kernel.h
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/misc/RealSvd2x2.h
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/Sparse
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h

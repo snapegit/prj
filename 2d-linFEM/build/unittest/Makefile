@@ -192,6 +192,30 @@ TestShapeFunction.cpp.s:
 	cd /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/TestShapeFunction.cpp.s
 .PHONY : TestShapeFunction.cpp.s
 
+TestStiffnessMatrix.o: TestStiffnessMatrix.cpp.o
+.PHONY : TestStiffnessMatrix.o
+
+# target to build an object file
+TestStiffnessMatrix.cpp.o:
+	cd /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/TestStiffnessMatrix.cpp.o
+.PHONY : TestStiffnessMatrix.cpp.o
+
+TestStiffnessMatrix.i: TestStiffnessMatrix.cpp.i
+.PHONY : TestStiffnessMatrix.i
+
+# target to preprocess a source file
+TestStiffnessMatrix.cpp.i:
+	cd /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/TestStiffnessMatrix.cpp.i
+.PHONY : TestStiffnessMatrix.cpp.i
+
+TestStiffnessMatrix.s: TestStiffnessMatrix.cpp.s
+.PHONY : TestStiffnessMatrix.s
+
+# target to generate assembly for a file
+TestStiffnessMatrix.cpp.s:
+	cd /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/TestStiffnessMatrix.cpp.s
+.PHONY : TestStiffnessMatrix.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -232,6 +256,9 @@ help:
 	@echo "... TestShapeFunction.o"
 	@echo "... TestShapeFunction.i"
 	@echo "... TestShapeFunction.s"
+	@echo "... TestStiffnessMatrix.o"
+	@echo "... TestStiffnessMatrix.i"
+	@echo "... TestStiffnessMatrix.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

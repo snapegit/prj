@@ -43,7 +43,7 @@ ADD_EXECUTABLE(unittest
     TestGradientShapeFunction.cpp 
     # TestL2Norm.cpp 
     TestShapeFunction.cpp 
-    # TestStiffnessMatrix.cpp
+    TestStiffnessMatrix.cpp
 )
 
 TARGET_INCLUDE_DIRECTORIES(unittest PRIVATE SYSTEM ${CMAKE_CURRENT_BINARY_DIR}/gtest_source/googletest/include)

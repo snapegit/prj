@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/unittest/TestGradientShapeFunction.cpp" "unittest/CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.o" "gcc" "unittest/CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.o.d"
   "/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/unittest/TestShapeFunction.cpp" "unittest/CMakeFiles/unittest.dir/TestShapeFunction.cpp.o" "gcc" "unittest/CMakeFiles/unittest.dir/TestShapeFunction.cpp.o.d"
+  "/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/unittest/TestStiffnessMatrix.cpp" "unittest/CMakeFiles/unittest.dir/TestStiffnessMatrix.cpp.o" "gcc" "unittest/CMakeFiles/unittest.dir/TestStiffnessMatrix.cpp.o.d"
   "/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/unittest/main.cpp" "unittest/CMakeFiles/unittest.dir/main.cpp.o" "gcc" "unittest/CMakeFiles/unittest.dir/main.cpp.o.d"
   )
 
