@@ -168,6 +168,30 @@ IntegrationTest.cpp.s:
 	cd /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/IntegrationTest.cpp.s
 .PHONY : IntegrationTest.cpp.s
 
+TestAssembleStiffnessMatrix.o: TestAssembleStiffnessMatrix.cpp.o
+.PHONY : TestAssembleStiffnessMatrix.o
+
+# target to build an object file
+TestAssembleStiffnessMatrix.cpp.o:
+	cd /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/TestAssembleStiffnessMatrix.cpp.o
+.PHONY : TestAssembleStiffnessMatrix.cpp.o
+
+TestAssembleStiffnessMatrix.i: TestAssembleStiffnessMatrix.cpp.i
+.PHONY : TestAssembleStiffnessMatrix.i
+
+# target to preprocess a source file
+TestAssembleStiffnessMatrix.cpp.i:
+	cd /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/TestAssembleStiffnessMatrix.cpp.i
+.PHONY : TestAssembleStiffnessMatrix.cpp.i
+
+TestAssembleStiffnessMatrix.s: TestAssembleStiffnessMatrix.cpp.s
+.PHONY : TestAssembleStiffnessMatrix.s
+
+# target to generate assembly for a file
+TestAssembleStiffnessMatrix.cpp.s:
+	cd /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/TestAssembleStiffnessMatrix.cpp.s
+.PHONY : TestAssembleStiffnessMatrix.cpp.s
+
 TestCoordinateTransform.o: TestCoordinateTransform.cpp.o
 .PHONY : TestCoordinateTransform.o
 
@@ -301,6 +325,9 @@ help:
 	@echo "... IntegrationTest.o"
 	@echo "... IntegrationTest.i"
 	@echo "... IntegrationTest.s"
+	@echo "... TestAssembleStiffnessMatrix.o"
+	@echo "... TestAssembleStiffnessMatrix.i"
+	@echo "... TestAssembleStiffnessMatrix.s"
 	@echo "... TestCoordinateTransform.o"
 	@echo "... TestCoordinateTransform.i"
 	@echo "... TestCoordinateTransform.s"

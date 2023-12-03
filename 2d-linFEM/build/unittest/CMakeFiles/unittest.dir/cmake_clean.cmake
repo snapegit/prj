@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/unittest.dir/IntegrationTest.cpp.o"
   "CMakeFiles/unittest.dir/IntegrationTest.cpp.o.d"
+  "CMakeFiles/unittest.dir/TestAssembleStiffnessMatrix.cpp.o"
+  "CMakeFiles/unittest.dir/TestAssembleStiffnessMatrix.cpp.o.d"
   "CMakeFiles/unittest.dir/TestCoordinateTransform.cpp.o"
   "CMakeFiles/unittest.dir/TestCoordinateTransform.cpp.o.d"
   "CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.o"
