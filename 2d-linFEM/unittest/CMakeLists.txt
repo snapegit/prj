@@ -34,10 +34,10 @@ LINK_DIRECTORIES(${CMAKE_CURRENT_BINARY_DIR}/gtest_binary
 
 ADD_EXECUTABLE(unittest
     main.cpp
-    # IntegrationTest.cpp
+    IntegrationTest.cpp
     # TestAssembleLoadVector.cpp
     # TestAssembleStiffnessMatrix.cpp
-    # TestCoordinateTransform.cpp
+    TestCoordinateTransform.cpp
     # TestDirichletBoundary.cpp
     # TestElementVector.cpp 
     TestGradientShapeFunction.cpp 

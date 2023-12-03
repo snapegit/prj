@@ -144,6 +144,54 @@ unittest/fast:
 	cd /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/build
 .PHONY : unittest/fast
 
+IntegrationTest.o: IntegrationTest.cpp.o
+.PHONY : IntegrationTest.o
+
+# target to build an object file
+IntegrationTest.cpp.o:
+	cd /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/IntegrationTest.cpp.o
+.PHONY : IntegrationTest.cpp.o
+
+IntegrationTest.i: IntegrationTest.cpp.i
+.PHONY : IntegrationTest.i
+
+# target to preprocess a source file
+IntegrationTest.cpp.i:
+	cd /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/IntegrationTest.cpp.i
+.PHONY : IntegrationTest.cpp.i
+
+IntegrationTest.s: IntegrationTest.cpp.s
+.PHONY : IntegrationTest.s
+
+# target to generate assembly for a file
+IntegrationTest.cpp.s:
+	cd /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/IntegrationTest.cpp.s
+.PHONY : IntegrationTest.cpp.s
+
+TestCoordinateTransform.o: TestCoordinateTransform.cpp.o
+.PHONY : TestCoordinateTransform.o
+
+# target to build an object file
+TestCoordinateTransform.cpp.o:
+	cd /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/TestCoordinateTransform.cpp.o
+.PHONY : TestCoordinateTransform.cpp.o
+
+TestCoordinateTransform.i: TestCoordinateTransform.cpp.i
+.PHONY : TestCoordinateTransform.i
+
+# target to preprocess a source file
+TestCoordinateTransform.cpp.i:
+	cd /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/TestCoordinateTransform.cpp.i
+.PHONY : TestCoordinateTransform.cpp.i
+
+TestCoordinateTransform.s: TestCoordinateTransform.cpp.s
+.PHONY : TestCoordinateTransform.s
+
+# target to generate assembly for a file
+TestCoordinateTransform.cpp.s:
+	cd /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/TestCoordinateTransform.cpp.s
+.PHONY : TestCoordinateTransform.cpp.s
+
 TestGradientShapeFunction.o: TestGradientShapeFunction.cpp.o
 .PHONY : TestGradientShapeFunction.o
 
@@ -250,6 +298,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... GTestDownload"
 	@echo "... unittest"
+	@echo "... IntegrationTest.o"
+	@echo "... IntegrationTest.i"
+	@echo "... IntegrationTest.s"
+	@echo "... TestCoordinateTransform.o"
+	@echo "... TestCoordinateTransform.i"
+	@echo "... TestCoordinateTransform.s"
 	@echo "... TestGradientShapeFunction.o"
 	@echo "... TestGradientShapeFunction.i"
 	@echo "... TestGradientShapeFunction.s"

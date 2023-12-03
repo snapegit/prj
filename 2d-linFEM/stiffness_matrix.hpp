@@ -57,8 +57,9 @@ void computeStiffnessMatrix(MatrixType& stiffnessMatrix,
                 // first term: dot product of the gradients of the hat-functions                      
                 // use library function to calculate dot product
                 double dotProdGrad = gradLi.dot(gradLj);            
-                // evaluate sigma, coordinateTransform is a matrixType
-                Eigen::Vector2d globLocVec = coordinateTransform * Eigen::Vector2d(x, y) + Eigen::Vector2d(a(0), a(1));
+                // evaluate sigma, coordinateTransform is a matrix
+                Eigen::Vector2d globLocVec = coordinateTransform * Eigen::Vector2d(x, y) 
+                                             + Eigen::Vector2d(a(0), a(1));
 	        double sigmaEval = sigma(globLocVec(0),globLocVec(1));
                 // calculate first term of the integrand
                 /* volumeFactor = determinant of the Jacboean

@@ -1,6 +1,8 @@
 #pragma once
 #include <Eigen/Core>
+//#include "./build/Eigen/Eigen/Core"
 #include <Eigen/Dense>
+//#include "./build/Eigen/Eigen/Dense"
 #include "coordinate_transform.hpp"
 #include "integrate.hpp"
 #include "shape.hpp"
@@ -31,7 +33,20 @@ void computeLoadVector(Vector& loadVector,
 {
     Eigen::Matrix2d coordinateTransform = makeCoordinateTransform(b - a, c - a);
     double volumeFactor = std::abs(coordinateTransform.determinant());
-// (write your solution here)
+// begin my solution------------------------------------------------------------
+    // compute load vector as inner product of a piecewise linear hat-function and the load f
+    for (int i = 0; i < 3; ++i) {//load vector associated to one triangle
+        auto integrand = [&](double x, double y){
+            // convert location vector of point a to the global coordinate system 
+            Eigen::Vector2d globLocVec = coordinateTransform * Eigen::Vector2d(x, y)
+                                         + Eigen::Vector2d(a(0), a(1));
+            // volumeFactor = determinant fo the Jacobean, correction term for volume
+            // lambda(i,x,y) piecewise linear hat-function, defined in shape.hpp
+            return f(globLocVec(0), globLocVec(1)) * lambda(i, x, y) * volumeFactor;
+        };
+        loadVector(i) = integrate(integrand);
+    } 
+// end my solution--------------------------------------------------------------
 
 
 }
