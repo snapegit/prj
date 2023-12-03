@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen/unsupported/test/matrix_power.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildUnsupported"
+		],
+		"name" : "matrix_power_11"
+	}
+}

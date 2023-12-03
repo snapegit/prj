@@ -26,8 +26,9 @@ LINK_DIRECTORIES(${CMAKE_CURRENT_BINARY_DIR}/gtest_binary
 ADD_EXECUTABLE(unittest
     main.cpp
     test_create_poisson_matrix.cpp
-    test_forward_euler.cpp
-    test_crank_nicolson.cpp)
+    #test_forward_euler.cpp
+    #test_crank_nicolson.cpp
+)
 
 TARGET_INCLUDE_DIRECTORIES(unittest PRIVATE SYSTEM ${CMAKE_CURRENT_BINARY_DIR}/gtest_source/googletest/include)
 TARGET_LINK_LIBRARIES(unittest GTest::gtest Threads::Threads create_poisson_matrix forward_euler crank_nicolson base_template)

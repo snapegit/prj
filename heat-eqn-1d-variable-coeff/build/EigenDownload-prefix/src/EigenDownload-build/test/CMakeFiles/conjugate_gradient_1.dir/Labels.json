@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen/test/conjugate_gradient.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "conjugate_gradient_1"
+	}
+}

@@ -1,0 +1,2 @@
+/data/data/com.termux/files/usr/bin/llvm-ar qc libcrank_nicolson.a CMakeFiles/crank_nicolson.dir/crank_nicolson.cpp.o
+/data/data/com.termux/files/usr/bin/llvm-ranlib libcrank_nicolson.a

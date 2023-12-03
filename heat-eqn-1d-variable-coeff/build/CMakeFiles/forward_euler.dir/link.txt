@@ -1,0 +1,2 @@
+/data/data/com.termux/files/usr/bin/llvm-ar qc libforward_euler.a CMakeFiles/forward_euler.dir/forward_euler.cpp.o
+/data/data/com.termux/files/usr/bin/llvm-ranlib libforward_euler.a
