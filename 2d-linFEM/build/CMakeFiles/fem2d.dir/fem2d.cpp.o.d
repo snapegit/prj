@@ -1026,8 +1026,6 @@ CMakeFiles/fem2d.dir/fem2d.cpp.o: \
   /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/unsupported/Eigen/src/SparseExtra/MatrixMarketIterator.h \
   /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen_install/include/eigen3/unsupported/Eigen/../../Eigen/src/Core/util/ReenableStupidWarnings.h \
   /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/stiffness_matrix_assembly.hpp \
-  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/./build/Eigen/Eigen/Core \
-  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/./build/Eigen/Eigen/Sparse \
   /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/load_vector_assembly.hpp \
   /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/load_vector.hpp \
   /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/dirichlet_boundary.hpp \

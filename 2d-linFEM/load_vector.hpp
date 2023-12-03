@@ -37,12 +37,12 @@ void computeLoadVector(Vector& loadVector,
     // compute load vector as inner product of a piecewise linear hat-function and the load f
     for (int i = 0; i < 3; ++i) {//load vector associated to one triangle
         auto integrand = [&](double x, double y){
-            // convert location vector of point a to the global coordinate system 
-            Eigen::Vector2d globLocVec = coordinateTransform * Eigen::Vector2d(x, y)
+            // convert location vector of point a = mesh vertex to its local coordinate system 
+            Eigen::Vector2d locPntVec = coordinateTransform * Eigen::Vector2d(x, y)
                                          + Eigen::Vector2d(a(0), a(1));
             // volumeFactor = determinant fo the Jacobean, correction term for volume
             // lambda(i,x,y) piecewise linear hat-function, defined in shape.hpp
-            return f(globLocVec(0), globLocVec(1)) * lambda(i, x, y) * volumeFactor;
+            return f(locPntVec(0), locPntVec(1)) * lambda(i, x, y) * volumeFactor;
         };
         loadVector(i) = integrate(integrand);
     } 

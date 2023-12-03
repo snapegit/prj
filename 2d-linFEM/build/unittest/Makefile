@@ -168,6 +168,30 @@ IntegrationTest.cpp.s:
 	cd /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/IntegrationTest.cpp.s
 .PHONY : IntegrationTest.cpp.s
 
+TestAssembleLoadVector.o: TestAssembleLoadVector.cpp.o
+.PHONY : TestAssembleLoadVector.o
+
+# target to build an object file
+TestAssembleLoadVector.cpp.o:
+	cd /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/TestAssembleLoadVector.cpp.o
+.PHONY : TestAssembleLoadVector.cpp.o
+
+TestAssembleLoadVector.i: TestAssembleLoadVector.cpp.i
+.PHONY : TestAssembleLoadVector.i
+
+# target to preprocess a source file
+TestAssembleLoadVector.cpp.i:
+	cd /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/TestAssembleLoadVector.cpp.i
+.PHONY : TestAssembleLoadVector.cpp.i
+
+TestAssembleLoadVector.s: TestAssembleLoadVector.cpp.s
+.PHONY : TestAssembleLoadVector.s
+
+# target to generate assembly for a file
+TestAssembleLoadVector.cpp.s:
+	cd /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/TestAssembleLoadVector.cpp.s
+.PHONY : TestAssembleLoadVector.cpp.s
+
 TestAssembleStiffnessMatrix.o: TestAssembleStiffnessMatrix.cpp.o
 .PHONY : TestAssembleStiffnessMatrix.o
 
@@ -325,6 +349,9 @@ help:
 	@echo "... IntegrationTest.o"
 	@echo "... IntegrationTest.i"
 	@echo "... IntegrationTest.s"
+	@echo "... TestAssembleLoadVector.o"
+	@echo "... TestAssembleLoadVector.i"
+	@echo "... TestAssembleLoadVector.s"
 	@echo "... TestAssembleStiffnessMatrix.o"
 	@echo "... TestAssembleStiffnessMatrix.i"
 	@echo "... TestAssembleStiffnessMatrix.s"

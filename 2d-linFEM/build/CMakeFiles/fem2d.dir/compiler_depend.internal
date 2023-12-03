@@ -3,8 +3,6 @@
 
 CMakeFiles/fem2d.dir/fem2d.cpp.o
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/fem2d.cpp
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/Core
- /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build/Eigen/Eigen/Sparse
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/H1_norm.hpp
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/L2_norm.hpp
  /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/Lshape.hpp
