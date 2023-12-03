@@ -38,10 +38,10 @@ ADD_EXECUTABLE(unittest
     TestAssembleLoadVector.cpp
     TestAssembleStiffnessMatrix.cpp
     TestCoordinateTransform.cpp
-    # TestDirichletBoundary.cpp
-    # TestElementVector.cpp 
+    TestDirichletBoundary.cpp
+    TestElementVector.cpp 
     TestGradientShapeFunction.cpp 
-    # TestL2Norm.cpp 
+    TestL2Norm.cpp 
     TestShapeFunction.cpp 
     TestStiffnessMatrix.cpp
 )

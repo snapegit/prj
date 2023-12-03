@@ -240,6 +240,54 @@ TestCoordinateTransform.cpp.s:
 	cd /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/TestCoordinateTransform.cpp.s
 .PHONY : TestCoordinateTransform.cpp.s
 
+TestDirichletBoundary.o: TestDirichletBoundary.cpp.o
+.PHONY : TestDirichletBoundary.o
+
+# target to build an object file
+TestDirichletBoundary.cpp.o:
+	cd /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/TestDirichletBoundary.cpp.o
+.PHONY : TestDirichletBoundary.cpp.o
+
+TestDirichletBoundary.i: TestDirichletBoundary.cpp.i
+.PHONY : TestDirichletBoundary.i
+
+# target to preprocess a source file
+TestDirichletBoundary.cpp.i:
+	cd /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/TestDirichletBoundary.cpp.i
+.PHONY : TestDirichletBoundary.cpp.i
+
+TestDirichletBoundary.s: TestDirichletBoundary.cpp.s
+.PHONY : TestDirichletBoundary.s
+
+# target to generate assembly for a file
+TestDirichletBoundary.cpp.s:
+	cd /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/TestDirichletBoundary.cpp.s
+.PHONY : TestDirichletBoundary.cpp.s
+
+TestElementVector.o: TestElementVector.cpp.o
+.PHONY : TestElementVector.o
+
+# target to build an object file
+TestElementVector.cpp.o:
+	cd /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/TestElementVector.cpp.o
+.PHONY : TestElementVector.cpp.o
+
+TestElementVector.i: TestElementVector.cpp.i
+.PHONY : TestElementVector.i
+
+# target to preprocess a source file
+TestElementVector.cpp.i:
+	cd /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/TestElementVector.cpp.i
+.PHONY : TestElementVector.cpp.i
+
+TestElementVector.s: TestElementVector.cpp.s
+.PHONY : TestElementVector.s
+
+# target to generate assembly for a file
+TestElementVector.cpp.s:
+	cd /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/TestElementVector.cpp.s
+.PHONY : TestElementVector.cpp.s
+
 TestGradientShapeFunction.o: TestGradientShapeFunction.cpp.o
 .PHONY : TestGradientShapeFunction.o
 
@@ -263,6 +311,30 @@ TestGradientShapeFunction.s: TestGradientShapeFunction.cpp.s
 TestGradientShapeFunction.cpp.s:
 	cd /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/TestGradientShapeFunction.cpp.s
 .PHONY : TestGradientShapeFunction.cpp.s
+
+TestL2Norm.o: TestL2Norm.cpp.o
+.PHONY : TestL2Norm.o
+
+# target to build an object file
+TestL2Norm.cpp.o:
+	cd /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/TestL2Norm.cpp.o
+.PHONY : TestL2Norm.cpp.o
+
+TestL2Norm.i: TestL2Norm.cpp.i
+.PHONY : TestL2Norm.i
+
+# target to preprocess a source file
+TestL2Norm.cpp.i:
+	cd /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/TestL2Norm.cpp.i
+.PHONY : TestL2Norm.cpp.i
+
+TestL2Norm.s: TestL2Norm.cpp.s
+.PHONY : TestL2Norm.s
+
+# target to generate assembly for a file
+TestL2Norm.cpp.s:
+	cd /data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/TestL2Norm.cpp.s
+.PHONY : TestL2Norm.cpp.s
 
 TestShapeFunction.o: TestShapeFunction.cpp.o
 .PHONY : TestShapeFunction.o
@@ -358,9 +430,18 @@ help:
 	@echo "... TestCoordinateTransform.o"
 	@echo "... TestCoordinateTransform.i"
 	@echo "... TestCoordinateTransform.s"
+	@echo "... TestDirichletBoundary.o"
+	@echo "... TestDirichletBoundary.i"
+	@echo "... TestDirichletBoundary.s"
+	@echo "... TestElementVector.o"
+	@echo "... TestElementVector.i"
+	@echo "... TestElementVector.s"
 	@echo "... TestGradientShapeFunction.o"
 	@echo "... TestGradientShapeFunction.i"
 	@echo "... TestGradientShapeFunction.s"
+	@echo "... TestL2Norm.o"
+	@echo "... TestL2Norm.i"
+	@echo "... TestL2Norm.s"
 	@echo "... TestShapeFunction.o"
 	@echo "... TestShapeFunction.i"
 	@echo "... TestShapeFunction.s"
