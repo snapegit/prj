@@ -761,7 +761,7 @@ unittest/CMakeFiles/unittest.dir/main.cpp.o: /data/data/com.termux/files/home/ar
   /data/data/com.termux/files/usr/lib/clang/17/include/stddef.h \
   /data/data/com.termux/files/usr/lib/clang/17/include/stdint.h
 
-unittest/CMakeFiles/unittest.dir/test_create_poisson_matrix.cpp.o: /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/unittest/test_create_poisson_matrix.cpp \
+unittest/CMakeFiles/unittest.dir/test_forward_euler.cpp.o: /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/unittest/test_forward_euler.cpp \
   /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/base_template/include/boundaries.hpp \
   /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/base_template/include/coefficient_functions.hpp \
   Eigen_install/include/eigen3/Eigen/Cholesky \
@@ -770,17 +770,10 @@ unittest/CMakeFiles/unittest.dir/test_create_poisson_matrix.cpp.o: /data/data/co
   Eigen_install/include/eigen3/Eigen/Eigenvalues \
   Eigen_install/include/eigen3/Eigen/Geometry \
   Eigen_install/include/eigen3/Eigen/Householder \
-  Eigen_install/include/eigen3/Eigen/IterativeLinearSolvers \
   Eigen_install/include/eigen3/Eigen/Jacobi \
   Eigen_install/include/eigen3/Eigen/LU \
-  Eigen_install/include/eigen3/Eigen/OrderingMethods \
   Eigen_install/include/eigen3/Eigen/QR \
   Eigen_install/include/eigen3/Eigen/SVD \
-  Eigen_install/include/eigen3/Eigen/Sparse \
-  Eigen_install/include/eigen3/Eigen/SparseCholesky \
-  Eigen_install/include/eigen3/Eigen/SparseCore \
-  Eigen_install/include/eigen3/Eigen/SparseLU \
-  Eigen_install/include/eigen3/Eigen/SparseQR \
   Eigen_install/include/eigen3/Eigen/src/Cholesky/LDLT.h \
   Eigen_install/include/eigen3/Eigen/src/Cholesky/LLT.h \
   Eigen_install/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h \
@@ -927,23 +920,11 @@ unittest/CMakeFiles/unittest.dir/test_create_poisson_matrix.cpp.o: /data/data/co
   Eigen_install/include/eigen3/Eigen/src/Householder/BlockHouseholder.h \
   Eigen_install/include/eigen3/Eigen/src/Householder/Householder.h \
   Eigen_install/include/eigen3/Eigen/src/Householder/HouseholderSequence.h \
-  Eigen_install/include/eigen3/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h \
-  Eigen_install/include/eigen3/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h \
-  Eigen_install/include/eigen3/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h \
-  Eigen_install/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h \
-  Eigen_install/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h \
-  Eigen_install/include/eigen3/Eigen/src/IterativeLinearSolvers/IterativeSolverBase.h \
-  Eigen_install/include/eigen3/Eigen/src/IterativeLinearSolvers/LeastSquareConjugateGradient.h \
-  Eigen_install/include/eigen3/Eigen/src/IterativeLinearSolvers/SolveWithGuess.h \
   Eigen_install/include/eigen3/Eigen/src/Jacobi/Jacobi.h \
   Eigen_install/include/eigen3/Eigen/src/LU/Determinant.h \
   Eigen_install/include/eigen3/Eigen/src/LU/FullPivLU.h \
   Eigen_install/include/eigen3/Eigen/src/LU/InverseImpl.h \
   Eigen_install/include/eigen3/Eigen/src/LU/PartialPivLU.h \
-  Eigen_install/include/eigen3/Eigen/src/Core/util/NonMPL2.h \
-  Eigen_install/include/eigen3/Eigen/src/OrderingMethods/Amd.h \
-  Eigen_install/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h \
-  Eigen_install/include/eigen3/Eigen/src/OrderingMethods/Ordering.h \
   Eigen_install/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h \
   Eigen_install/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h \
   Eigen_install/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h \
@@ -952,62 +933,6 @@ unittest/CMakeFiles/unittest.dir/test_create_poisson_matrix.cpp.o: /data/data/co
   Eigen_install/include/eigen3/Eigen/src/SVD/JacobiSVD.h \
   Eigen_install/include/eigen3/Eigen/src/SVD/SVDBase.h \
   Eigen_install/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h \
-  Eigen_install/include/eigen3/Eigen/src/Core/util/NonMPL2.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h \
-  Eigen_install/include/eigen3/Eigen/src/plugins/BlockMethods.h \
-  Eigen_install/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h \
-  Eigen_install/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h \
-  Eigen_install/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h \
-  Eigen_install/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseCore/AmbiVector.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseCore/CompressedStorage.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseCore/MappedSparseMatrix.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseAssign.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseBlock.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseColEtree.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseCompressedBase.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseCwiseBinaryOp.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseCwiseUnaryOp.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseDenseProduct.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseDiagonalProduct.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseDot.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseFuzzy.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseMap.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseMatrix.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseMatrixBase.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseProduct.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseRedux.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseRef.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseSelfAdjointView.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseSolverBase.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseSparseProductWithPruning.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseTranspose.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseTriangularView.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseUtil.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseVector.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseView.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseCore/TriangularSolver.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLUImpl.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_Memory.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_Structs.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_SupernodalMatrix.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_Utils.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_column_bmod.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_column_dfs.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_copy_to_ucol.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_gemm_kernel.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_heap_relax_snode.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_kernel_bmod.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_bmod.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_dfs.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_pivotL.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_pruneL.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_relax_snode.h \
-  Eigen_install/include/eigen3/Eigen/src/SparseQR/SparseQR.h \
   Eigen_install/include/eigen3/Eigen/src/misc/Image.h \
   Eigen_install/include/eigen3/Eigen/src/misc/Kernel.h \
   Eigen_install/include/eigen3/Eigen/src/misc/RealSvd2x2.h \
@@ -1032,7 +957,7 @@ unittest/CMakeFiles/unittest.dir/test_create_poisson_matrix.cpp.o: /data/data/co
   unittest/gtest_source/googletest/include/gtest/internal/gtest-port.h \
   unittest/gtest_source/googletest/include/gtest/internal/gtest-string.h \
   unittest/gtest_source/googletest/include/gtest/internal/gtest-type-util.h \
-  /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/include/create_poisson_matrix.hpp \
+  /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/include/forward_euler.hpp \
   /data/data/com.termux/files/usr/include/aarch64-linux-android/asm/bitsperlong.h \
   /data/data/com.termux/files/usr/include/aarch64-linux-android/asm/errno.h \
   /data/data/com.termux/files/usr/include/aarch64-linux-android/asm/fcntl.h \
@@ -1691,7 +1616,6 @@ unittest/CMakeFiles/unittest.dir/test_create_poisson_matrix.cpp.o: /data/data/co
   /data/data/com.termux/files/usr/include/c++/v1/iterator \
   /data/data/com.termux/files/usr/include/c++/v1/limits \
   /data/data/com.termux/files/usr/include/c++/v1/limits.h \
-  /data/data/com.termux/files/usr/include/c++/v1/list \
   /data/data/com.termux/files/usr/include/c++/v1/locale \
   /data/data/com.termux/files/usr/include/c++/v1/locale.h \
   /data/data/com.termux/files/usr/include/c++/v1/map \
@@ -1781,75 +1705,15 @@ unittest/CMakeFiles/unittest.dir/test_create_poisson_matrix.cpp.o: /data/data/co
 
 /data/data/com.termux/files/usr/lib/clang/17/include/arm_bf16.h:
 
-/data/data/com.termux/files/usr/include/c++/v1/list:
-
 /data/data/com.termux/files/usr/include/c++/v1/complex:
 
 /data/data/com.termux/files/usr/include/c++/v1/cassert:
 
-/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/include/create_poisson_matrix.hpp:
+/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/include/forward_euler.hpp:
 
 Eigen_install/include/eigen3/Eigen/src/misc/RealSvd2x2.h:
 
 Eigen_install/include/eigen3/Eigen/src/misc/Image.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseQR/SparseQR.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_relax_snode.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_pruneL.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_pivotL.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_dfs.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_column_bmod.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_Structs.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_Memory.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLUImpl.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseView.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseUtil.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseTranspose.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseSolverBase.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseSelfAdjointView.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseRef.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseRedux.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseProduct.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseMatrix.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseFuzzy.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseDot.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseDiagonalProduct.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseDenseProduct.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseCwiseUnaryOp.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseCompressedBase.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseBlock.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseCore/CompressedStorage.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky.h:
 
 Eigen_install/include/eigen3/Eigen/src/SVD/SVDBase.h:
 
@@ -1859,25 +1723,11 @@ Eigen_install/include/eigen3/Eigen/src/SVD/BDCSVD.h:
 
 Eigen_install/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h:
 
-Eigen_install/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h:
-
-Eigen_install/include/eigen3/Eigen/src/Core/util/NonMPL2.h:
-
 Eigen_install/include/eigen3/Eigen/src/LU/PartialPivLU.h:
 
 Eigen_install/include/eigen3/Eigen/src/LU/InverseImpl.h:
 
 Eigen_install/include/eigen3/Eigen/src/LU/Determinant.h:
-
-Eigen_install/include/eigen3/Eigen/src/OrderingMethods/Ordering.h:
-
-Eigen_install/include/eigen3/Eigen/src/IterativeLinearSolvers/SolveWithGuess.h:
-
-Eigen_install/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h:
-
-Eigen_install/include/eigen3/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h:
-
-Eigen_install/include/eigen3/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h:
 
 Eigen_install/include/eigen3/Eigen/src/Householder/BlockHouseholder.h:
 
@@ -1969,8 +1819,6 @@ Eigen_install/include/eigen3/Eigen/src/Core/Stride.h:
 
 Eigen_install/include/eigen3/Eigen/src/Core/SolveTriangular.h:
 
-Eigen_install/include/eigen3/Eigen/src/SparseCore/TriangularSolver.h:
-
 Eigen_install/include/eigen3/Eigen/src/Core/SelfAdjointView.h:
 
 Eigen_install/include/eigen3/Eigen/src/Core/Select.h:
@@ -2021,10 +1869,6 @@ Eigen_install/include/eigen3/Eigen/src/Core/DenseStorage.h:
 
 Eigen_install/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:
 
-Eigen_install/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h:
-
-Eigen_install/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h:
-
 Eigen_install/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h:
 
 Eigen_install/include/eigen3/Eigen/src/Core/CoreEvaluators.h:
@@ -2039,21 +1883,7 @@ Eigen_install/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h:
 
 Eigen_install/include/eigen3/Eigen/src/Cholesky/LLT.h:
 
-Eigen_install/include/eigen3/Eigen/SparseLU:
-
-Eigen_install/include/eigen3/Eigen/SparseCore:
-
-/data/data/com.termux/files/usr/include/c++/v1/__functional/invoke.h:
-
-Eigen_install/include/eigen3/Eigen/SparseCholesky:
-
-unittest/gtest_source/googletest/include/gtest/internal/gtest-port.h:
-
-Eigen_install/include/eigen3/Eigen/Sparse:
-
 Eigen_install/include/eigen3/Eigen/QR:
-
-Eigen_install/include/eigen3/Eigen/OrderingMethods:
 
 Eigen_install/include/eigen3/Eigen/Jacobi:
 
@@ -2070,8 +1900,6 @@ Eigen_install/include/eigen3/Eigen/Cholesky:
 /data/data/com.termux/files/usr/include/c++/v1/__bit_reference:
 
 /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/base_template/include/boundaries.hpp:
-
-/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/unittest/test_create_poisson_matrix.cpp:
 
 Eigen_install/include/eigen3/Eigen/src/Core/Block.h:
 
@@ -2209,8 +2037,6 @@ Eigen_install/include/eigen3/Eigen/src/Core/SolverBase.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/vector:
 
-Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseMatrixBase.h:
-
 /data/data/com.termux/files/usr/include/c++/v1/ios:
 
 /data/data/com.termux/files/usr/include/c++/v1/initializer_list:
@@ -2224,8 +2050,6 @@ Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseMatrixBase.h:
 /data/data/com.termux/files/usr/include/c++/v1/cstring:
 
 /data/data/com.termux/files/usr/include/c++/v1/cstdarg:
-
-Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_bmod.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__chrono/literals.h:
 
@@ -2323,8 +2147,6 @@ Eigen_install/include/eigen3/Eigen/src/Core/util/Constants.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__type_traits/noexcept_move_assign_container.h:
 
-Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseTriangularView.h:
-
 /data/data/com.termux/files/usr/include/c++/v1/__chrono/statically_widen.h:
 
 /data/data/com.termux/files/usr/include/locale.h:
@@ -2340,8 +2162,6 @@ Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseTriangularView.h:
 /data/data/com.termux/files/usr/include/c++/v1/__algorithm/unique.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__type_traits/maybe_const.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__iterator/default_sentinel.h:
 
@@ -2386,8 +2206,6 @@ Eigen_install/include/eigen3/Eigen/src/Core/DenseBase.h:
 /data/data/com.termux/files/usr/lib/clang/17/include/limits.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__type_traits/is_signed_integer.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_gemm_kernel.h:
 
 /data/data/com.termux/files/usr/include/aarch64-linux-android/asm/signal.h:
 
@@ -2451,11 +2269,11 @@ Eigen_install/include/eigen3/Eigen/src/Core/Diagonal.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__type_traits/is_enum.h:
 
+/data/data/com.termux/files/usr/include/xlocale.h:
+
+Eigen_install/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h:
+
 /data/data/com.termux/files/usr/include/c++/v1/__type_traits/is_default_constructible.h:
-
-Eigen_install/include/eigen3/Eigen/src/IterativeLinearSolvers/LeastSquareConjugateGradient.h:
-
-Eigen_install/include/eigen3/Eigen/IterativeLinearSolvers:
 
 /data/data/com.termux/files/usr/include/c++/v1/__type_traits/is_core_convertible.h:
 
@@ -2494,8 +2312,6 @@ Eigen_install/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h:
 /data/data/com.termux/files/usr/include/c++/v1/__type_traits/is_trivially_copy_constructible.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__type_traits/dependent_type.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_heap_relax_snode.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__type_traits/copy_cvref.h:
 
@@ -2627,8 +2443,6 @@ Eigen_install/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__memory_resource/polymorphic_allocator.h:
 
-Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_column_dfs.h:
-
 /data/data/com.termux/files/usr/include/c++/v1/__type_traits/integral_constant.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__memory/uses_allocator.h:
@@ -2751,7 +2565,7 @@ Eigen_install/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__iterator/move_sentinel.h:
 
-Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_SupernodalMatrix.h:
+Eigen_install/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/ctype.h:
 
@@ -2762,8 +2576,6 @@ Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_SupernodalMatrix.h:
 /data/data/com.termux/files/usr/include/c++/v1/__iterator/iter_swap.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__iterator/istreambuf_iterator.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_copy_to_ucol.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__iterator/insert_iterator.h:
 
@@ -2844,8 +2656,6 @@ Eigen_install/include/eigen3/Eigen/src/Core/arch/Default/Settings.h:
 /data/data/com.termux/files/usr/include/c++/v1/__chrono/year.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__functional/binary_function.h:
-
-Eigen_install/include/eigen3/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h:
 
 unittest/gtest_source/googletest/include/gtest/internal/gtest-type-util.h:
 
@@ -2967,10 +2777,6 @@ Eigen_install/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__compare/common_comparison_category.h:
 
-Eigen_install/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h:
-
-/data/data/com.termux/files/usr/include/xlocale.h:
-
 /data/data/com.termux/files/usr/include/c++/v1/__chrono/duration.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__type_traits/extent.h:
@@ -3048,8 +2854,6 @@ Eigen_install/include/eigen3/Eigen/src/Core/util/XprHelper.h:
 Eigen_install/include/eigen3/Eigen/src/Core/Transpose.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__algorithm/shuffle.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_Utils.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__functional/identity.h:
 
@@ -3179,8 +2983,6 @@ Eigen_install/include/eigen3/Eigen/src/Core/Dot.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__algorithm/ranges_prev_permutation.h:
 
-Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseVector.h:
-
 Eigen_install/include/eigen3/Eigen/src/Core/StableNorm.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__algorithm/ranges_partition_point.h:
@@ -3245,8 +3047,6 @@ Eigen_install/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__tree:
 
-Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_kernel_bmod.h:
-
 /data/data/com.termux/files/usr/include/c++/v1/__algorithm/ranges_for_each_n.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__algorithm/ranges_copy_backward.h:
@@ -3273,8 +3073,6 @@ Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_kernel_bmod.h:
 
 Eigen_install/include/eigen3/Eigen/src/misc/Kernel.h:
 
-Eigen_install/include/eigen3/Eigen/src/SparseCore/AmbiVector.h:
-
 /data/data/com.termux/files/usr/include/c++/v1/__utility/piecewise_construct.h:
 
 Eigen_install/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h:
@@ -3290,8 +3088,6 @@ Eigen_install/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h:
 /data/data/com.termux/files/usr/include/c++/v1/tuple:
 
 /data/data/com.termux/files/usr/include/c++/v1/__type_traits/apply_cv.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseCwiseBinaryOp.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__algorithm/ranges_rotate.h:
 
@@ -3322,6 +3118,8 @@ Eigen_install/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h:
 /data/data/com.termux/files/usr/include/c++/v1/__algorithm/prev_permutation.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__algorithm/pop_heap.h:
+
+/data/data/com.termux/files/usr/include/c++/v1/__functional/invoke.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__algorithm/partition.h:
 
@@ -3439,15 +3237,11 @@ unittest/gtest_source/googletest/include/gtest/internal/gtest-filepath.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__type_traits/is_signed.h:
 
-Eigen_install/include/eigen3/Eigen/src/OrderingMethods/Amd.h:
-
 /data/data/com.termux/files/usr/include/c++/v1/__fwd/subrange.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__concepts/common_reference_with.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__algorithm/half_positive.h:
-
-Eigen_install/include/eigen3/Eigen/src/IterativeLinearSolvers/IterativeSolverBase.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__functional/mem_fun_ref.h:
 
@@ -3475,8 +3269,6 @@ unittest/gtest_source/googletest/include/gtest/internal/gtest-death-test-interna
 
 /data/data/com.termux/files/usr/include/c++/v1/__iterator/iterator.h:
 
-Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseColEtree.h:
-
 /data/data/com.termux/files/usr/include/c++/v1/__type_traits/is_object.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__ranges/subrange.h:
@@ -3488,10 +3280,6 @@ Eigen_install/include/eigen3/Eigen/src/Core/Inverse.h:
 /data/data/com.termux/files/usr/include/c++/v1/__concepts/assignable.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__type_traits/decay.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseSparseProductWithPruning.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseMap.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__algorithm/find_first_of.h:
 
@@ -3611,15 +3399,11 @@ Eigen_install/include/eigen3/Eigen/src/Core/util/Macros.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__type_traits/make_signed.h:
 
-Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseAssign.h:
-
 /data/data/com.termux/files/usr/include/c++/v1/__algorithm/ranges_sample.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__algorithm/for_each_n.h:
 
 /data/data/com.termux/files/usr/include/bits/pthread_types.h:
-
-Eigen_install/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h:
 
 unittest/gtest_source/googletest/include/gtest/gtest-test-part.h:
 
@@ -3671,8 +3455,6 @@ unittest/gtest_source/googletest/include/gtest/gtest-printers.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__algorithm/replace.h:
 
-Eigen_install/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h:
-
 Eigen_install/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h:
 
 /data/data/com.termux/files/usr/include/asm-generic/fcntl.h:
@@ -3689,6 +3471,8 @@ Eigen_install/include/eigen3/Eigen/src/Core/GlobalFunctions.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__algorithm/ranges_pop_heap.h:
 
+Eigen_install/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h:
+
 Eigen_install/include/eigen3/Eigen/src/Jacobi/Jacobi.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__string/extern_template_lists.h:
@@ -3703,9 +3487,9 @@ Eigen_install/include/eigen3/Eigen/src/Geometry/Umeyama.h:
 
 /data/data/com.termux/files/usr/include/aarch64-linux-android/asm/siginfo.h:
 
-/data/data/com.termux/files/usr/include/c++/v1/iterator:
+unittest/gtest_source/googletest/include/gtest/internal/gtest-port.h:
 
-Eigen_install/include/eigen3/Eigen/src/SparseCore/MappedSparseMatrix.h:
+/data/data/com.termux/files/usr/include/c++/v1/iterator:
 
 /data/data/com.termux/files/usr/include/c++/v1/__concepts/destructible.h:
 
@@ -3725,8 +3509,6 @@ Eigen_install/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h:
 
 Eigen_install/include/eigen3/Eigen/LU:
 
-Eigen_install/include/eigen3/Eigen/SparseQR:
-
 /data/data/com.termux/files/usr/include/c++/v1/__tuple_dir/tuple_types.h:
 
 /data/data/com.termux/files/usr/include/c++/v1/__algorithm/ranges_max.h:
@@ -3734,6 +3516,8 @@ Eigen_install/include/eigen3/Eigen/SparseQR:
 Eigen_install/include/eigen3/Eigen/src/Geometry/Transform.h:
 
 /data/data/com.termux/files/usr/include/assert.h:
+
+/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/unittest/test_forward_euler.cpp:
 
 /data/data/com.termux/files/usr/include/c++/v1/__algorithm/remove_if.h:
 

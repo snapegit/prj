@@ -83,30 +83,30 @@ unittest/CMakeFiles/unittest.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unittest.dir/main.cpp.s"
 	cd /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/unittest && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/unittest/main.cpp -o CMakeFiles/unittest.dir/main.cpp.s
 
-unittest/CMakeFiles/unittest.dir/test_create_poisson_matrix.cpp.o: unittest/CMakeFiles/unittest.dir/flags.make
-unittest/CMakeFiles/unittest.dir/test_create_poisson_matrix.cpp.o: /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/unittest/test_create_poisson_matrix.cpp
-unittest/CMakeFiles/unittest.dir/test_create_poisson_matrix.cpp.o: unittest/CMakeFiles/unittest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object unittest/CMakeFiles/unittest.dir/test_create_poisson_matrix.cpp.o"
-	cd /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/unittest && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT unittest/CMakeFiles/unittest.dir/test_create_poisson_matrix.cpp.o -MF CMakeFiles/unittest.dir/test_create_poisson_matrix.cpp.o.d -o CMakeFiles/unittest.dir/test_create_poisson_matrix.cpp.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/unittest/test_create_poisson_matrix.cpp
+unittest/CMakeFiles/unittest.dir/test_forward_euler.cpp.o: unittest/CMakeFiles/unittest.dir/flags.make
+unittest/CMakeFiles/unittest.dir/test_forward_euler.cpp.o: /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/unittest/test_forward_euler.cpp
+unittest/CMakeFiles/unittest.dir/test_forward_euler.cpp.o: unittest/CMakeFiles/unittest.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object unittest/CMakeFiles/unittest.dir/test_forward_euler.cpp.o"
+	cd /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/unittest && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT unittest/CMakeFiles/unittest.dir/test_forward_euler.cpp.o -MF CMakeFiles/unittest.dir/test_forward_euler.cpp.o.d -o CMakeFiles/unittest.dir/test_forward_euler.cpp.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/unittest/test_forward_euler.cpp
 
-unittest/CMakeFiles/unittest.dir/test_create_poisson_matrix.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/unittest.dir/test_create_poisson_matrix.cpp.i"
-	cd /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/unittest && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/unittest/test_create_poisson_matrix.cpp > CMakeFiles/unittest.dir/test_create_poisson_matrix.cpp.i
+unittest/CMakeFiles/unittest.dir/test_forward_euler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/unittest.dir/test_forward_euler.cpp.i"
+	cd /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/unittest && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/unittest/test_forward_euler.cpp > CMakeFiles/unittest.dir/test_forward_euler.cpp.i
 
-unittest/CMakeFiles/unittest.dir/test_create_poisson_matrix.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unittest.dir/test_create_poisson_matrix.cpp.s"
-	cd /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/unittest && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/unittest/test_create_poisson_matrix.cpp -o CMakeFiles/unittest.dir/test_create_poisson_matrix.cpp.s
+unittest/CMakeFiles/unittest.dir/test_forward_euler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unittest.dir/test_forward_euler.cpp.s"
+	cd /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/unittest && /data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/unittest/test_forward_euler.cpp -o CMakeFiles/unittest.dir/test_forward_euler.cpp.s
 
 # Object files for target unittest
 unittest_OBJECTS = \
 "CMakeFiles/unittest.dir/main.cpp.o" \
-"CMakeFiles/unittest.dir/test_create_poisson_matrix.cpp.o"
+"CMakeFiles/unittest.dir/test_forward_euler.cpp.o"
 
 # External object files for target unittest
 unittest_EXTERNAL_OBJECTS =
 
 bin/unittest: unittest/CMakeFiles/unittest.dir/main.cpp.o
-bin/unittest: unittest/CMakeFiles/unittest.dir/test_create_poisson_matrix.cpp.o
+bin/unittest: unittest/CMakeFiles/unittest.dir/test_forward_euler.cpp.o
 bin/unittest: unittest/CMakeFiles/unittest.dir/build.make
 bin/unittest: libcreate_poisson_matrix.a
 bin/unittest: libforward_euler.a

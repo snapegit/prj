@@ -32,12 +32,12 @@ SparseMatrix createPoissonMatrix(int N,
     triplets.reserve(nrOfTriplets);
     for (int i = 0; i < N; ++i) {
         // main diagonal
-        triplets.push_back(Triplet(i, i, 2.*a(x[i+1]) / (h * h)));
+        triplets.push_back(Triplet(i, i, 2.0*a(x[i+1]) / (h * h)));
         if (i > 0) { // upper/right diagonal
-            triplets.push_back(Triplet(i, i - 1, -a(x[i+1]) / (h * h)));
+            triplets.push_back(Triplet(i, i - 1, -1.0*a(x[i+1]) / (h * h)));
         }
         if (i < N - 1) { // lower/left diagonal
-            triplets.push_back(Triplet(i, i + 1, -a(x[i+1]) / (h * h)));
+            triplets.push_back(Triplet(i, i + 1, -1.0*a(x[i+1]) / (h * h)));
         }
     }
     /* .setFromTriplets is a member funciton of Eigen::SparseMatrix
