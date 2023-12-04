@@ -5,6 +5,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/unittest.dir/main.cpp.o.d"
   "CMakeFiles/unittest.dir/test_crank_nicolson.cpp.o"
   "CMakeFiles/unittest.dir/test_crank_nicolson.cpp.o.d"
+  "CMakeFiles/unittest.dir/test_create_poisson_matrix.cpp.o"
+  "CMakeFiles/unittest.dir/test_create_poisson_matrix.cpp.o.d"
+  "CMakeFiles/unittest.dir/test_forward_euler.cpp.o"
+  "CMakeFiles/unittest.dir/test_forward_euler.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

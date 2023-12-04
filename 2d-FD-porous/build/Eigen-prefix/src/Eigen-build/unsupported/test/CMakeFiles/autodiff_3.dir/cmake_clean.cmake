@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/autodiff_3.dir/autodiff.cpp.o"
+  "CMakeFiles/autodiff_3.dir/autodiff.cpp.o.d"
   "autodiff_3"
   "autodiff_3.pdb"
 )

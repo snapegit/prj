@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/is_same_dense.dir/is_same_dense.cpp.o"
+  "CMakeFiles/is_same_dense.dir/is_same_dense.cpp.o.d"
   "is_same_dense"
   "is_same_dense.pdb"
 )

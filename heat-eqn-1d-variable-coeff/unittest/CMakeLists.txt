@@ -25,8 +25,8 @@ LINK_DIRECTORIES(${CMAKE_CURRENT_BINARY_DIR}/gtest_binary
 
 ADD_EXECUTABLE(unittest
     main.cpp
-    #test_create_poisson_matrix.cpp
-    #test_forward_euler.cpp
+    test_create_poisson_matrix.cpp
+    test_forward_euler.cpp
     test_crank_nicolson.cpp
 )
 

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ctorleak.dir/ctorleak.cpp.o"
+  "CMakeFiles/ctorleak.dir/ctorleak.cpp.o.d"
   "ctorleak"
   "ctorleak.pdb"
 )

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Tutorial_ArrayClass_interop_matrix.dir/Tutorial_ArrayClass_interop_matrix.cpp.o"
+  "CMakeFiles/Tutorial_ArrayClass_interop_matrix.dir/Tutorial_ArrayClass_interop_matrix.cpp.o.d"
   "Tutorial_ArrayClass_interop_matrix"
   "Tutorial_ArrayClass_interop_matrix.pdb"
 )

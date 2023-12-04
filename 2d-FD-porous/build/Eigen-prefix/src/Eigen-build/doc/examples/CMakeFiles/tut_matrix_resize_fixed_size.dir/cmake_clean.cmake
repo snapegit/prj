@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/tut_matrix_resize_fixed_size.dir/tut_matrix_resize_fixed_size.cpp.o"
+  "CMakeFiles/tut_matrix_resize_fixed_size.dir/tut_matrix_resize_fixed_size.cpp.o.d"
   "tut_matrix_resize_fixed_size"
   "tut_matrix_resize_fixed_size.pdb"
 )

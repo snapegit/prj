@@ -1,8 +1,8 @@
-# Install script for directory: /workspaces/prj/2d-FD-porous/build/Eigen/unsupported/Eigen/CXX11
+# Install script for directory: /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/unsupported/Eigen/CXX11
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/workspaces/prj/2d-FD-porous/build/Eigen_install")
+  set(CMAKE_INSTALL_PREFIX "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen_install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Release")
+    set(CMAKE_INSTALL_CONFIG_NAME "RelWithDebInfo")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -29,7 +29,7 @@ endif()
 
 # Install shared libraries without execute permission?
 if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "1")
+  set(CMAKE_INSTALL_SO_NO_EXE "0")
 endif()
 
 # Is this installation the result of a crosscompile?
@@ -37,15 +37,20 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelx" OR NOT CMAKE_INSTALL_COMPONENT)
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/data/data/com.termux/files/usr/bin/llvm-objdump")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Devel" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/eigen3/unsupported/Eigen/CXX11" TYPE FILE FILES
-    "/workspaces/prj/2d-FD-porous/build/Eigen/unsupported/Eigen/CXX11/Tensor"
-    "/workspaces/prj/2d-FD-porous/build/Eigen/unsupported/Eigen/CXX11/TensorSymmetry"
-    "/workspaces/prj/2d-FD-porous/build/Eigen/unsupported/Eigen/CXX11/ThreadPool"
+    "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/unsupported/Eigen/CXX11/Tensor"
+    "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/unsupported/Eigen/CXX11/TensorSymmetry"
+    "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/unsupported/Eigen/CXX11/ThreadPool"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/eigen3/unsupported/Eigen/CXX11" TYPE DIRECTORY FILES "/workspaces/prj/2d-FD-porous/build/Eigen/unsupported/Eigen/CXX11/src" FILES_MATCHING REGEX "/[^/]*\\.h$")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Devel" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/eigen3/unsupported/Eigen/CXX11" TYPE DIRECTORY FILES "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/unsupported/Eigen/CXX11/src" FILES_MATCHING REGEX "/[^/]*\\.h$")
 endif()
 

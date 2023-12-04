@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/NonLinearOptimization.dir/NonLinearOptimization.cpp.o"
+  "CMakeFiles/NonLinearOptimization.dir/NonLinearOptimization.cpp.o.d"
   "NonLinearOptimization"
   "NonLinearOptimization.pdb"
 )

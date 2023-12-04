@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Cwise_lgamma.dir/Cwise_lgamma.cpp.o"
+  "CMakeFiles/Cwise_lgamma.dir/Cwise_lgamma.cpp.o.d"
   "Cwise_lgamma"
   "Cwise_lgamma.pdb"
 )

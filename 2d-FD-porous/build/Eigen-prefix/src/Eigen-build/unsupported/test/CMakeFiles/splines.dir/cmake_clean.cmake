@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/splines.dir/splines.cpp.o"
+  "CMakeFiles/splines.dir/splines.cpp.o.d"
   "splines"
   "splines.pdb"
 )

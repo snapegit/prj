@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/minres_2.dir/minres.cpp.o"
+  "CMakeFiles/minres_2.dir/minres.cpp.o.d"
   "minres_2"
   "minres_2.pdb"
 )

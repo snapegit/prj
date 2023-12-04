@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/special_numbers_1.dir/special_numbers.cpp.o"
+  "CMakeFiles/special_numbers_1.dir/special_numbers.cpp.o.d"
   "special_numbers_1"
   "special_numbers_1.pdb"
 )

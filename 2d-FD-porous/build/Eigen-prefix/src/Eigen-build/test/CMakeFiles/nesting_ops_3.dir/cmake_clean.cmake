@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/nesting_ops_3.dir/nesting_ops.cpp.o"
+  "CMakeFiles/nesting_ops_3.dir/nesting_ops.cpp.o.d"
   "nesting_ops_3"
   "nesting_ops_3.pdb"
 )

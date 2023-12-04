@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/bicgstab_1.dir/bicgstab.cpp.o"
+  "CMakeFiles/bicgstab_1.dir/bicgstab.cpp.o.d"
   "bicgstab_1"
   "bicgstab_1.pdb"
 )

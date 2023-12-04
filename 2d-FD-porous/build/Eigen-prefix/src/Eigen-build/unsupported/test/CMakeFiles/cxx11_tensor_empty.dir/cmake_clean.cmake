@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cxx11_tensor_empty.dir/cxx11_tensor_empty.cpp.o"
+  "CMakeFiles/cxx11_tensor_empty.dir/cxx11_tensor_empty.cpp.o.d"
   "cxx11_tensor_empty"
   "cxx11_tensor_empty.pdb"
 )

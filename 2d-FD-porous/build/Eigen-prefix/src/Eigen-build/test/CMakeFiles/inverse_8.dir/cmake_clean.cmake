@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/inverse_8.dir/inverse.cpp.o"
+  "CMakeFiles/inverse_8.dir/inverse.cpp.o.d"
   "inverse_8"
   "inverse_8.pdb"
 )

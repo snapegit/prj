@@ -47,14 +47,14 @@ PROJECT_BRIEF          =
 # exceed 55 pixels and the maximum width should not exceed 200 pixels.
 # Doxygen will copy the logo to the output directory.
 
-PROJECT_LOGO           = "/workspaces/prj/2d-FD-porous/build/Eigen/doc/Eigen_Silly_Professor_64x64.png"
+PROJECT_LOGO           = "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/doc/Eigen_Silly_Professor_64x64.png"
 
 # The OUTPUT_DIRECTORY tag is used to specify the (relative or absolute)
 # base path where the generated documentation will be put.
 # If a relative path is entered, it will be relative to the location
 # where doxygen was started. If left blank the current directory will be used.
 
-OUTPUT_DIRECTORY       = "/workspaces/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/doc/unsupported"
+OUTPUT_DIRECTORY       = "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/doc/unsupported"
 
 # If the CREATE_SUBDIRS tag is set to YES, then doxygen will create
 # 4096 sub-directories (in 2 levels) under the output directory of each output
@@ -623,7 +623,7 @@ FILE_VERSION_FILTER    =
 # You can optionally specify a file name after the option, if omitted
 # DoxygenLayout.xml will be used as the name of the layout file.
 
-LAYOUT_FILE            = "/workspaces/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/doc/unsupported/eigendoxy_layout.xml"
+LAYOUT_FILE            = "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/doc/unsupported/eigendoxy_layout.xml"
 
 # The CITE_BIB_FILES tag can be used to specify one or more bib files
 # containing the references data. This must be a list of .bib files. The
@@ -695,7 +695,7 @@ WARN_LOGFILE           =
 # directories like "/usr/src/myproject". Separate the files or directories
 # with spaces.
 
-INPUT                  = "/workspaces/prj/2d-FD-porous/build/Eigen/unsupported/Eigen" "/workspaces/prj/2d-FD-porous/build/Eigen/unsupported/doc"
+INPUT                  = "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/unsupported/Eigen" "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/unsupported/doc"
 
 # This tag can be used to specify the character encoding of the source files
 # that doxygen parses. Internally doxygen uses the UTF-8 encoding, which is
@@ -727,14 +727,14 @@ RECURSIVE              = YES
 # Note that relative paths are relative to the directory from which doxygen is
 # run.
 
-EXCLUDE                = "/workspaces/prj/2d-FD-porous/build/Eigen/Eigen/src/Core/products" \
-                         "/workspaces/prj/2d-FD-porous/build/Eigen/Eigen/Eigen2Support" \
-                         "/workspaces/prj/2d-FD-porous/build/Eigen/Eigen/src/Eigen2Support" \
-                         "/workspaces/prj/2d-FD-porous/build/Eigen/doc/examples" \
-                         "/workspaces/prj/2d-FD-porous/build/Eigen/doc/special_examples" \
-                         "/workspaces/prj/2d-FD-porous/build/Eigen/doc/snippets" \
-                         "/workspaces/prj/2d-FD-porous/build/Eigen/unsupported/doc/examples" \
-                         "/workspaces/prj/2d-FD-porous/build/Eigen/unsupported/doc/snippets"
+EXCLUDE                = "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/Eigen/src/Core/products" \
+                         "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/Eigen/Eigen2Support" \
+                         "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/Eigen/src/Eigen2Support" \
+                         "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/doc/examples" \
+                         "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/doc/special_examples" \
+                         "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/doc/snippets" \
+                         "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/unsupported/doc/examples" \
+                         "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/unsupported/doc/snippets"
 
 # The EXCLUDE_SYMLINKS tag can be used to select whether or not files or
 # directories that are symbolic links (a Unix file system feature) are excluded
@@ -780,16 +780,16 @@ EXCLUDE_SYMBOLS        = internal::* \
 # directories that contain example code fragments that are included (see
 # the \include command).
 
-EXAMPLE_PATH           = "/workspaces/prj/2d-FD-porous/build/Eigen/doc/snippets" \
-                         "/workspaces/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/doc/snippets" \
-                         "/workspaces/prj/2d-FD-porous/build/Eigen/doc/examples" \
-                         "/workspaces/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/doc/examples" \
-                         "/workspaces/prj/2d-FD-porous/build/Eigen/doc/special_examples" \
-                         "/workspaces/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/doc/special_examples" \
-                         "/workspaces/prj/2d-FD-porous/build/Eigen/unsupported/doc/snippets" \
-                         "/workspaces/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/unsupported/doc/snippets" \
-                         "/workspaces/prj/2d-FD-porous/build/Eigen/unsupported/doc/examples" \
-                         "/workspaces/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/unsupported/doc/examples"
+EXAMPLE_PATH           = "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/doc/snippets" \
+                         "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/doc/snippets" \
+                         "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/doc/examples" \
+                         "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/doc/examples" \
+                         "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/doc/special_examples" \
+                         "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/doc/special_examples" \
+                         "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/unsupported/doc/snippets" \
+                         "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/unsupported/doc/snippets" \
+                         "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/unsupported/doc/examples" \
+                         "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/unsupported/doc/examples"
 
 # If the value of the EXAMPLE_PATH tag contains directories, you can use the
 # EXAMPLE_PATTERNS tag to specify one or more wildcard pattern (like *.cpp
@@ -809,7 +809,7 @@ EXAMPLE_RECURSIVE      = NO
 # directories that contain image that are included in the documentation (see
 # the \image command).
 
-IMAGE_PATH             = /workspaces/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/doc/html
+IMAGE_PATH             = /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/doc/html
 
 # The INPUT_FILTER tag can be used to specify a program that doxygen should
 # invoke to filter for each input file. Doxygen will invoke the filter program
@@ -939,7 +939,7 @@ GENERATE_HTML          = YES
 # If a relative path is entered the value of OUTPUT_DIRECTORY will be
 # put in front of it. If left blank `html' will be used as the default path.
 
-HTML_OUTPUT            = "/workspaces/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/doc/html/unsupported"
+HTML_OUTPUT            = "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/doc/html/unsupported"
 
 # The HTML_FILE_EXTENSION tag can be used to specify the file extension for
 # each generated HTML page (for example: .htm,.php,.asp). If it is left blank
@@ -958,13 +958,13 @@ HTML_FILE_EXTENSION    = .html
 # have to redo this when upgrading to a newer version of doxygen or when
 # changing the value of configuration settings such as GENERATE_TREEVIEW!
 
-HTML_HEADER            = "/workspaces/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/doc/eigendoxy_header.html"
+HTML_HEADER            = "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/doc/eigendoxy_header.html"
 
 # The HTML_FOOTER tag can be used to specify a personal HTML footer for
 # each generated HTML page. If it is left blank doxygen will generate a
 # standard footer.
 
-HTML_FOOTER            = "/workspaces/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/doc/eigendoxy_footer.html"
+HTML_FOOTER            = "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/doc/eigendoxy_footer.html"
 
 # The HTML_STYLESHEET tag can be used to specify a user-defined cascading
 # style sheet that is used by each HTML page. It can be used to
@@ -982,7 +982,7 @@ HTML_STYLESHEET        =
 # files. In the HTML_STYLESHEET file, use the file name only. Also note that
 # the files will be copied as-is; there are no commands or markers available.
 
-HTML_EXTRA_FILES       = "/workspaces/prj/2d-FD-porous/build/Eigen/doc/eigendoxy.css"
+HTML_EXTRA_FILES       = "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/doc/eigendoxy.css"
 
 # The HTML_COLORSTYLE_HUE tag controls the color of the HTML output.
 # Doxygen will adjust the colors in the style sheet and background images
@@ -1568,7 +1568,7 @@ SEARCH_INCLUDES        = YES
 # contain include files that are not input files but should be processed by
 # the preprocessor.
 
-INCLUDE_PATH           = "/workspaces/prj/2d-FD-porous/build/Eigen/Eigen/src/plugins"
+INCLUDE_PATH           = "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/Eigen/src/plugins"
 
 # You can use the INCLUDE_FILE_PATTERNS tag to specify one or more wildcard
 # patterns (like *.h and *.hpp) to filter out the header-files in the
@@ -1651,13 +1651,13 @@ SKIP_FUNCTION_MACROS   = YES
 # NOT include the path). If a tag file is not located in the directory in which
 # doxygen is run, you must also specify the path to the tagfile here.
 
-TAGFILES               = "/workspaces/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/doc/Eigen.doxytags=.."
-# "/workspaces/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/doc/eigen-unsupported.doxytags =unsupported"
+TAGFILES               = "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/doc/Eigen.doxytags=.."
+# "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/doc/eigen-unsupported.doxytags =unsupported"
 
 # When a file name is specified after GENERATE_TAGFILE, doxygen will create
 # a tag file that is based on the input files it reads.
 
-GENERATE_TAGFILE       = "/workspaces/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/doc/Eigen-unsupported.doxytags"
+GENERATE_TAGFILE       = "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/doc/Eigen-unsupported.doxytags"
 
 # If the ALLEXTERNALS tag is set to YES all external classes will be listed
 # in the class index. If set to NO only the inherited external classes

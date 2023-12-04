@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lu_1.dir/lu.cpp.o"
+  "CMakeFiles/lu_1.dir/lu.cpp.o.d"
   "lu_1"
   "lu_1.pdb"
 )

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mapstride_2.dir/mapstride.cpp.o"
+  "CMakeFiles/mapstride_2.dir/mapstride.cpp.o.d"
   "mapstride_2"
   "mapstride_2.pdb"
 )

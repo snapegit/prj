@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mapstaticmethods_7.dir/mapstaticmethods.cpp.o"
+  "CMakeFiles/mapstaticmethods_7.dir/mapstaticmethods.cpp.o.d"
   "mapstaticmethods_7"
   "mapstaticmethods_7.pdb"
 )

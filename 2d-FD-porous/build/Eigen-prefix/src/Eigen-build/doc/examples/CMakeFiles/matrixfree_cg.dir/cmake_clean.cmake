@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/matrixfree_cg.dir/matrixfree_cg.cpp.o"
+  "CMakeFiles/matrixfree_cg.dir/matrixfree_cg.cpp.o.d"
   "matrixfree_cg"
   "matrixfree_cg.pdb"
 )

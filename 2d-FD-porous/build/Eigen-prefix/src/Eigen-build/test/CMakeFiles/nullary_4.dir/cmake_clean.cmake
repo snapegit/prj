@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/nullary_4.dir/nullary.cpp.o"
+  "CMakeFiles/nullary_4.dir/nullary.cpp.o.d"
   "nullary_4"
   "nullary_4.pdb"
 )

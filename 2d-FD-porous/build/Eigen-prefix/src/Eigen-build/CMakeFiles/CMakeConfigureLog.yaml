@@ -1,0 +1,1720 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      The system is: Android - 5.10.136-android12-9-27100597-abS908BXXS6CWI1 - aarch64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /data/data/com.termux/files/usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is Clang, found in:
+        /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/3.27.9/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /data/data/com.termux/files/usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is Clang, found in:
+        /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/3.27.9/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-nLUQsN"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-nLUQsN"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-nLUQsN'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_3bd31/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-nLUQsN'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_3bd31.dir/build.make CMakeFiles/cmTC_3bd31.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-nLUQsN'
+        Building C object CMakeFiles/cmTC_3bd31.dir/CMakeCCompilerABI.c.o
+        /data/data/com.termux/files/usr/bin/cc   -O2 -g -DNDEBUG   -v -MD -MT CMakeFiles/cmTC_3bd31.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_3bd31.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_3bd31.dir/CMakeCCompilerABI.c.o -c /data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeCCompilerABI.c
+        clang version 17.0.6
+        Target: aarch64-unknown-linux-android24
+        Thread model: posix
+        InstalledDir: /data/data/com.termux/files/usr/bin
+         (in-process)
+         "/data/data/com.termux/files/usr/bin/clang-17" -cc1 -triple aarch64-unknown-linux-android24 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -fcoverage-compilation-dir=/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-nLUQsN -resource-dir /data/data/com.termux/files/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_3bd31.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_3bd31.dir/CMakeCCompilerABI.c.o -sys-header-deps -D NDEBUG -isysroot /data/data/com.termux/files -internal-isystem /data/data/com.termux/files/usr/lib/clang/17/include -internal-isystem /data/data/com.termux/files/usr/local/include -internal-externc-isystem /data/data/com.termux/files/usr/include/aarch64-linux-android -internal-externc-isystem /data/data/com.termux/files/include -internal-externc-isystem /data/data/com.termux/files/usr/include -O2 -fdebug-compilation-dir=/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-nLUQsN -ferror-limit 19 -femulated-tls -fno-signed-char -fgnuc-version=4.2.1 -vectorize-loops -vectorize-slp -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_3bd31.dir/CMakeCCompilerABI.c.o -x c /data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 17.0.6 based upon LLVM 17.0.6 default target aarch64-unknown-linux-android24
+        ignoring nonexistent directory "/data/data/com.termux/files/usr/local/include"
+        ignoring nonexistent directory "/data/data/com.termux/files/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /data/data/com.termux/files/usr/lib/clang/17/include
+         /data/data/com.termux/files/usr/include/aarch64-linux-android
+         /data/data/com.termux/files/usr/include
+        End of search list.
+        Linking C executable cmTC_3bd31
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bd31.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/cc -O2 -g -DNDEBUG  -v CMakeFiles/cmTC_3bd31.dir/CMakeCCompilerABI.c.o -o cmTC_3bd31 
+        clang version 17.0.6
+        Target: aarch64-unknown-linux-android24
+        Thread model: posix
+        InstalledDir: /data/data/com.termux/files/usr/bin
+         "/data/data/com.termux/files/usr/bin/ld.lld" --sysroot=/data/data/com.termux/files -pie -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=4096 --hash-style=gnu -rpath=/data/data/com.termux/files/usr/lib --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_3bd31 /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/usr/lib -L/system/lib64 CMakeFiles/cmTC_3bd31.dir/CMakeCCompilerABI.c.o /data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /data/data/com.termux/files/usr/lib/crtend_android.o
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-nLUQsN'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-nLUQsN'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/data/data/com.termux/files/usr/lib/clang/17/include]
+          add: [/data/data/com.termux/files/usr/include/aarch64-linux-android]
+          add: [/data/data/com.termux/files/usr/include]
+        end of search list found
+        collapse include dir [/data/data/com.termux/files/usr/lib/clang/17/include] ==> [/data/data/com.termux/files/usr/lib/clang/17/include]
+        collapse include dir [/data/data/com.termux/files/usr/include/aarch64-linux-android] ==> [/data/data/com.termux/files/usr/include/aarch64-linux-android]
+        collapse include dir [/data/data/com.termux/files/usr/include] ==> [/data/data/com.termux/files/usr/include]
+        implicit include dirs: [/data/data/com.termux/files/usr/lib/clang/17/include;/data/data/com.termux/files/usr/include/aarch64-linux-android;/data/data/com.termux/files/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-nLUQsN']
+        ignore line: []
+        ignore line: [Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_3bd31/fast]
+        ignore line: [make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-nLUQsN']
+        ignore line: [/data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_3bd31.dir/build.make CMakeFiles/cmTC_3bd31.dir/build]
+        ignore line: [make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-nLUQsN']
+        ignore line: [Building C object CMakeFiles/cmTC_3bd31.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/data/data/com.termux/files/usr/bin/cc   -O2 -g -DNDEBUG   -v -MD -MT CMakeFiles/cmTC_3bd31.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_3bd31.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_3bd31.dir/CMakeCCompilerABI.c.o -c /data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang version 17.0.6]
+        ignore line: [Target: aarch64-unknown-linux-android24]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /data/data/com.termux/files/usr/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "/data/data/com.termux/files/usr/bin/clang-17" -cc1 -triple aarch64-unknown-linux-android24 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -fcoverage-compilation-dir=/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-nLUQsN -resource-dir /data/data/com.termux/files/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_3bd31.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_3bd31.dir/CMakeCCompilerABI.c.o -sys-header-deps -D NDEBUG -isysroot /data/data/com.termux/files -internal-isystem /data/data/com.termux/files/usr/lib/clang/17/include -internal-isystem /data/data/com.termux/files/usr/local/include -internal-externc-isystem /data/data/com.termux/files/usr/include/aarch64-linux-android -internal-externc-isystem /data/data/com.termux/files/include -internal-externc-isystem /data/data/com.termux/files/usr/include -O2 -fdebug-compilation-dir=/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-nLUQsN -ferror-limit 19 -femulated-tls -fno-signed-char -fgnuc-version=4.2.1 -vectorize-loops -vectorize-slp -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_3bd31.dir/CMakeCCompilerABI.c.o -x c /data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 17.0.6 based upon LLVM 17.0.6 default target aarch64-unknown-linux-android24]
+        ignore line: [ignoring nonexistent directory "/data/data/com.termux/files/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/data/data/com.termux/files/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /data/data/com.termux/files/usr/lib/clang/17/include]
+        ignore line: [ /data/data/com.termux/files/usr/include/aarch64-linux-android]
+        ignore line: [ /data/data/com.termux/files/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_3bd31]
+        ignore line: [/data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bd31.dir/link.txt --verbose=1]
+        ignore line: [/data/data/com.termux/files/usr/bin/cc -O2 -g -DNDEBUG  -v CMakeFiles/cmTC_3bd31.dir/CMakeCCompilerABI.c.o -o cmTC_3bd31 ]
+        ignore line: [clang version 17.0.6]
+        ignore line: [Target: aarch64-unknown-linux-android24]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /data/data/com.termux/files/usr/bin]
+        link line: [ "/data/data/com.termux/files/usr/bin/ld.lld" --sysroot=/data/data/com.termux/files -pie -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=4096 --hash-style=gnu -rpath=/data/data/com.termux/files/usr/lib --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_3bd31 /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/usr/lib -L/system/lib64 CMakeFiles/cmTC_3bd31.dir/CMakeCCompilerABI.c.o /data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /data/data/com.termux/files/usr/lib/crtend_android.o]
+          arg [/data/data/com.termux/files/usr/bin/ld.lld] ==> ignore
+          arg [--sysroot=/data/data/com.termux/files] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-EL] ==> ignore
+          arg [--fix-cortex-a53-843419] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-zmax-page-size=4096] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-rpath=/data/data/com.termux/files/usr/lib] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [aarch64linux] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/system/bin/linker64] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_3bd31] ==> ignore
+          arg [/data/data/com.termux/files/usr/lib/crtbegin_dynamic.o] ==> obj [/data/data/com.termux/files/usr/lib/crtbegin_dynamic.o]
+          arg [-L/data/data/com.termux/files/usr/lib] ==> dir [/data/data/com.termux/files/usr/lib]
+          arg [-L/system/lib64] ==> dir [/system/lib64]
+          arg [CMakeFiles/cmTC_3bd31.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [/data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [/data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [-lc] ==> lib [c]
+          arg [/data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [/data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [/data/data/com.termux/files/usr/lib/crtend_android.o] ==> obj [/data/data/com.termux/files/usr/lib/crtend_android.o]
+        remove lib [/data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a]
+        remove lib [/data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a]
+        collapse library dir [/data/data/com.termux/files/usr/lib] ==> [/data/data/com.termux/files/usr/lib]
+        collapse library dir [/system/lib64] ==> [/system/lib64]
+        implicit libs: [-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+        implicit objs: [/data/data/com.termux/files/usr/lib/crtbegin_dynamic.o;/data/data/com.termux/files/usr/lib/crtend_android.o]
+        implicit dirs: [/data/data/com.termux/files/usr/lib;/system/lib64]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-OEwuLS"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-OEwuLS"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-OEwuLS'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_aa61d/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-OEwuLS'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_aa61d.dir/build.make CMakeFiles/cmTC_aa61d.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-OEwuLS'
+        Building CXX object CMakeFiles/cmTC_aa61d.dir/CMakeCXXCompilerABI.cpp.o
+        /data/data/com.termux/files/usr/bin/c++   -O2 -g -DNDEBUG   -v -MD -MT CMakeFiles/cmTC_aa61d.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_aa61d.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_aa61d.dir/CMakeCXXCompilerABI.cpp.o -c /data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
+        clang version 17.0.6
+        Target: aarch64-unknown-linux-android24
+        Thread model: posix
+        InstalledDir: /data/data/com.termux/files/usr/bin
+         (in-process)
+         "/data/data/com.termux/files/usr/bin/clang-17" -cc1 -triple aarch64-unknown-linux-android24 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -fcoverage-compilation-dir=/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-OEwuLS -resource-dir /data/data/com.termux/files/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_aa61d.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_aa61d.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D NDEBUG -isysroot /data/data/com.termux/files -internal-isystem /data/data/com.termux/files/usr/include/c++/v1 -internal-isystem /data/data/com.termux/files/usr/lib/clang/17/include -internal-isystem /data/data/com.termux/files/usr/local/include -internal-externc-isystem /data/data/com.termux/files/usr/include/aarch64-linux-android -internal-externc-isystem /data/data/com.termux/files/include -internal-externc-isystem /data/data/com.termux/files/usr/include -O2 -fdeprecated-macro -fdebug-compilation-dir=/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-OEwuLS -ferror-limit 19 -femulated-tls -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_aa61d.dir/CMakeCXXCompilerABI.cpp.o -x c++ /data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 17.0.6 based upon LLVM 17.0.6 default target aarch64-unknown-linux-android24
+        ignoring nonexistent directory "/data/data/com.termux/files/usr/local/include"
+        ignoring nonexistent directory "/data/data/com.termux/files/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /data/data/com.termux/files/usr/include/c++/v1
+         /data/data/com.termux/files/usr/lib/clang/17/include
+         /data/data/com.termux/files/usr/include/aarch64-linux-android
+         /data/data/com.termux/files/usr/include
+        End of search list.
+        Linking CXX executable cmTC_aa61d
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa61d.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++ -O2 -g -DNDEBUG  -v CMakeFiles/cmTC_aa61d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_aa61d 
+        clang version 17.0.6
+        Target: aarch64-unknown-linux-android24
+        Thread model: posix
+        InstalledDir: /data/data/com.termux/files/usr/bin
+         "/data/data/com.termux/files/usr/bin/ld.lld" --sysroot=/data/data/com.termux/files -pie -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=4096 --hash-style=gnu -rpath=/data/data/com.termux/files/usr/lib --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_aa61d /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/usr/lib -L/system/lib64 CMakeFiles/cmTC_aa61d.dir/CMakeCXXCompilerABI.cpp.o -lc++_shared /data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lm -lc /data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /data/data/com.termux/files/usr/lib/crtend_android.o
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-OEwuLS'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-OEwuLS'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/data/data/com.termux/files/usr/include/c++/v1]
+          add: [/data/data/com.termux/files/usr/lib/clang/17/include]
+          add: [/data/data/com.termux/files/usr/include/aarch64-linux-android]
+          add: [/data/data/com.termux/files/usr/include]
+        end of search list found
+        collapse include dir [/data/data/com.termux/files/usr/include/c++/v1] ==> [/data/data/com.termux/files/usr/include/c++/v1]
+        collapse include dir [/data/data/com.termux/files/usr/lib/clang/17/include] ==> [/data/data/com.termux/files/usr/lib/clang/17/include]
+        collapse include dir [/data/data/com.termux/files/usr/include/aarch64-linux-android] ==> [/data/data/com.termux/files/usr/include/aarch64-linux-android]
+        collapse include dir [/data/data/com.termux/files/usr/include] ==> [/data/data/com.termux/files/usr/include]
+        implicit include dirs: [/data/data/com.termux/files/usr/include/c++/v1;/data/data/com.termux/files/usr/lib/clang/17/include;/data/data/com.termux/files/usr/include/aarch64-linux-android;/data/data/com.termux/files/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-OEwuLS']
+        ignore line: []
+        ignore line: [Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_aa61d/fast]
+        ignore line: [make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-OEwuLS']
+        ignore line: [/data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_aa61d.dir/build.make CMakeFiles/cmTC_aa61d.dir/build]
+        ignore line: [make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-OEwuLS']
+        ignore line: [Building CXX object CMakeFiles/cmTC_aa61d.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/data/data/com.termux/files/usr/bin/c++   -O2 -g -DNDEBUG   -v -MD -MT CMakeFiles/cmTC_aa61d.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_aa61d.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_aa61d.dir/CMakeCXXCompilerABI.cpp.o -c /data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang version 17.0.6]
+        ignore line: [Target: aarch64-unknown-linux-android24]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /data/data/com.termux/files/usr/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "/data/data/com.termux/files/usr/bin/clang-17" -cc1 -triple aarch64-unknown-linux-android24 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -fcoverage-compilation-dir=/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-OEwuLS -resource-dir /data/data/com.termux/files/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_aa61d.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_aa61d.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D NDEBUG -isysroot /data/data/com.termux/files -internal-isystem /data/data/com.termux/files/usr/include/c++/v1 -internal-isystem /data/data/com.termux/files/usr/lib/clang/17/include -internal-isystem /data/data/com.termux/files/usr/local/include -internal-externc-isystem /data/data/com.termux/files/usr/include/aarch64-linux-android -internal-externc-isystem /data/data/com.termux/files/include -internal-externc-isystem /data/data/com.termux/files/usr/include -O2 -fdeprecated-macro -fdebug-compilation-dir=/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-OEwuLS -ferror-limit 19 -femulated-tls -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_aa61d.dir/CMakeCXXCompilerABI.cpp.o -x c++ /data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 17.0.6 based upon LLVM 17.0.6 default target aarch64-unknown-linux-android24]
+        ignore line: [ignoring nonexistent directory "/data/data/com.termux/files/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/data/data/com.termux/files/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /data/data/com.termux/files/usr/include/c++/v1]
+        ignore line: [ /data/data/com.termux/files/usr/lib/clang/17/include]
+        ignore line: [ /data/data/com.termux/files/usr/include/aarch64-linux-android]
+        ignore line: [ /data/data/com.termux/files/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_aa61d]
+        ignore line: [/data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa61d.dir/link.txt --verbose=1]
+        ignore line: [/data/data/com.termux/files/usr/bin/c++ -O2 -g -DNDEBUG  -v CMakeFiles/cmTC_aa61d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_aa61d ]
+        ignore line: [clang version 17.0.6]
+        ignore line: [Target: aarch64-unknown-linux-android24]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /data/data/com.termux/files/usr/bin]
+        link line: [ "/data/data/com.termux/files/usr/bin/ld.lld" --sysroot=/data/data/com.termux/files -pie -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=4096 --hash-style=gnu -rpath=/data/data/com.termux/files/usr/lib --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_aa61d /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/usr/lib -L/system/lib64 CMakeFiles/cmTC_aa61d.dir/CMakeCXXCompilerABI.cpp.o -lc++_shared /data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lm -lc /data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /data/data/com.termux/files/usr/lib/crtend_android.o]
+          arg [/data/data/com.termux/files/usr/bin/ld.lld] ==> ignore
+          arg [--sysroot=/data/data/com.termux/files] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-EL] ==> ignore
+          arg [--fix-cortex-a53-843419] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-zmax-page-size=4096] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-rpath=/data/data/com.termux/files/usr/lib] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [aarch64linux] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/system/bin/linker64] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_aa61d] ==> ignore
+          arg [/data/data/com.termux/files/usr/lib/crtbegin_dynamic.o] ==> obj [/data/data/com.termux/files/usr/lib/crtbegin_dynamic.o]
+          arg [-L/data/data/com.termux/files/usr/lib] ==> dir [/data/data/com.termux/files/usr/lib]
+          arg [-L/system/lib64] ==> dir [/system/lib64]
+          arg [CMakeFiles/cmTC_aa61d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++_shared] ==> lib [c++_shared]
+          arg [/data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [/data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [-lm] ==> lib [m]
+          arg [-lc] ==> lib [c]
+          arg [/data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [/data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [/data/data/com.termux/files/usr/lib/crtend_android.o] ==> obj [/data/data/com.termux/files/usr/lib/crtend_android.o]
+        remove lib [/data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a]
+        remove lib [/data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a]
+        collapse library dir [/data/data/com.termux/files/usr/lib] ==> [/data/data/com.termux/files/usr/lib]
+        collapse library dir [/system/lib64] ==> [/system/lib64]
+        implicit libs: [c++_shared;-l:libunwind.a;dl;m;c;-l:libunwind.a;dl]
+        implicit objs: [/data/data/com.termux/files/usr/lib/crtbegin_dynamic.o;/data/data/com.termux/files/usr/lib/crtend_android.o]
+        implicit dirs: [/data/data/com.termux/files/usr/lib;/system/lib64]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:83 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test EIGEN_COMPILER_SUPPORT_CPP11"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-5wCh3M"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-5wCh3M"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "EIGEN_COMPILER_SUPPORT_CPP11"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-5wCh3M'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_cc94a/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-5wCh3M'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_cc94a.dir/build.make CMakeFiles/cmTC_cc94a.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-5wCh3M'
+        Building CXX object CMakeFiles/cmTC_cc94a.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DEIGEN_COMPILER_SUPPORT_CPP11  -O2 -g -DNDEBUG   -std=c++11 -MD -MT CMakeFiles/cmTC_cc94a.dir/src.cxx.o -MF CMakeFiles/cmTC_cc94a.dir/src.cxx.o.d -o CMakeFiles/cmTC_cc94a.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-5wCh3M/src.cxx
+        Linking CXX executable cmTC_cc94a
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc94a.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++ -O2 -g -DNDEBUG CMakeFiles/cmTC_cc94a.dir/src.cxx.o -o cmTC_cc94a 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-5wCh3M'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-5wCh3M'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:94 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_std=cpp03"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-GKKTJ7"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-GKKTJ7"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_std=cpp03"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-GKKTJ7'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_1f3c8/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-GKKTJ7'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_1f3c8.dir/build.make CMakeFiles/cmTC_1f3c8.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-GKKTJ7'
+        Building CXX object CMakeFiles/cmTC_1f3c8.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_std=cpp03  -O2 -g -DNDEBUG   -std=c++03 -MD -MT CMakeFiles/cmTC_1f3c8.dir/src.cxx.o -MF CMakeFiles/cmTC_1f3c8.dir/src.cxx.o.d -o CMakeFiles/cmTC_1f3c8.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-GKKTJ7/src.cxx
+        Linking CXX executable cmTC_1f3c8
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f3c8.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++ -O2 -g -DNDEBUG CMakeFiles/cmTC_1f3c8.dir/src.cxx.o -o cmTC_1f3c8 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-GKKTJ7'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-GKKTJ7'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/FindStandardMathLibrary.cmake:29 (CHECK_CXX_SOURCE_COMPILES)"
+      - "CMakeLists.txt:101 (find_package)"
+    checks:
+      - "Performing Test standard_math_library_linked_to_automatically"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-ZHUjug"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-ZHUjug"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "standard_math_library_linked_to_automatically"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-ZHUjug'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_68629/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-ZHUjug'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_68629.dir/build.make CMakeFiles/cmTC_68629.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-ZHUjug'
+        Building CXX object CMakeFiles/cmTC_68629.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -Dstandard_math_library_linked_to_automatically  -std=c++03  -O2 -g -DNDEBUG -MD -MT CMakeFiles/cmTC_68629.dir/src.cxx.o -MF CMakeFiles/cmTC_68629.dir/src.cxx.o.d -o CMakeFiles/cmTC_68629.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-ZHUjug/src.cxx
+        /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-ZHUjug/src.cxx:2:14: warning: ignoring return value of function declared with const attribute [-Wunused-value]
+            2 | int main() { std::sin(0.0); std::log(0.0f); }
+              |              ^~~~~~~~ ~~~
+        1 warning generated.
+        Linking CXX executable cmTC_68629
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68629.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03  -O2 -g -DNDEBUG CMakeFiles/cmTC_68629.dir/src.cxx.o -o cmTC_68629 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-ZHUjug'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-ZHUjug'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:153 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_WERROR"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-D2G2Ul"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-D2G2Ul"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_WERROR"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-D2G2Ul'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_39782/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-D2G2Ul'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_39782.dir/build.make CMakeFiles/cmTC_39782.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-D2G2Ul'
+        Building CXX object CMakeFiles/cmTC_39782.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_WERROR  -std=c++03  -O2 -g -DNDEBUG   -Werror -MD -MT CMakeFiles/cmTC_39782.dir/src.cxx.o -MF CMakeFiles/cmTC_39782.dir/src.cxx.o.d -o CMakeFiles/cmTC_39782.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-D2G2Ul/src.cxx
+        Linking CXX executable cmTC_39782
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39782.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03  -O2 -g -DNDEBUG CMakeFiles/cmTC_39782.dir/src.cxx.o -o cmTC_39782 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-D2G2Ul'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-D2G2Ul'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:157 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_pedantic"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-CTIoRn"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-CTIoRn"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_pedantic"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-CTIoRn'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_187d8/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-CTIoRn'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_187d8.dir/build.make CMakeFiles/cmTC_187d8.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-CTIoRn'
+        Building CXX object CMakeFiles/cmTC_187d8.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_pedantic  -std=c++03 -Werror -O2 -g -DNDEBUG   -pedantic -MD -MT CMakeFiles/cmTC_187d8.dir/src.cxx.o -MF CMakeFiles/cmTC_187d8.dir/src.cxx.o.d -o CMakeFiles/cmTC_187d8.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-CTIoRn/src.cxx
+        Linking CXX executable cmTC_187d8
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_187d8.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_187d8.dir/src.cxx.o -o cmTC_187d8 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-CTIoRn'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-CTIoRn'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:158 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wall"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-Hl48qj"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-Hl48qj"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wall"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-Hl48qj'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_8e49e/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-Hl48qj'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_8e49e.dir/build.make CMakeFiles/cmTC_8e49e.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-Hl48qj'
+        Building CXX object CMakeFiles/cmTC_8e49e.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wall  -std=c++03 -pedantic -Werror -O2 -g -DNDEBUG   -Wall -MD -MT CMakeFiles/cmTC_8e49e.dir/src.cxx.o -MF CMakeFiles/cmTC_8e49e.dir/src.cxx.o.d -o CMakeFiles/cmTC_8e49e.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-Hl48qj/src.cxx
+        Linking CXX executable cmTC_8e49e
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e49e.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_8e49e.dir/src.cxx.o -o cmTC_8e49e 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-Hl48qj'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-Hl48qj'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:159 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wextra"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-K5bwSY"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-K5bwSY"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wextra"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-K5bwSY'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_4343c/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-K5bwSY'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_4343c.dir/build.make CMakeFiles/cmTC_4343c.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-K5bwSY'
+        Building CXX object CMakeFiles/cmTC_4343c.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wextra  -std=c++03 -pedantic -Wall -Werror -O2 -g -DNDEBUG   -Wextra -MD -MT CMakeFiles/cmTC_4343c.dir/src.cxx.o -MF CMakeFiles/cmTC_4343c.dir/src.cxx.o.d -o CMakeFiles/cmTC_4343c.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-K5bwSY/src.cxx
+        Linking CXX executable cmTC_4343c
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4343c.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_4343c.dir/src.cxx.o -o cmTC_4343c 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-K5bwSY'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-K5bwSY'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:162 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wundef"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-VVu8qN"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-VVu8qN"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wundef"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-VVu8qN'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_8c0a5/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-VVu8qN'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_8c0a5.dir/build.make CMakeFiles/cmTC_8c0a5.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-VVu8qN'
+        Building CXX object CMakeFiles/cmTC_8c0a5.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wundef  -std=c++03 -pedantic -Wall -Wextra -Werror -O2 -g -DNDEBUG   -Wundef -MD -MT CMakeFiles/cmTC_8c0a5.dir/src.cxx.o -MF CMakeFiles/cmTC_8c0a5.dir/src.cxx.o.d -o CMakeFiles/cmTC_8c0a5.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-VVu8qN/src.cxx
+        Linking CXX executable cmTC_8c0a5
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c0a5.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_8c0a5.dir/src.cxx.o -o cmTC_8c0a5 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-VVu8qN'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-VVu8qN'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:163 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wcastalign"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-RgPs8n"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-RgPs8n"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wcastalign"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-RgPs8n'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_e1bb0/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-RgPs8n'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_e1bb0.dir/build.make CMakeFiles/cmTC_e1bb0.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-RgPs8n'
+        Building CXX object CMakeFiles/cmTC_e1bb0.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wcastalign  -std=c++03 -pedantic -Wall -Wextra -Wundef -Werror -O2 -g -DNDEBUG   -Wcast-align -MD -MT CMakeFiles/cmTC_e1bb0.dir/src.cxx.o -MF CMakeFiles/cmTC_e1bb0.dir/src.cxx.o.d -o CMakeFiles/cmTC_e1bb0.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-RgPs8n/src.cxx
+        Linking CXX executable cmTC_e1bb0
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1bb0.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_e1bb0.dir/src.cxx.o -o cmTC_e1bb0 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-RgPs8n'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-RgPs8n'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:164 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wcharsubscripts"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-3IzXlq"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-3IzXlq"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wcharsubscripts"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-3IzXlq'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_a2add/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-3IzXlq'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_a2add.dir/build.make CMakeFiles/cmTC_a2add.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-3IzXlq'
+        Building CXX object CMakeFiles/cmTC_a2add.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wcharsubscripts  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Werror -O2 -g -DNDEBUG   -Wchar-subscripts -MD -MT CMakeFiles/cmTC_a2add.dir/src.cxx.o -MF CMakeFiles/cmTC_a2add.dir/src.cxx.o.d -o CMakeFiles/cmTC_a2add.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-3IzXlq/src.cxx
+        Linking CXX executable cmTC_a2add
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2add.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_a2add.dir/src.cxx.o -o cmTC_a2add 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-3IzXlq'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-3IzXlq'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:165 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wnonvirtualdtor"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-crl4ww"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-crl4ww"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wnonvirtualdtor"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-crl4ww'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_ec648/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-crl4ww'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_ec648.dir/build.make CMakeFiles/cmTC_ec648.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-crl4ww'
+        Building CXX object CMakeFiles/cmTC_ec648.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wnonvirtualdtor  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Werror -O2 -g -DNDEBUG   -Wnon-virtual-dtor -MD -MT CMakeFiles/cmTC_ec648.dir/src.cxx.o -MF CMakeFiles/cmTC_ec648.dir/src.cxx.o.d -o CMakeFiles/cmTC_ec648.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-crl4ww/src.cxx
+        Linking CXX executable cmTC_ec648
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec648.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_ec648.dir/src.cxx.o -o cmTC_ec648 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-crl4ww'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-crl4ww'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:166 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wunusedlocaltypedefs"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-ZWjM28"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-ZWjM28"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wunusedlocaltypedefs"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-ZWjM28'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_a968c/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-ZWjM28'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_a968c.dir/build.make CMakeFiles/cmTC_a968c.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-ZWjM28'
+        Building CXX object CMakeFiles/cmTC_a968c.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wunusedlocaltypedefs  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Werror -O2 -g -DNDEBUG   -Wunused-local-typedefs -MD -MT CMakeFiles/cmTC_a968c.dir/src.cxx.o -MF CMakeFiles/cmTC_a968c.dir/src.cxx.o.d -o CMakeFiles/cmTC_a968c.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-ZWjM28/src.cxx
+        Linking CXX executable cmTC_a968c
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a968c.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_a968c.dir/src.cxx.o -o cmTC_a968c 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-ZWjM28'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-ZWjM28'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:167 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wpointerarith"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-6lIWiF"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-6lIWiF"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wpointerarith"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-6lIWiF'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_8c1c6/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-6lIWiF'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_8c1c6.dir/build.make CMakeFiles/cmTC_8c1c6.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-6lIWiF'
+        Building CXX object CMakeFiles/cmTC_8c1c6.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wpointerarith  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Werror -O2 -g -DNDEBUG   -Wpointer-arith -MD -MT CMakeFiles/cmTC_8c1c6.dir/src.cxx.o -MF CMakeFiles/cmTC_8c1c6.dir/src.cxx.o.d -o CMakeFiles/cmTC_8c1c6.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-6lIWiF/src.cxx
+        Linking CXX executable cmTC_8c1c6
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c1c6.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_8c1c6.dir/src.cxx.o -o cmTC_8c1c6 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-6lIWiF'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-6lIWiF'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:168 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wwritestrings"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-Q3mM6B"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-Q3mM6B"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wwritestrings"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-Q3mM6B'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_03a90/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-Q3mM6B'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_03a90.dir/build.make CMakeFiles/cmTC_03a90.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-Q3mM6B'
+        Building CXX object CMakeFiles/cmTC_03a90.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wwritestrings  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Werror -O2 -g -DNDEBUG   -Wwrite-strings -MD -MT CMakeFiles/cmTC_03a90.dir/src.cxx.o -MF CMakeFiles/cmTC_03a90.dir/src.cxx.o.d -o CMakeFiles/cmTC_03a90.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-Q3mM6B/src.cxx
+        Linking CXX executable cmTC_03a90
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03a90.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_03a90.dir/src.cxx.o -o cmTC_03a90 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-Q3mM6B'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-Q3mM6B'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:169 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wformatsecurity"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-ya2xZi"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-ya2xZi"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wformatsecurity"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-ya2xZi'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_28abf/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-ya2xZi'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_28abf.dir/build.make CMakeFiles/cmTC_28abf.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-ya2xZi'
+        Building CXX object CMakeFiles/cmTC_28abf.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wformatsecurity  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Werror -O2 -g -DNDEBUG   -Wformat-security -MD -MT CMakeFiles/cmTC_28abf.dir/src.cxx.o -MF CMakeFiles/cmTC_28abf.dir/src.cxx.o.d -o CMakeFiles/cmTC_28abf.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-ya2xZi/src.cxx
+        Linking CXX executable cmTC_28abf
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28abf.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_28abf.dir/src.cxx.o -o cmTC_28abf 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-ya2xZi'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-ya2xZi'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:170 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wshorten64to32"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-qfpuaE"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-qfpuaE"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wshorten64to32"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-qfpuaE'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_57d24/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-qfpuaE'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_57d24.dir/build.make CMakeFiles/cmTC_57d24.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-qfpuaE'
+        Building CXX object CMakeFiles/cmTC_57d24.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wshorten64to32  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Werror -O2 -g -DNDEBUG   -Wshorten-64-to-32 -MD -MT CMakeFiles/cmTC_57d24.dir/src.cxx.o -MF CMakeFiles/cmTC_57d24.dir/src.cxx.o.d -o CMakeFiles/cmTC_57d24.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-qfpuaE/src.cxx
+        Linking CXX executable cmTC_57d24
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57d24.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_57d24.dir/src.cxx.o -o cmTC_57d24 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-qfpuaE'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-qfpuaE'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:171 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wlogicalop"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-dSapSJ"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-dSapSJ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wlogicalop"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-dSapSJ'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_c874c/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-dSapSJ'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_c874c.dir/build.make CMakeFiles/cmTC_c874c.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-dSapSJ'
+        Building CXX object CMakeFiles/cmTC_c874c.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wlogicalop  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Werror -O2 -g -DNDEBUG   -Wlogical-op -MD -MT CMakeFiles/cmTC_c874c.dir/src.cxx.o -MF CMakeFiles/cmTC_c874c.dir/src.cxx.o.d -o CMakeFiles/cmTC_c874c.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-dSapSJ/src.cxx
+        error: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Werror,-Wunknown-warning-option]
+        make[4]: *** [CMakeFiles/cmTC_c874c.dir/build.make:79: CMakeFiles/cmTC_c874c.dir/src.cxx.o] Error 1
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-dSapSJ'
+        make[3]: *** [Makefile:127: cmTC_c874c/fast] Error 2
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-dSapSJ'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:172 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wenumconversion"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-jGQHl1"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-jGQHl1"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wenumconversion"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-jGQHl1'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_eabd7/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-jGQHl1'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_eabd7.dir/build.make CMakeFiles/cmTC_eabd7.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-jGQHl1'
+        Building CXX object CMakeFiles/cmTC_eabd7.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wenumconversion  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Werror -O2 -g -DNDEBUG   -Wenum-conversion -MD -MT CMakeFiles/cmTC_eabd7.dir/src.cxx.o -MF CMakeFiles/cmTC_eabd7.dir/src.cxx.o.d -o CMakeFiles/cmTC_eabd7.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-jGQHl1/src.cxx
+        Linking CXX executable cmTC_eabd7
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eabd7.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_eabd7.dir/src.cxx.o -o cmTC_eabd7 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-jGQHl1'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-jGQHl1'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:173 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wcpp11extensions"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-5xfyJY"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-5xfyJY"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wcpp11extensions"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-5xfyJY'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_772fd/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-5xfyJY'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_772fd.dir/build.make CMakeFiles/cmTC_772fd.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-5xfyJY'
+        Building CXX object CMakeFiles/cmTC_772fd.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wcpp11extensions  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Werror -O2 -g -DNDEBUG   -Wc++11-extensions -MD -MT CMakeFiles/cmTC_772fd.dir/src.cxx.o -MF CMakeFiles/cmTC_772fd.dir/src.cxx.o.d -o CMakeFiles/cmTC_772fd.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-5xfyJY/src.cxx
+        Linking CXX executable cmTC_772fd
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_772fd.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_772fd.dir/src.cxx.o -o cmTC_772fd 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-5xfyJY'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-5xfyJY'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:174 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wdoublepromotion"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-JotWh6"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-JotWh6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wdoublepromotion"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-JotWh6'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_c65d1/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-JotWh6'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_c65d1.dir/build.make CMakeFiles/cmTC_c65d1.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-JotWh6'
+        Building CXX object CMakeFiles/cmTC_c65d1.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wdoublepromotion  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Werror -O2 -g -DNDEBUG   -Wdouble-promotion -MD -MT CMakeFiles/cmTC_c65d1.dir/src.cxx.o -MF CMakeFiles/cmTC_c65d1.dir/src.cxx.o.d -o CMakeFiles/cmTC_c65d1.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-JotWh6/src.cxx
+        Linking CXX executable cmTC_c65d1
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c65d1.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_c65d1.dir/src.cxx.o -o cmTC_c65d1 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-JotWh6'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-JotWh6'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:180 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wshadow"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-h82aWo"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-h82aWo"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wshadow"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-h82aWo'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_2ce3e/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-h82aWo'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_2ce3e.dir/build.make CMakeFiles/cmTC_2ce3e.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-h82aWo'
+        Building CXX object CMakeFiles/cmTC_2ce3e.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wshadow  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Werror -O2 -g -DNDEBUG   -Wshadow -MD -MT CMakeFiles/cmTC_2ce3e.dir/src.cxx.o -MF CMakeFiles/cmTC_2ce3e.dir/src.cxx.o.d -o CMakeFiles/cmTC_2ce3e.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-h82aWo/src.cxx
+        Linking CXX executable cmTC_2ce3e
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ce3e.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_2ce3e.dir/src.cxx.o -o cmTC_2ce3e 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-h82aWo'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-h82aWo'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:183 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wnopsabi"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-XzG634"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-XzG634"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wnopsabi"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-XzG634'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_407d5/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-XzG634'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_407d5.dir/build.make CMakeFiles/cmTC_407d5.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-XzG634'
+        Building CXX object CMakeFiles/cmTC_407d5.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wnopsabi  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Werror -O2 -g -DNDEBUG   -Wno-psabi -MD -MT CMakeFiles/cmTC_407d5.dir/src.cxx.o -MF CMakeFiles/cmTC_407d5.dir/src.cxx.o.d -o CMakeFiles/cmTC_407d5.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-XzG634/src.cxx
+        Linking CXX executable cmTC_407d5
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_407d5.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_407d5.dir/src.cxx.o -o cmTC_407d5 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-XzG634'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-XzG634'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:184 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wnovariadicmacros"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-jDpZN5"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-jDpZN5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wnovariadicmacros"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-jDpZN5'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_00cf6/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-jDpZN5'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_00cf6.dir/build.make CMakeFiles/cmTC_00cf6.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-jDpZN5'
+        Building CXX object CMakeFiles/cmTC_00cf6.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wnovariadicmacros  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Werror -O2 -g -DNDEBUG   -Wno-variadic-macros -MD -MT CMakeFiles/cmTC_00cf6.dir/src.cxx.o -MF CMakeFiles/cmTC_00cf6.dir/src.cxx.o.d -o CMakeFiles/cmTC_00cf6.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-jDpZN5/src.cxx
+        Linking CXX executable cmTC_00cf6
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00cf6.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_00cf6.dir/src.cxx.o -o cmTC_00cf6 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-jDpZN5'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-jDpZN5'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:185 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wnolonglong"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-EpbdHx"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-EpbdHx"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wnolonglong"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-EpbdHx'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_b3c8c/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-EpbdHx'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_b3c8c.dir/build.make CMakeFiles/cmTC_b3c8c.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-EpbdHx'
+        Building CXX object CMakeFiles/cmTC_b3c8c.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wnolonglong  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Werror -O2 -g -DNDEBUG   -Wno-long-long -MD -MT CMakeFiles/cmTC_b3c8c.dir/src.cxx.o -MF CMakeFiles/cmTC_b3c8c.dir/src.cxx.o.d -o CMakeFiles/cmTC_b3c8c.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-EpbdHx/src.cxx
+        Linking CXX executable cmTC_b3c8c
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3c8c.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_b3c8c.dir/src.cxx.o -o cmTC_b3c8c 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-EpbdHx'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-EpbdHx'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:187 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_fnochecknew"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-HMQgFd"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-HMQgFd"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_fnochecknew"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-HMQgFd'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_07235/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-HMQgFd'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_07235.dir/build.make CMakeFiles/cmTC_07235.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-HMQgFd'
+        Building CXX object CMakeFiles/cmTC_07235.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_fnochecknew  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -Werror -O2 -g -DNDEBUG   -fno-check-new -MD -MT CMakeFiles/cmTC_07235.dir/src.cxx.o -MF CMakeFiles/cmTC_07235.dir/src.cxx.o.d -o CMakeFiles/cmTC_07235.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-HMQgFd/src.cxx
+        Linking CXX executable cmTC_07235
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07235.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_07235.dir/src.cxx.o -o cmTC_07235 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-HMQgFd'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-HMQgFd'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:188 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_fnocommon"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-iC4wDb"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-iC4wDb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_fnocommon"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-iC4wDb'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_f44ea/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-iC4wDb'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_f44ea.dir/build.make CMakeFiles/cmTC_f44ea.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-iC4wDb'
+        Building CXX object CMakeFiles/cmTC_f44ea.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_fnocommon  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror -O2 -g -DNDEBUG   -fno-common -MD -MT CMakeFiles/cmTC_f44ea.dir/src.cxx.o -MF CMakeFiles/cmTC_f44ea.dir/src.cxx.o.d -o CMakeFiles/cmTC_f44ea.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-iC4wDb/src.cxx
+        Linking CXX executable cmTC_f44ea
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f44ea.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_f44ea.dir/src.cxx.o -o cmTC_f44ea 
+        c++: error: argument unused during compilation: '-fno-check-new' [-Werror,-Wunused-command-line-argument]
+        make[4]: *** [CMakeFiles/cmTC_f44ea.dir/build.make:100: cmTC_f44ea] Error 1
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-iC4wDb'
+        make[3]: *** [Makefile:127: cmTC_f44ea/fast] Error 2
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-iC4wDb'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:189 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_fstrictaliasing"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-M2gdmz"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-M2gdmz"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_fstrictaliasing"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-M2gdmz'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_43a36/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-M2gdmz'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_43a36.dir/build.make CMakeFiles/cmTC_43a36.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-M2gdmz'
+        Building CXX object CMakeFiles/cmTC_43a36.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_fstrictaliasing  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror -O2 -g -DNDEBUG   -fstrict-aliasing -MD -MT CMakeFiles/cmTC_43a36.dir/src.cxx.o -MF CMakeFiles/cmTC_43a36.dir/src.cxx.o.d -o CMakeFiles/cmTC_43a36.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-M2gdmz/src.cxx
+        Linking CXX executable cmTC_43a36
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43a36.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_43a36.dir/src.cxx.o -o cmTC_43a36 
+        c++: error: argument unused during compilation: '-fno-check-new' [-Werror,-Wunused-command-line-argument]
+        make[4]: *** [CMakeFiles/cmTC_43a36.dir/build.make:100: cmTC_43a36] Error 1
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-M2gdmz'
+        make[3]: *** [Makefile:127: cmTC_43a36/fast] Error 2
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-M2gdmz'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:190 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_wd981"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-KOZ04m"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-KOZ04m"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_wd981"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-KOZ04m'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_02196/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-KOZ04m'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_02196.dir/build.make CMakeFiles/cmTC_02196.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-KOZ04m'
+        Building CXX object CMakeFiles/cmTC_02196.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_wd981  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror -O2 -g -DNDEBUG   -wd981 -MD -MT CMakeFiles/cmTC_02196.dir/src.cxx.o -MF CMakeFiles/cmTC_02196.dir/src.cxx.o.d -o CMakeFiles/cmTC_02196.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-KOZ04m/src.cxx
+        c++: error: unknown argument: '-wd981'
+        make[4]: *** [CMakeFiles/cmTC_02196.dir/build.make:79: CMakeFiles/cmTC_02196.dir/src.cxx.o] Error 1
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-KOZ04m'
+        make[3]: *** [Makefile:127: cmTC_02196/fast] Error 2
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-KOZ04m'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:191 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_wd2304"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-SVYNQg"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-SVYNQg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_wd2304"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-SVYNQg'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_4d307/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-SVYNQg'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_4d307.dir/build.make CMakeFiles/cmTC_4d307.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-SVYNQg'
+        Building CXX object CMakeFiles/cmTC_4d307.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_wd2304  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror -O2 -g -DNDEBUG   -wd2304 -MD -MT CMakeFiles/cmTC_4d307.dir/src.cxx.o -MF CMakeFiles/cmTC_4d307.dir/src.cxx.o.d -o CMakeFiles/cmTC_4d307.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-SVYNQg/src.cxx
+        c++: error: unknown argument: '-wd2304'
+        make[4]: *** [CMakeFiles/cmTC_4d307.dir/build.make:79: CMakeFiles/cmTC_4d307.dir/src.cxx.o] Error 1
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-SVYNQg'
+        make[3]: *** [Makefile:127: cmTC_4d307/fast] Error 2
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-SVYNQg'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:196 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_STRICTANSI"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-CUggMB"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-CUggMB"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_STRICTANSI"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-CUggMB'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_2210d/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-CUggMB'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_2210d.dir/build.make CMakeFiles/cmTC_2210d.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-CUggMB'
+        Building CXX object CMakeFiles/cmTC_2210d.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_STRICTANSI  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror -O2 -g -DNDEBUG   -strict-ansi -MD -MT CMakeFiles/cmTC_2210d.dir/src.cxx.o -MF CMakeFiles/cmTC_2210d.dir/src.cxx.o.d -o CMakeFiles/cmTC_2210d.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-CUggMB/src.cxx
+        c++: error: unknown argument: '-strict-ansi'
+        make[4]: *** [CMakeFiles/cmTC_2210d.dir/build.make:79: CMakeFiles/cmTC_2210d.dir/src.cxx.o] Error 1
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-CUggMB'
+        make[3]: *** [Makefile:127: cmTC_2210d/fast] Error 2
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-CUggMB'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:197 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Qunusedarguments"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-kOgfb4"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-kOgfb4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Qunusedarguments"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-kOgfb4'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_292fa/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-kOgfb4'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_292fa.dir/build.make CMakeFiles/cmTC_292fa.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-kOgfb4'
+        Building CXX object CMakeFiles/cmTC_292fa.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Qunusedarguments  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror -O2 -g -DNDEBUG   -Qunused-arguments -MD -MT CMakeFiles/cmTC_292fa.dir/src.cxx.o -MF CMakeFiles/cmTC_292fa.dir/src.cxx.o.d -o CMakeFiles/cmTC_292fa.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-kOgfb4/src.cxx
+        Linking CXX executable cmTC_292fa
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_292fa.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_292fa.dir/src.cxx.o -o cmTC_292fa 
+        c++: error: argument unused during compilation: '-fno-check-new' [-Werror,-Wunused-command-line-argument]
+        make[4]: *** [CMakeFiles/cmTC_292fa.dir/build.make:100: cmTC_292fa] Error 1
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-kOgfb4'
+        make[3]: *** [Makefile:127: cmTC_292fa/fast] Error 2
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-kOgfb4'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:202 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_ansi"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-Y9l1Lb"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-Y9l1Lb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_ansi"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-Y9l1Lb'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_e74bd/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-Y9l1Lb'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_e74bd.dir/build.make CMakeFiles/cmTC_e74bd.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-Y9l1Lb'
+        Building CXX object CMakeFiles/cmTC_e74bd.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_ansi  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror -O2 -g -DNDEBUG   -ansi -MD -MT CMakeFiles/cmTC_e74bd.dir/src.cxx.o -MF CMakeFiles/cmTC_e74bd.dir/src.cxx.o.d -o CMakeFiles/cmTC_e74bd.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-Y9l1Lb/src.cxx
+        Linking CXX executable cmTC_e74bd
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e74bd.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_e74bd.dir/src.cxx.o -o cmTC_e74bd 
+        c++: error: argument unused during compilation: '-fno-check-new' [-Werror,-Wunused-command-line-argument]
+        make[4]: *** [CMakeFiles/cmTC_e74bd.dir/build.make:100: cmTC_e74bd] Error 1
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-Y9l1Lb'
+        make[3]: *** [Makefile:127: cmTC_e74bd/fast] Error 2
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-Y9l1Lb'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:301 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_OPENMP"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-YDkiQT"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-YDkiQT"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_OPENMP"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-YDkiQT'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_4b176/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-YDkiQT'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_4b176.dir/build.make CMakeFiles/cmTC_4b176.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-YDkiQT'
+        Building CXX object CMakeFiles/cmTC_4b176.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_OPENMP  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new  -O2 -g -DNDEBUG   -fopenmp -MD -MT CMakeFiles/cmTC_4b176.dir/src.cxx.o -MF CMakeFiles/cmTC_4b176.dir/src.cxx.o.d -o CMakeFiles/cmTC_4b176.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-YDkiQT/src.cxx
+        Linking CXX executable cmTC_4b176
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b176.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new  -O2 -g -DNDEBUG CMakeFiles/cmTC_4b176.dir/src.cxx.o -o cmTC_4b176 
+        c++: warning: argument unused during compilation: '-fno-check-new' [-Wunused-command-line-argument]
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-YDkiQT'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-YDkiQT'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "cmake/FindBLAS.cmake:512 (find_package)"
+      - "cmake/FindLAPACK.cmake:138 (find_package)"
+      - "test/CMakeLists.txt:30 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-hFdXhG"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-hFdXhG"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-hFdXhG'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_e8b63/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-hFdXhG'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_e8b63.dir/build.make CMakeFiles/cmTC_e8b63.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-hFdXhG'
+        Building C object CMakeFiles/cmTC_e8b63.dir/src.c.o
+        /data/data/com.termux/files/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -O2 -g -DNDEBUG -MD -MT CMakeFiles/cmTC_e8b63.dir/src.c.o -MF CMakeFiles/cmTC_e8b63.dir/src.c.o.d -o CMakeFiles/cmTC_e8b63.dir/src.c.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-hFdXhG/src.c
+        /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-hFdXhG/src.c:13:3: error: call to undeclared function 'pthread_cancel'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+           13 |   pthread_cancel(thread);
+              |   ^
+        /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-hFdXhG/src.c:13:3: note: did you mean 'pthread_once'?
+        /data/data/com.termux/files/usr/include/pthread.h:258:5: note: 'pthread_once' declared here
+          258 | int pthread_once(pthread_once_t* _Nonnull __once, void (* _Nonnull __init_routine)(void));
+              |     ^
+        1 error generated.
+        make[4]: *** [CMakeFiles/cmTC_e8b63.dir/build.make:79: CMakeFiles/cmTC_e8b63.dir/src.c.o] Error 1
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-hFdXhG'
+        make[3]: *** [Makefile:127: cmTC_e8b63/fast] Error 2
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-hFdXhG'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "cmake/FindBLAS.cmake:512 (find_package)"
+      - "cmake/FindLAPACK.cmake:138 (find_package)"
+      - "test/CMakeLists.txt:30 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-8okVhx"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-8okVhx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-8okVhx'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_3b3a6/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-8okVhx'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_3b3a6.dir/build.make CMakeFiles/cmTC_3b3a6.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-8okVhx'
+        Building C object CMakeFiles/cmTC_3b3a6.dir/CheckFunctionExists.c.o
+        /data/data/com.termux/files/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -O2 -g -DNDEBUG -MD -MT CMakeFiles/cmTC_3b3a6.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_3b3a6.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_3b3a6.dir/CheckFunctionExists.c.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-8okVhx/CheckFunctionExists.c
+        Linking C executable cmTC_3b3a6
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b3a6.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -O2 -g -DNDEBUG CMakeFiles/cmTC_3b3a6.dir/CheckFunctionExists.c.o -o cmTC_3b3a6  -lpthreads 
+        ld.lld: error: unable to find library -lpthreads
+        cc: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[4]: *** [CMakeFiles/cmTC_3b3a6.dir/build.make:100: cmTC_3b3a6] Error 1
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-8okVhx'
+        make[3]: *** [Makefile:127: cmTC_3b3a6/fast] Error 2
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-8okVhx'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "cmake/FindBLAS.cmake:512 (find_package)"
+      - "cmake/FindLAPACK.cmake:138 (find_package)"
+      - "test/CMakeLists.txt:30 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-DsKCb1"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-DsKCb1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-DsKCb1'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_ebde5/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-DsKCb1'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_ebde5.dir/build.make CMakeFiles/cmTC_ebde5.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-DsKCb1'
+        Building C object CMakeFiles/cmTC_ebde5.dir/CheckFunctionExists.c.o
+        /data/data/com.termux/files/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -O2 -g -DNDEBUG -MD -MT CMakeFiles/cmTC_ebde5.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_ebde5.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_ebde5.dir/CheckFunctionExists.c.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-DsKCb1/CheckFunctionExists.c
+        Linking C executable cmTC_ebde5
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebde5.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -O2 -g -DNDEBUG CMakeFiles/cmTC_ebde5.dir/CheckFunctionExists.c.o -o cmTC_ebde5  -lpthread 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-DsKCb1'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-DsKCb1'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "cmake/FindBLAS.cmake:299 (check_function_exists)"
+      - "cmake/FindBLAS.cmake:738 (check_fortran_libraries)"
+      - "cmake/FindLAPACK.cmake:138 (find_package)"
+      - "test/CMakeLists.txt:30 (find_package)"
+    checks:
+      - "Looking for sgemm_"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-uc3wyL"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-uc3wyL"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "BLAS_openblas_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-uc3wyL'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_82454/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-uc3wyL'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_82454.dir/build.make CMakeFiles/cmTC_82454.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-uc3wyL'
+        Building C object CMakeFiles/cmTC_82454.dir/CheckFunctionExists.c.o
+        /data/data/com.termux/files/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -O2 -g -DNDEBUG -MD -MT CMakeFiles/cmTC_82454.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_82454.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_82454.dir/CheckFunctionExists.c.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-uc3wyL/CheckFunctionExists.c
+        Linking C executable cmTC_82454
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82454.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_ -O2 -g -DNDEBUG CMakeFiles/cmTC_82454.dir/CheckFunctionExists.c.o -o cmTC_82454  /data/data/com.termux/files/usr/lib/libopenblas.so 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-uc3wyL'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-uc3wyL'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "test/CMakeLists.txt:276 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_FASTMATH"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-b7Q6Hk"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-b7Q6Hk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_FASTMATH"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-b7Q6Hk'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_18948/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-b7Q6Hk'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_18948.dir/build.make CMakeFiles/cmTC_18948.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-b7Q6Hk'
+        Building CXX object CMakeFiles/cmTC_18948.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_FASTMATH  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new  -O2 -g -DNDEBUG   -ffast-math -MD -MT CMakeFiles/cmTC_18948.dir/src.cxx.o -MF CMakeFiles/cmTC_18948.dir/src.cxx.o.d -o CMakeFiles/cmTC_18948.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-b7Q6Hk/src.cxx
+        Linking CXX executable cmTC_18948
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18948.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new  -O2 -g -DNDEBUG CMakeFiles/cmTC_18948.dir/src.cxx.o -o cmTC_18948 
+        c++: warning: argument unused during compilation: '-fno-check-new' [-Wunused-command-line-argument]
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-b7Q6Hk'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build/CMakeFiles/CMakeScratch/TryCompile-b7Q6Hk'
+        
+      exitCode: 0
+...

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/TemplateKeyword_simple.dir/TemplateKeyword_simple.cpp.o"
+  "CMakeFiles/TemplateKeyword_simple.dir/TemplateKeyword_simple.cpp.o.d"
   "TemplateKeyword_simple"
   "TemplateKeyword_simple.pdb"
 )

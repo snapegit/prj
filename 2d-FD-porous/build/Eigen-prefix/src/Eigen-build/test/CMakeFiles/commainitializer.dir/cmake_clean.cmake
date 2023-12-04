@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/commainitializer.dir/commainitializer.cpp.o"
+  "CMakeFiles/commainitializer.dir/commainitializer.cpp.o.d"
   "commainitializer"
   "commainitializer.pdb"
 )

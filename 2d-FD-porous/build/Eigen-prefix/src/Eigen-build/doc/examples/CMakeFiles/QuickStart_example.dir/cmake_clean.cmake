@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/QuickStart_example.dir/QuickStart_example.cpp.o"
+  "CMakeFiles/QuickStart_example.dir/QuickStart_example.cpp.o.d"
   "QuickStart_example"
   "QuickStart_example.pdb"
 )

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/function_taking_ref.dir/function_taking_ref.cpp.o"
+  "CMakeFiles/function_taking_ref.dir/function_taking_ref.cpp.o.d"
   "function_taking_ref"
   "function_taking_ref.pdb"
 )

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_Map_placement_new.dir/compile_Map_placement_new.cpp.o"
+  "CMakeFiles/compile_Map_placement_new.dir/compile_Map_placement_new.cpp.o.d"
   "compile_Map_placement_new"
   "compile_Map_placement_new.pdb"
 )

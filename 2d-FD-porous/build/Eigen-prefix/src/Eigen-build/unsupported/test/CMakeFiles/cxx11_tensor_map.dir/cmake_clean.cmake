@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cxx11_tensor_map.dir/cxx11_tensor_map.cpp.o"
+  "CMakeFiles/cxx11_tensor_map.dir/cxx11_tensor_map.cpp.o.d"
   "cxx11_tensor_map"
   "cxx11_tensor_map.pdb"
 )

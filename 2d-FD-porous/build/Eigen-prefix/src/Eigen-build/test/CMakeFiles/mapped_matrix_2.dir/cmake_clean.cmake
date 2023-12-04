@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mapped_matrix_2.dir/mapped_matrix.cpp.o"
+  "CMakeFiles/mapped_matrix_2.dir/mapped_matrix.cpp.o.d"
   "mapped_matrix_2"
   "mapped_matrix_2.pdb"
 )

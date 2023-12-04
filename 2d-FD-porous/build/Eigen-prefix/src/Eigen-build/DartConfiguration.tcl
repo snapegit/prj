@@ -4,30 +4,31 @@
 
 
 # Configuration directories and files
-SourceDirectory: /workspaces/prj/2d-FD-porous/build/Eigen
-BuildDirectory: /workspaces/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build
+SourceDirectory: /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen
+BuildDirectory: /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: codespaces-b43ec0
+Site: localhost
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: linux-6.2.0-1016-azure-_-9.4.0-sse2-64bit
+BuildName: android-5.10.136-android12-9-27100597-abs908bxxs6cwi1-clang++-17.0.6-sse2-64bit
 
 # Subprojects
 LabelsForSubprojects: 
 
 # Submission information
 SubmitURL: http://manao.inria.fr/CDash/submit.php?project=Eigen+3.3
+SubmitInactivityTimeout: 
 
 # Dashboard start time
 NightlyStartTime: 00:00:00 UTC
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/workspaces/prj/2d-FD-porous/build/Eigen"
-MakeCommand: /usr/bin/cmake --build . --target buildtests --config "${CTEST_CONFIGURATION_TYPE}" -- -i 
+ConfigureCommand: "/data/data/com.termux/files/usr/bin/cmake" "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen"
+MakeCommand: /data/data/com.termux/files/usr/bin/cmake --build . --target buildtests --config "${CTEST_CONFIGURATION_TYPE}" -- -i 
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -35,22 +36,22 @@ UpdateVersionOnly:
 
 # CVS options
 # Default is "-d -P -A"
-CVSCommand: CVSCOMMAND-NOTFOUND
-CVSUpdateOptions: -d -A -P
+CVSCommand: 
+CVSUpdateOptions: 
 
 # Subversion options
-SVNCommand: SVNCOMMAND-NOTFOUND
+SVNCommand: 
 SVNOptions: 
 SVNUpdateOptions: 
 
 # Git options
-GITCommand: /usr/local/bin/git
+GITCommand: 
 GITInitSubmodules: 
 GITUpdateOptions: 
 GITUpdateCustom: 
 
 # Perforce options
-P4Command: P4COMMAND-NOTFOUND
+P4Command: 
 P4Client: 
 P4Options: 
 P4UpdateOptions: 
@@ -62,26 +63,26 @@ UpdateOptions:
 UpdateType: 
 
 # Compiler info
-Compiler: /usr/bin/c++
-CompilerVersion: 9.4.0
+Compiler: /data/data/com.termux/files/usr/bin/c++
+CompilerVersion: 17.0.6
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 
 ValgrindCommand: 
 ValgrindCommandOptions: 
+DrMemoryCommand: 
+DrMemoryCommandOptions: 
+CudaSanitizerCommand: 
+CudaSanitizerCommandOptions: 
 MemoryCheckType: 
 MemoryCheckSanitizerOptions: 
-MemoryCheckCommand: /usr/bin/valgrind
+MemoryCheckCommand: MEMORYCHECK_COMMAND-NOTFOUND
 MemoryCheckCommandOptions: 
 MemoryCheckSuppressionFile: 
 
 # Coverage
-CoverageCommand: /usr/bin/gcov
+CoverageCommand: COVERAGE_COMMAND-NOTFOUND
 CoverageExtraFlags: -l
-
-# Cluster commands
-SlurmBatchCommand: SLURM_SBATCH_COMMAND-NOTFOUND
-SlurmRunCommand: SLURM_SRUN_COMMAND-NOTFOUND
 
 # Testing options
 # TimeOut is the amount of time in seconds to wait for processes

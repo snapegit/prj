@@ -1,8 +1,8 @@
-# Install script for directory: /workspaces/prj/2d-FD-porous/build/Eigen/Eigen
+# Install script for directory: /data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/Eigen
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/workspaces/prj/2d-FD-porous/build/Eigen_install")
+  set(CMAKE_INSTALL_PREFIX "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen_install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Release")
+    set(CMAKE_INSTALL_CONFIG_NAME "RelWithDebInfo")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -29,7 +29,7 @@ endif()
 
 # Install shared libraries without execute permission?
 if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "1")
+  set(CMAKE_INSTALL_SO_NO_EXE "0")
 endif()
 
 # Is this installation the result of a crosscompile?
@@ -37,41 +37,46 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelx" OR NOT CMAKE_INSTALL_COMPONENT)
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/data/data/com.termux/files/usr/bin/llvm-objdump")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Devel" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/eigen3/Eigen" TYPE FILE FILES
-    "/workspaces/prj/2d-FD-porous/build/Eigen/Eigen/Cholesky"
-    "/workspaces/prj/2d-FD-porous/build/Eigen/Eigen/CholmodSupport"
-    "/workspaces/prj/2d-FD-porous/build/Eigen/Eigen/Core"
-    "/workspaces/prj/2d-FD-porous/build/Eigen/Eigen/Dense"
-    "/workspaces/prj/2d-FD-porous/build/Eigen/Eigen/Eigen"
-    "/workspaces/prj/2d-FD-porous/build/Eigen/Eigen/Eigenvalues"
-    "/workspaces/prj/2d-FD-porous/build/Eigen/Eigen/Geometry"
-    "/workspaces/prj/2d-FD-porous/build/Eigen/Eigen/Householder"
-    "/workspaces/prj/2d-FD-porous/build/Eigen/Eigen/IterativeLinearSolvers"
-    "/workspaces/prj/2d-FD-porous/build/Eigen/Eigen/Jacobi"
-    "/workspaces/prj/2d-FD-porous/build/Eigen/Eigen/LU"
-    "/workspaces/prj/2d-FD-porous/build/Eigen/Eigen/MetisSupport"
-    "/workspaces/prj/2d-FD-porous/build/Eigen/Eigen/OrderingMethods"
-    "/workspaces/prj/2d-FD-porous/build/Eigen/Eigen/PaStiXSupport"
-    "/workspaces/prj/2d-FD-porous/build/Eigen/Eigen/PardisoSupport"
-    "/workspaces/prj/2d-FD-porous/build/Eigen/Eigen/QR"
-    "/workspaces/prj/2d-FD-porous/build/Eigen/Eigen/QtAlignedMalloc"
-    "/workspaces/prj/2d-FD-porous/build/Eigen/Eigen/SPQRSupport"
-    "/workspaces/prj/2d-FD-porous/build/Eigen/Eigen/SVD"
-    "/workspaces/prj/2d-FD-porous/build/Eigen/Eigen/Sparse"
-    "/workspaces/prj/2d-FD-porous/build/Eigen/Eigen/SparseCholesky"
-    "/workspaces/prj/2d-FD-porous/build/Eigen/Eigen/SparseCore"
-    "/workspaces/prj/2d-FD-porous/build/Eigen/Eigen/SparseLU"
-    "/workspaces/prj/2d-FD-porous/build/Eigen/Eigen/SparseQR"
-    "/workspaces/prj/2d-FD-porous/build/Eigen/Eigen/StdDeque"
-    "/workspaces/prj/2d-FD-porous/build/Eigen/Eigen/StdList"
-    "/workspaces/prj/2d-FD-porous/build/Eigen/Eigen/StdVector"
-    "/workspaces/prj/2d-FD-porous/build/Eigen/Eigen/SuperLUSupport"
-    "/workspaces/prj/2d-FD-porous/build/Eigen/Eigen/UmfPackSupport"
+    "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/Eigen/Cholesky"
+    "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/Eigen/CholmodSupport"
+    "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/Eigen/Core"
+    "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/Eigen/Dense"
+    "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/Eigen/Eigen"
+    "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/Eigen/Eigenvalues"
+    "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/Eigen/Geometry"
+    "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/Eigen/Householder"
+    "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/Eigen/IterativeLinearSolvers"
+    "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/Eigen/Jacobi"
+    "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/Eigen/LU"
+    "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/Eigen/MetisSupport"
+    "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/Eigen/OrderingMethods"
+    "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/Eigen/PaStiXSupport"
+    "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/Eigen/PardisoSupport"
+    "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/Eigen/QR"
+    "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/Eigen/QtAlignedMalloc"
+    "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/Eigen/SPQRSupport"
+    "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/Eigen/SVD"
+    "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/Eigen/Sparse"
+    "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/Eigen/SparseCholesky"
+    "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/Eigen/SparseCore"
+    "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/Eigen/SparseLU"
+    "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/Eigen/SparseQR"
+    "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/Eigen/StdDeque"
+    "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/Eigen/StdList"
+    "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/Eigen/StdVector"
+    "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/Eigen/SuperLUSupport"
+    "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/Eigen/UmfPackSupport"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/eigen3/Eigen" TYPE DIRECTORY FILES "/workspaces/prj/2d-FD-porous/build/Eigen/Eigen/src" FILES_MATCHING REGEX "/[^/]*\\.h$")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Devel" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/eigen3/Eigen" TYPE DIRECTORY FILES "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/Eigen/src" FILES_MATCHING REGEX "/[^/]*\\.h$")
 endif()
 

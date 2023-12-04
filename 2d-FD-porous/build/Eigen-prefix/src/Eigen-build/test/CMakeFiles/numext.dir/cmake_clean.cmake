@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/numext.dir/numext.cpp.o"
+  "CMakeFiles/numext.dir/numext.cpp.o.d"
   "numext"
   "numext.pdb"
 )

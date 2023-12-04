@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_Cwise_boolean_xor.dir/compile_Cwise_boolean_xor.cpp.o"
+  "CMakeFiles/compile_Cwise_boolean_xor.dir/compile_Cwise_boolean_xor.cpp.o.d"
   "compile_Cwise_boolean_xor"
   "compile_Cwise_boolean_xor.pdb"
 )

@@ -142,6 +142,7 @@ matrix_square_root
 alignedvector3
 FFT
 EulerAngles
+mpreal_support
 sparse_extra
 polynomialsolver
 polynomialutils
@@ -171,9 +172,9 @@ targets_to_make=`echo "$TESTSLIST" | egrep "$1" | xargs echo`
 
 if [ -n "${EIGEN_MAKE_ARGS:+x}" ]
 then
-  /usr/bin/make $targets_to_make ${EIGEN_MAKE_ARGS}
+  /data/data/com.termux/files/usr/bin/make $targets_to_make ${EIGEN_MAKE_ARGS}
 else
-  /usr/bin/make $targets_to_make 
+  /data/data/com.termux/files/usr/bin/make $targets_to_make 
 fi
 exit $?
 

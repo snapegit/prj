@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_Cwise_cos.dir/compile_Cwise_cos.cpp.o"
+  "CMakeFiles/compile_Cwise_cos.dir/compile_Cwise_cos.cpp.o.d"
   "compile_Cwise_cos"
   "compile_Cwise_cos.pdb"
 )

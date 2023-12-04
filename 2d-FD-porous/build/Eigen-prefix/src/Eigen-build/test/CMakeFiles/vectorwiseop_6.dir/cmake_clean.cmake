@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/vectorwiseop_6.dir/vectorwiseop.cpp.o"
+  "CMakeFiles/vectorwiseop_6.dir/vectorwiseop.cpp.o.d"
   "vectorwiseop_6"
   "vectorwiseop_6.pdb"
 )

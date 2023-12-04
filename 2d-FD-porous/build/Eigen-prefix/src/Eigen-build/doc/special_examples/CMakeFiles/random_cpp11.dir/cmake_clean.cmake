@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/random_cpp11.dir/random_cpp11.cpp.o"
+  "CMakeFiles/random_cpp11.dir/random_cpp11.cpp.o.d"
   "random_cpp11"
   "random_cpp11.pdb"
 )

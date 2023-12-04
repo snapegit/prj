@@ -1,9 +1,9 @@
 
-set(CTEST_SOURCE_DIRECTORY  "/workspaces/prj/2d-FD-porous/build/Eigen")
-set(CTEST_BINARY_DIRECTORY  "/workspaces/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build")
+set(CTEST_SOURCE_DIRECTORY  "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen")
+set(CTEST_BINARY_DIRECTORY  "/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen-prefix/src/Eigen-build")
 set(CTEST_CMAKE_GENERATOR   "Unix Makefiles")
-set(CTEST_BUILD_NAME        "linux-6.2.0-1016-azure-_-9.4.0-sse2-64bit")
-set(CTEST_SITE              "codespaces-b43ec0")
+set(CTEST_BUILD_NAME        "android-5.10.136-android12-9-27100597-abs908bxxs6cwi1-clang++-17.0.6-sse2-64bit")
+set(CTEST_SITE              "localhost")
 
 set(MODEL Experimental)
 if(${CTEST_SCRIPT_ARG} MATCHES Nightly)

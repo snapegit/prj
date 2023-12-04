@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_MatrixBase_diagonal_template_int.dir/compile_MatrixBase_diagonal_template_int.cpp.o"
+  "CMakeFiles/compile_MatrixBase_diagonal_template_int.dir/compile_MatrixBase_diagonal_template_int.cpp.o.d"
   "compile_MatrixBase_diagonal_template_int"
   "compile_MatrixBase_diagonal_template_int.pdb"
 )

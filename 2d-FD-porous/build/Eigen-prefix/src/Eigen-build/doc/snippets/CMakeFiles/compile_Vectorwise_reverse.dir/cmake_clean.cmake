@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_Vectorwise_reverse.dir/compile_Vectorwise_reverse.cpp.o"
+  "CMakeFiles/compile_Vectorwise_reverse.dir/compile_Vectorwise_reverse.cpp.o.d"
   "compile_Vectorwise_reverse"
   "compile_Vectorwise_reverse.pdb"
 )

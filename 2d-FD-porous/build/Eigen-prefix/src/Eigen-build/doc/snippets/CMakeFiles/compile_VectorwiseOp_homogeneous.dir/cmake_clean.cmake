@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_VectorwiseOp_homogeneous.dir/compile_VectorwiseOp_homogeneous.cpp.o"
+  "CMakeFiles/compile_VectorwiseOp_homogeneous.dir/compile_VectorwiseOp_homogeneous.cpp.o.d"
   "compile_VectorwiseOp_homogeneous"
   "compile_VectorwiseOp_homogeneous.pdb"
 )

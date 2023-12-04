@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/bdcsvd_10.dir/bdcsvd.cpp.o"
+  "CMakeFiles/bdcsvd_10.dir/bdcsvd.cpp.o.d"
   "bdcsvd_10"
   "bdcsvd_10.pdb"
 )

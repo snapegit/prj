@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/unalignedassert_1.dir/unalignedassert.cpp.o"
+  "CMakeFiles/unalignedassert_1.dir/unalignedassert.cpp.o.d"
   "unalignedassert_1"
   "unalignedassert_1.pdb"
 )

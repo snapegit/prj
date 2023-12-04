@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/selfadjoint_1.dir/selfadjoint.cpp.o"
+  "CMakeFiles/selfadjoint_1.dir/selfadjoint.cpp.o.d"
   "selfadjoint_1"
   "selfadjoint_1.pdb"
 )

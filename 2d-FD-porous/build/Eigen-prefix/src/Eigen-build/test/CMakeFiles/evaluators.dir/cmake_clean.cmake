@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/evaluators.dir/evaluators.cpp.o"
+  "CMakeFiles/evaluators.dir/evaluators.cpp.o.d"
   "evaluators"
   "evaluators.pdb"
 )

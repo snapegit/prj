@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/dynalloc.dir/dynalloc.cpp.o"
+  "CMakeFiles/dynalloc.dir/dynalloc.cpp.o.d"
   "dynalloc"
   "dynalloc.pdb"
 )

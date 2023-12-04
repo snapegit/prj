@@ -1,26 +1,26 @@
-//#include <Eigen/Sparse>
-#include "./build/Eigen/Eigen/Sparse"
+#include <Eigen/Sparse>
+//#include "./build/Eigen/Eigen/Sparse"
 #include <iostream>
 #include "writer.hpp"
 #include <cmath>
-//#include <Eigen/SparseCholesky>
-#include "./build/Eigen/Eigen/SparseCholesky"
+#include <Eigen/SparseCholesky>
+//#include "./build/Eigen/Eigen/SparseCholesky"
 #include <stdexcept>
 #include <iostream>
 
 
-/* typedef creates type aliases, here member functios of the eigen library
-no new structs or types, only giving things new names */
+// typedef creates type aliases, here member functios of the eigen library
+// no new structs or types, only giving things new names
 
 //! Sparse Matrix type. Makes using this type easier.
 typedef Eigen::SparseMatrix<double> SparseMatrix;
 
 //! Used for filling the sparse matrix.
 typedef Eigen::Triplet<double> Triplet;
-/* snippet from the Eigen documentation:
-class Eigen::Triplet< Scalar, StorageIndex >
-A small structure to hold a non zero as a triplet (i,j,value)
-see documentation: usage example to populate a SparseMatrix with Triplets*/ 
+// snippet from the Eigen documentation:
+// class Eigen::Triplet< Scalar, StorageIndex >
+// A small structure to hold a non zero as a triplet (i,j,value)
+// see documentation: usage example to populate a SparseMatrix with Triplets
 
 //! Vector type
 typedef Eigen::VectorXd Vector;
@@ -47,12 +47,16 @@ double y(int j, double dx){
     double index = j;
     // calculate coordinate, incl. frame of zeros
     return (index+1)*dx;
-}
 // function to calculate entries on the main diagonal of A
 double S(int i,int j, FunctionPointer s, double dx){
-    return s(x(i+0.5,dx),y(j,dx))+s(x(i-0.5,dx),y(j,dx))+s(x(i,dx),y(j+0.5,dx))+s(x(i,dx),y(j-0.5,dx));
+    return sigma(x(i+0.5,dx),y(j,dx))+sigma(x(i-0.5,dx),y(j,dx))+sigma(x(i,dx),y(j+0.5,dx))+sigma(x(i,dx),y(j-0.5,dx));
 }
+// lambda function to calculate entries on the main diagonal of A
+auto S = [&](int i,int j, FunctionPointer sigma){
+    return sigma(x(i+0.5),y(j))+sigma(x(i-0.5),y(j))+sigma(x(i),y(j+0.5))+sigma(x(i),y(j-0.5));
+};
 */
+
 
 //----------------poissonBegin----------------
 //! Create the Poisson matrix for 2D finite difference.
@@ -62,51 +66,53 @@ void createPorousMediaMatrix2D(SparseMatrix& A, FunctionPointer sigma, int N, do
     std::vector<Triplet> triplets;
     A.resize(N*N, N*N);
     triplets.reserve(5*N*N-4*N);
-    // short-hand notation for \sigma(x,y)=:s
-    FunctionPointer s=sigma;
-    /* **1 see info above
-     * lambda functions are necessary because function defintions
-     * within functions are not allowed
-     * passing the parameters of lambda functions by reference */
+
+// begin my solution---------------------------------------------------------------------------------
+    // **1 see info above
+    // lambda functions are necessary because function defintions
+    // within functions are not allowed
+    // passing the parameters of lambda functions by reference
     // function to calculate actual x-coordinate from the index
-    auto x = [&](int i){
-    	return (static_cast<double>(i)+1)*dx;
+    auto x = [&](double i) {// hiden type converions for i int=>double
+        return (i+1) * dx;
     };
     // function to calculate actual y-coordinate from the index
-    auto y = [&](int j){
-	return (static_cast<double>(j)+1)*dx;
+    auto y = [&](double j) {// hiden type converions for j int=>double
+        return (j+1) * dx;
     };
-    // function to calculate entries on the main diagonal of A
-    auto S = [&](int i,int j, FunctionPointer s){
-	return s(x(i+0.5),y(j))+s(x(i-0.5),y(j))+s(x(i),y(j+0.5))+s(x(i),y(j-0.5));
-    };
-    /* The A-matrix is a sparse matrix which is tridiagonal along its main diagonal
-     * all other N\times N sub-matrices are diagonal */
-   
+    // The matrix A is a sparse matrix which is tridiagonal along its main diagonal
+    // all other N\times N sub-matrices are diagonal
     // populate Triplets with indices and computes values for \sigma_{ij}
     // each iteration of j advances N rows down in the A matrix
-    for(int j=0; j<N;++j){
-    	// each iteration of i advances one  individual column to the right of the A matrix
-	for(int i=0; i<N; ++i){
-		// main diagonal of the A matrix is described by N*j+i
-		// if conditions to avoid access outside the boundaries
-		int diagIndex=N*j+i;
-	 	// S_{ij} on main diagonal of A
-		triplets.push_back(Triplet(diagIndex, diagIndex, S(i,j,s)));
-		if(i != N-1){// diagnoal above main diagonal of A
-			triplets.push_back(Triplet(diagIndex, diagIndex+1, -s(x(i+0.5),y(j))));
-		}
-		if(i != 0){// diagonal below main diagonal of A
-			triplets.push_back(Triplet(diagIndex+1, diagIndex, -s(x(i-0.5),y(j))));
-		}
-		if(j < N-1){// entries of diagonal sub-matrices next to main diagonal
-			triplets.push_back(Triplet(diagIndex, diagIndex+N, s(x(i),y(j+0.5))));
-		}
-        }    
+    for(int j = 0; j < N; ++j) {
+        // each iteration of i advances one individual column to the right of the A matrix
+        for (int i = 0; i < N; ++i) {
+            // calculate entries S_{ij} on main diagonal of A
+            double S = (sigma(x(i-0.5), y(j))+sigma (x(i+0.5), y(j)) +
+                        sigma(x(i), y(j-0.5))+sigma (x(i), y(j+0.5)) );
+            // "global" main diagonal of the A matrix 
+            // if conditions to avoid access outside the boundaries
+            int diagonalIndex = j*N + i;
+             // calculate diagonal entries	
+            triplets.push_back(Triplet(diagonalIndex, diagonalIndex, S));
+            if (i != 0) {// diagonal below main diagonal of A
+                triplets.push_back(Triplet(diagonalIndex, diagonalIndex-1,-sigma(x(i-0.5), y(j))));
+            }
+            if (i != N - 1) {// diagonal above main diagonal of A
+                triplets.push_back(Triplet(diagonalIndex, diagonalIndex+1,-sigma(x(i+0.5), y(j))));
+            }
+            if (j < N-1) {// entries of diagonal sub-matrices next to main diagonal for i+0.5
+                triplets.push_back(Triplet(diagonalIndex, diagonalIndex + N, -sigma(x(i), y(j+0.5))));
+            }
+            if (j >= 1) {// entries of diagonal sub-matrices next to main diagonal for i-0.5
+                triplets.push_back(Triplet(diagonalIndex, diagonalIndex - N, -sigma(x(i), y(j-0.5))));
+            }
+        }
     }
-    /* .setFromTriplets is a member funciton of Eigen::SparseMatrix
-     * expects a list/vector of triplets to populate matrix A which
-     * is a Eigen::SparseMatrix, Eigen documentation */
+    // .setFromTriplets is a member funciton of Eigen::SparseMatrix
+    // expects a list/vector of triplets to populate matrix A which
+    // is a Eigen::SparseMatrix, Eigen documentation
+// end my solution---------------------------------------------------------------------------------
     A.setFromTriplets(triplets.begin(), triplets.end());
 }
 //----------------poissonEnd----------------
@@ -143,10 +149,11 @@ Vector poissonSolve(FunctionPointer f, FunctionPointer sigma, int N) {
 
     // Compute A, rhs and u
 
-    /* declaration, unititialized objects
-     * sparse matrix using a specialized type from the Eigen library
-     * right hand side =  residual function "Störfunktion" evaluated
-     * at points of discretized domain = mesh */
+// begin my solution---------------------------------------------------------------------------------
+    // declaration, unititialized objects
+    // sparse matrix using a specialized type from the Eigen library
+    // right hand side =  source term "Störfunktion" evaluated
+    // at points of discretized domain = mesh
     SparseMatrix A; // see typedef, alias for Eigen:SparseMatrix<double>
     Vector RHS; // right hand side of SLE
     // call function to populate A
@@ -154,43 +161,43 @@ Vector poissonSolve(FunctionPointer f, FunctionPointer sigma, int N) {
     // create right-hand-side of SLE
     createRHS(RHS, f, N, dx);
        
-    /* using library function of Eigen to solve system of linear equations SLE
-     * computationally efficient => LU-decomposition
-     * engl. LU-decomposition <=> ger. LR-Zerlegung
-     * A = L*U */
+    // using library function of Eigen to solve system of linear equations SLE
+    // computationally efficient => LU-decomposition
+    // engl. LU-decomposition <=> ger. LR-Zerlegung
+    // A = L*U
     // declare variable which stores LU-decomp using specialized type of Eigen library
     Eigen::SparseLU<SparseMatrix> LUdecomp;
     // call memberfunction SparseLU (optimized for sparse matrices) to calculate LU-decomp
     LUdecomp.compute(A);
    
-   // resize u vector, +2 necessary to cover frame of zeros => Dirichlet BC
-   u.resize((N+2)*(N+2));
-   /* initialize u vetor with zeros, values which corrspond to the zero boundary would
-    * otherwise stay unininitialized => unexpected behaviour */
-   u.setZero();
+    // resize u vector, +2 necessary to cover frame of zeros => Dirichlet BC
+    u.resize((N+2)*(N+2));
+    // initialize u vetor with zeros, values which corrspond to the zero boundary would
+    // otherwise stay unininitialized => unexpected behaviour
+    u.setZero();
    
-   /* matrix was only populated for values excluding the zero boundary, hence the vector
-    * uWithoutBoundary only stores values of u in the grid wihtout the zero boundary
-    * LinAlg: LU-decomp is analytically solved in two steps
-    * 1.) Ly = RHS, solve for y
-    * 2.) U*u = y, solve for u which is the sought after solution
-    * numerical advantage of this method: L and U are upper-/lower-diagonal 
-    * Eigen executes these two steps implicitly at once when calling the .solve member function
-    * on an object of type Eigen::SparseLU with the RHS of the equation as an argument */
-   Vector uWithoutBoundary = LUdecomp.solve(RHS);
+    // matrix was only populated for values excluding the zero boundary, hence the vector
+    // uWithoutBoundary only stores values of u in the grid wihtout the zero boundary
+    // LinAlg: LU-decomp is analytically solved in two steps
+    // 1.) Ly = RHS, solve for y
+    // 2.) U*u = y, solve for u which is the sought after solution
+    // numerical advantage of this method: L and U are upper-/lower-diagonal 
+    // Eigen executes these two steps implicitly at once when calling the .solve member function
+    // on an object of type Eigen::SparseLU with the RHS of the equation as an argument
+    Vector uWithoutBoundary = LUdecomp.solve(RHS);
 
-   /* expand u from size (N*N) without the values on the boundary to size (N+2)(N+2)
-    * with zeros on the boundary => DIRICHLET boundary condition 
-    * sequence: 0 followed by N values followd by a 0 etc.
-    * only the non-zero elements of u are traversed in the following for loops
-    * all zeros were already set during initialisation */
-   for(int i=1; i < N+1; ++i){
-   	for(int j=1; j < N+1; ++j){
+    // expand u from size (N*N) without the values on the boundary to size (N+2)(N+2)
+    // with zeros on the boundary => DIRICHLET boundary condition 
+    // sequence: 0 followed by N values followd by a 0 etc.
+    // only the non-zero elements of u are traversed in the following for loops
+    // all zeros were already set during initialisation
+    for(int i=1; i < N+1; ++i){
+        for(int j=1; j < N+1; ++j){
 		// address vector elements using brackets
 		u[i*(N+2)+j] = uWithoutBoundary[(i-1)*N+j-1];
 	}
    }
-
+// end my solution---------------------------------------------------------------------------------
    return u;
 }
 //----------------solveEnd----------------
@@ -203,10 +210,10 @@ double F(double x, double y) {
 //----------------convergenceBegin----------------
 //! Gives the exact solution at the point x,y
 double exactSolution(double x, double y) {
-//------------my solution--------------------------------------
+// begin my solution---------------------------------------------------------------------------------
 // exact solution is given in problem description
-//return sin(2*M_PI*x)*sin(2*M_PI*y);
-return 0; //remove when implemented
+    return sin(2*M_PI*x)*sin(2*M_PI*y);
+// end my solution-----------------------------------------------------------------------------------
 }
 
 
@@ -221,10 +228,10 @@ void convergeStudy(FunctionPointer F, FunctionPointer sigma) {
     for (int k = startK; k < endK; ++k) {
         const int N = 1<<k; // 2^k
 
-	//-------------my solution-------------------------------------------
+// begin my solution---------------------------------------------------------------------------------
         Vector u =  poissonSolve(F, sigma, N);
-	/* define vectors holding the indices along x and y
-	 * +2 to include the zero boundary */
+	// define vectors holding the indices along x and y
+	// +2 to include the zero boundary
       	Vector X(N+2);
 	Vector Y(N+2);
 	// populate x-axis with indices
@@ -235,23 +242,28 @@ void convergeStudy(FunctionPointer F, FunctionPointer sigma) {
 	for (int j = 0; j < N + 2; ++j) {
     		Y(j) = static_cast<double>(j) / (N+1);
 	}
-	double maxErr = 0;
+	double maxError = 0;
 	for (int i = 0; i < N+2; ++i) {//iterate over x-axis
 	    for (int j = 0; j < N+2; ++j) {//iterate over y-axis
-		double abs=u(j*(N+2));
-		if(abs<0){
-			abs=(-1)*abs;
-		}
-                double localErr = abs-exactSolution(X(i),Y(j));
-		if( maxErr < localErr){
-			maxErr = localErr;
-		}
+                // evaluate u
+                double abs = u(j * (N + 2) + i);
+                // calculate local error
+                double localErr = abs - exactSolution(X(i), Y(j));
+                // take absolute value of local error
+                if (localErr < 0) {
+                    localErr = -localErr;
+                }
+                // find maximum of absolute local error
+                if (maxError < localErr) {
+                    maxError = localErr;
+                }
             }
         }
-        errors[k-startK] = maxErr;
+// end my solution--------------------------------------------------------------------------------- 
+        errors[k-startK] = maxError;
         resolutions[k-startK] = N;
     }
-    writeToFile("errors.txt", errors);
+   writeToFile("errors.txt", errors);
     writeToFile("resolutions.txt", resolutions);
 }
 //----------------convergenceEnd----------------
@@ -269,7 +281,3 @@ int main(int, char**) {
 
     convergeStudy(F, sigmaCos);
 }
-
-
-
-

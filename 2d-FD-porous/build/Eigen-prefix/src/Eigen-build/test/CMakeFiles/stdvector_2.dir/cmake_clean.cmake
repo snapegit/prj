@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/stdvector_2.dir/stdvector.cpp.o"
+  "CMakeFiles/stdvector_2.dir/stdvector.cpp.o.d"
   "stdvector_2"
   "stdvector_2.pdb"
 )

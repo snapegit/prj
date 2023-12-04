@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/miscmatrices_4.dir/miscmatrices.cpp.o"
+  "CMakeFiles/miscmatrices_4.dir/miscmatrices.cpp.o.d"
   "miscmatrices_4"
   "miscmatrices_4.pdb"
 )

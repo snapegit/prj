@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/geo_quaternion_6.dir/geo_quaternion.cpp.o"
+  "CMakeFiles/geo_quaternion_6.dir/geo_quaternion.cpp.o.d"
   "geo_quaternion_6"
   "geo_quaternion_6.pdb"
 )

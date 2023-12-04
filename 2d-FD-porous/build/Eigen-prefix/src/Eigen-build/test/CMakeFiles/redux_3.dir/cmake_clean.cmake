@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/redux_3.dir/redux.cpp.o"
+  "CMakeFiles/redux_3.dir/redux.cpp.o.d"
   "redux_3"
   "redux_3.pdb"
 )

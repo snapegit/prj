@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/unalignedcount.dir/unalignedcount.cpp.o"
+  "CMakeFiles/unalignedcount.dir/unalignedcount.cpp.o.d"
   "unalignedcount"
   "unalignedcount.pdb"
 )

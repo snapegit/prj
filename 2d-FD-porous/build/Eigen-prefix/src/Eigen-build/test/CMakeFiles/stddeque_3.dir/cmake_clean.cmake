@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/stddeque_3.dir/stddeque.cpp.o"
+  "CMakeFiles/stddeque_3.dir/stddeque.cpp.o.d"
   "stddeque_3"
   "stddeque_3.pdb"
 )

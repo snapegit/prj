@@ -192,6 +192,54 @@ test_crank_nicolson.cpp.s:
 	cd /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/test_crank_nicolson.cpp.s
 .PHONY : test_crank_nicolson.cpp.s
 
+test_create_poisson_matrix.o: test_create_poisson_matrix.cpp.o
+.PHONY : test_create_poisson_matrix.o
+
+# target to build an object file
+test_create_poisson_matrix.cpp.o:
+	cd /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/test_create_poisson_matrix.cpp.o
+.PHONY : test_create_poisson_matrix.cpp.o
+
+test_create_poisson_matrix.i: test_create_poisson_matrix.cpp.i
+.PHONY : test_create_poisson_matrix.i
+
+# target to preprocess a source file
+test_create_poisson_matrix.cpp.i:
+	cd /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/test_create_poisson_matrix.cpp.i
+.PHONY : test_create_poisson_matrix.cpp.i
+
+test_create_poisson_matrix.s: test_create_poisson_matrix.cpp.s
+.PHONY : test_create_poisson_matrix.s
+
+# target to generate assembly for a file
+test_create_poisson_matrix.cpp.s:
+	cd /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/test_create_poisson_matrix.cpp.s
+.PHONY : test_create_poisson_matrix.cpp.s
+
+test_forward_euler.o: test_forward_euler.cpp.o
+.PHONY : test_forward_euler.o
+
+# target to build an object file
+test_forward_euler.cpp.o:
+	cd /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/test_forward_euler.cpp.o
+.PHONY : test_forward_euler.cpp.o
+
+test_forward_euler.i: test_forward_euler.cpp.i
+.PHONY : test_forward_euler.i
+
+# target to preprocess a source file
+test_forward_euler.cpp.i:
+	cd /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/test_forward_euler.cpp.i
+.PHONY : test_forward_euler.cpp.i
+
+test_forward_euler.s: test_forward_euler.cpp.s
+.PHONY : test_forward_euler.s
+
+# target to generate assembly for a file
+test_forward_euler.cpp.s:
+	cd /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/test_forward_euler.cpp.s
+.PHONY : test_forward_euler.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -208,6 +256,12 @@ help:
 	@echo "... test_crank_nicolson.o"
 	@echo "... test_crank_nicolson.i"
 	@echo "... test_crank_nicolson.s"
+	@echo "... test_create_poisson_matrix.o"
+	@echo "... test_create_poisson_matrix.i"
+	@echo "... test_create_poisson_matrix.s"
+	@echo "... test_forward_euler.o"
+	@echo "... test_forward_euler.i"
+	@echo "... test_forward_euler.s"
 .PHONY : help
 
 

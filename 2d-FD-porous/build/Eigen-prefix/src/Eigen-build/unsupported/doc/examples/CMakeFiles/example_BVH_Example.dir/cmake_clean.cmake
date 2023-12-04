@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/example_BVH_Example.dir/BVH_Example.cpp.o"
+  "CMakeFiles/example_BVH_Example.dir/BVH_Example.cpp.o.d"
   "example_BVH_Example"
   "example_BVH_Example.pdb"
 )

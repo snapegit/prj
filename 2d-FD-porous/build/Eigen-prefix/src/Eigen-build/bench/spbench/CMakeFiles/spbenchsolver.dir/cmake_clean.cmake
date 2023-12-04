@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/spbenchsolver.dir/spbenchsolver.cpp.o"
+  "CMakeFiles/spbenchsolver.dir/spbenchsolver.cpp.o.d"
   "spbenchsolver"
   "spbenchsolver.pdb"
 )

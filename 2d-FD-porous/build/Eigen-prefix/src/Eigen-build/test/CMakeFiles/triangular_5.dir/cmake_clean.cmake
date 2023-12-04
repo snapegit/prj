@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/triangular_5.dir/triangular.cpp.o"
+  "CMakeFiles/triangular_5.dir/triangular.cpp.o.d"
   "triangular_5"
   "triangular_5.pdb"
 )

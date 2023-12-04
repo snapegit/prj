@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/fastmath.dir/fastmath.cpp.o"
+  "CMakeFiles/fastmath.dir/fastmath.cpp.o.d"
   "fastmath"
   "fastmath.pdb"
 )

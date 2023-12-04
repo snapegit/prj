@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/finite_difference.dir/finite_difference.cpp.o"
+  "CMakeFiles/finite_difference.dir/finite_difference.cpp.o.d"
   "finite_difference"
   "finite_difference.pdb"
 )

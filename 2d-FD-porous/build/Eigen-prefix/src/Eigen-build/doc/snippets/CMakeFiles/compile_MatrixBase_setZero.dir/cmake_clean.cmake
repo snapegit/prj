@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compile_MatrixBase_setZero.dir/compile_MatrixBase_setZero.cpp.o"
+  "CMakeFiles/compile_MatrixBase_setZero.dir/compile_MatrixBase_setZero.cpp.o.d"
   "compile_MatrixBase_setZero"
   "compile_MatrixBase_setZero.pdb"
 )
