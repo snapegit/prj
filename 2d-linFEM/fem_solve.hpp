@@ -83,7 +83,7 @@ int solveFiniteElement(Vector& u,
     auto startSolve = std::chrono::high_resolution_clock::now();
     //initialize solver for AInterior
 // begin my solution---------------------------------------------------------
-    /* SimplicialLDLT instantiates an object here called solver to store
+    /* SimplicialLDLT instantiates an object, here called solver to store
      * the LDL^{T} decomposition of AInterior, library function of Eigen, see doc
      * L...lower diagnoal, L^{T}...transpose of L
      * D...diagnoal matrix

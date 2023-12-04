@@ -168,29 +168,29 @@ main.cpp.s:
 	cd /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-test_forward_euler.o: test_forward_euler.cpp.o
-.PHONY : test_forward_euler.o
+test_crank_nicolson.o: test_crank_nicolson.cpp.o
+.PHONY : test_crank_nicolson.o
 
 # target to build an object file
-test_forward_euler.cpp.o:
-	cd /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/test_forward_euler.cpp.o
-.PHONY : test_forward_euler.cpp.o
+test_crank_nicolson.cpp.o:
+	cd /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/test_crank_nicolson.cpp.o
+.PHONY : test_crank_nicolson.cpp.o
 
-test_forward_euler.i: test_forward_euler.cpp.i
-.PHONY : test_forward_euler.i
+test_crank_nicolson.i: test_crank_nicolson.cpp.i
+.PHONY : test_crank_nicolson.i
 
 # target to preprocess a source file
-test_forward_euler.cpp.i:
-	cd /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/test_forward_euler.cpp.i
-.PHONY : test_forward_euler.cpp.i
+test_crank_nicolson.cpp.i:
+	cd /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/test_crank_nicolson.cpp.i
+.PHONY : test_crank_nicolson.cpp.i
 
-test_forward_euler.s: test_forward_euler.cpp.s
-.PHONY : test_forward_euler.s
+test_crank_nicolson.s: test_crank_nicolson.cpp.s
+.PHONY : test_crank_nicolson.s
 
 # target to generate assembly for a file
-test_forward_euler.cpp.s:
-	cd /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/test_forward_euler.cpp.s
-.PHONY : test_forward_euler.cpp.s
+test_crank_nicolson.cpp.s:
+	cd /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build && $(MAKE) $(MAKESILENT) -f unittest/CMakeFiles/unittest.dir/build.make unittest/CMakeFiles/unittest.dir/test_crank_nicolson.cpp.s
+.PHONY : test_crank_nicolson.cpp.s
 
 # Help Target
 help:
@@ -205,9 +205,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... test_forward_euler.o"
-	@echo "... test_forward_euler.i"
-	@echo "... test_forward_euler.s"
+	@echo "... test_crank_nicolson.o"
+	@echo "... test_crank_nicolson.i"
+	@echo "... test_crank_nicolson.s"
 .PHONY : help
 
 

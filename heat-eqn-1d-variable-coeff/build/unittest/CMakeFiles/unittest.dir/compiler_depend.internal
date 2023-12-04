@@ -762,8 +762,8 @@ unittest/CMakeFiles/unittest.dir/main.cpp.o
  /data/data/com.termux/files/usr/lib/clang/17/include/stddef.h
  /data/data/com.termux/files/usr/lib/clang/17/include/stdint.h
 
-unittest/CMakeFiles/unittest.dir/test_forward_euler.cpp.o
- /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/unittest/test_forward_euler.cpp
+unittest/CMakeFiles/unittest.dir/test_crank_nicolson.cpp.o
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/unittest/test_crank_nicolson.cpp
  /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/base_template/include/boundaries.hpp
  /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/base_template/include/coefficient_functions.hpp
  /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/Cholesky
@@ -772,10 +772,17 @@ unittest/CMakeFiles/unittest.dir/test_forward_euler.cpp.o
  /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/Eigenvalues
  /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/Geometry
  /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/Householder
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/IterativeLinearSolvers
  /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/Jacobi
  /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/LU
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/OrderingMethods
  /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/QR
  /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/SVD
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/Sparse
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/SparseCholesky
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/SparseCore
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/SparseLU
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/SparseQR
  /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/Cholesky/LDLT.h
  /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/Cholesky/LLT.h
  /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h
@@ -922,11 +929,23 @@ unittest/CMakeFiles/unittest.dir/test_forward_euler.cpp.o
  /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
  /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/Householder/Householder.h
  /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/IterativeLinearSolvers/IterativeSolverBase.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/IterativeLinearSolvers/LeastSquareConjugateGradient.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/IterativeLinearSolvers/SolveWithGuess.h
  /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/Jacobi/Jacobi.h
  /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/LU/Determinant.h
  /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/LU/FullPivLU.h
  /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/LU/InverseImpl.h
  /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/LU/PartialPivLU.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/Core/util/NonMPL2.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/OrderingMethods/Amd.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
  /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h
  /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h
  /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h
@@ -935,6 +954,62 @@ unittest/CMakeFiles/unittest.dir/test_forward_euler.cpp.o
  /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SVD/JacobiSVD.h
  /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SVD/SVDBase.h
  /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/Core/util/NonMPL2.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/plugins/BlockMethods.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseCore/AmbiVector.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseCore/CompressedStorage.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseCore/MappedSparseMatrix.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseAssign.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseBlock.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseColEtree.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseCompressedBase.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseCwiseBinaryOp.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseCwiseUnaryOp.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseDenseProduct.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseDiagonalProduct.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseDot.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseFuzzy.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseMap.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseMatrix.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseMatrixBase.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseProduct.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseRedux.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseRef.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseSelfAdjointView.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseSolverBase.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseSparseProductWithPruning.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseTranspose.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseTriangularView.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseUtil.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseVector.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseCore/SparseView.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseCore/TriangularSolver.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLUImpl.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_Memory.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_Structs.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_SupernodalMatrix.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_Utils.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_column_bmod.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_column_dfs.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_copy_to_ucol.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_gemm_kernel.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_heap_relax_snode.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_kernel_bmod.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_bmod.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_dfs.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_pivotL.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_pruneL.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseLU/SparseLU_relax_snode.h
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/SparseQR/SparseQR.h
  /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/misc/Image.h
  /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/misc/Kernel.h
  /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/Eigen_install/include/eigen3/Eigen/src/misc/RealSvd2x2.h
@@ -959,7 +1034,8 @@ unittest/CMakeFiles/unittest.dir/test_forward_euler.cpp.o
  /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/unittest/gtest_source/googletest/include/gtest/internal/gtest-port.h
  /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/unittest/gtest_source/googletest/include/gtest/internal/gtest-string.h
  /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/build/unittest/gtest_source/googletest/include/gtest/internal/gtest-type-util.h
- /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/include/forward_euler.hpp
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/include/crank_nicolson.hpp
+ /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/include/create_poisson_matrix.hpp
  /data/data/com.termux/files/usr/include/aarch64-linux-android/asm/bitsperlong.h
  /data/data/com.termux/files/usr/include/aarch64-linux-android/asm/errno.h
  /data/data/com.termux/files/usr/include/aarch64-linux-android/asm/fcntl.h
@@ -1618,6 +1694,7 @@ unittest/CMakeFiles/unittest.dir/test_forward_euler.cpp.o
  /data/data/com.termux/files/usr/include/c++/v1/iterator
  /data/data/com.termux/files/usr/include/c++/v1/limits
  /data/data/com.termux/files/usr/include/c++/v1/limits.h
+ /data/data/com.termux/files/usr/include/c++/v1/list
  /data/data/com.termux/files/usr/include/c++/v1/locale
  /data/data/com.termux/files/usr/include/c++/v1/locale.h
  /data/data/com.termux/files/usr/include/c++/v1/map

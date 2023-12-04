@@ -104,6 +104,9 @@ void createPorousMediaMatrix2D(SparseMatrix& A, FunctionPointer sigma, int N, do
 		}
         }    
     }
+    /* .setFromTriplets is a member funciton of Eigen::SparseMatrix
+     * expects a list/vector of triplets to populate matrix A which
+     * is a Eigen::SparseMatrix, Eigen documentation */
     A.setFromTriplets(triplets.begin(), triplets.end());
 }
 //----------------poissonEnd----------------
