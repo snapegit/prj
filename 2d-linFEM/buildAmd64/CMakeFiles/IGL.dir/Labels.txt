@@ -1,0 +1,13 @@
+# Target labels
+ IGL
+# Source files and their labels
+/workspaces/prj/2d-linFEM/buildAmd64/CMakeFiles/IGL
+/workspaces/prj/2d-linFEM/buildAmd64/CMakeFiles/IGL.rule
+/workspaces/prj/2d-linFEM/buildAmd64/CMakeFiles/IGL-complete.rule
+/workspaces/prj/2d-linFEM/buildAmd64/IGL-prefix/src/IGL-stamp/IGL-install.rule
+/workspaces/prj/2d-linFEM/buildAmd64/IGL-prefix/src/IGL-stamp/IGL-mkdir.rule
+/workspaces/prj/2d-linFEM/buildAmd64/IGL-prefix/src/IGL-stamp/IGL-download.rule
+/workspaces/prj/2d-linFEM/buildAmd64/IGL-prefix/src/IGL-stamp/IGL-update.rule
+/workspaces/prj/2d-linFEM/buildAmd64/IGL-prefix/src/IGL-stamp/IGL-patch.rule
+/workspaces/prj/2d-linFEM/buildAmd64/IGL-prefix/src/IGL-stamp/IGL-configure.rule
+/workspaces/prj/2d-linFEM/buildAmd64/IGL-prefix/src/IGL-stamp/IGL-build.rule

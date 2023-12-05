@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/workspaces/prj/2d-linFEM/buildAmd64/Eigen/test/miscmatrices.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "miscmatrices_2"
+	}
+}

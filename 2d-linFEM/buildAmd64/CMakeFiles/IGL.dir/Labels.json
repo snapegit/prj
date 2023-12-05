@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/workspaces/prj/2d-linFEM/buildAmd64/CMakeFiles/IGL"
+		},
+		{
+			"file" : "/workspaces/prj/2d-linFEM/buildAmd64/CMakeFiles/IGL.rule"
+		},
+		{
+			"file" : "/workspaces/prj/2d-linFEM/buildAmd64/CMakeFiles/IGL-complete.rule"
+		},
+		{
+			"file" : "/workspaces/prj/2d-linFEM/buildAmd64/IGL-prefix/src/IGL-stamp/IGL-install.rule"
+		},
+		{
+			"file" : "/workspaces/prj/2d-linFEM/buildAmd64/IGL-prefix/src/IGL-stamp/IGL-mkdir.rule"
+		},
+		{
+			"file" : "/workspaces/prj/2d-linFEM/buildAmd64/IGL-prefix/src/IGL-stamp/IGL-download.rule"
+		},
+		{
+			"file" : "/workspaces/prj/2d-linFEM/buildAmd64/IGL-prefix/src/IGL-stamp/IGL-update.rule"
+		},
+		{
+			"file" : "/workspaces/prj/2d-linFEM/buildAmd64/IGL-prefix/src/IGL-stamp/IGL-patch.rule"
+		},
+		{
+			"file" : "/workspaces/prj/2d-linFEM/buildAmd64/IGL-prefix/src/IGL-stamp/IGL-configure.rule"
+		},
+		{
+			"file" : "/workspaces/prj/2d-linFEM/buildAmd64/IGL-prefix/src/IGL-stamp/IGL-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"IGL"
+		],
+		"name" : "IGL"
+	}
+}

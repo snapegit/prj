@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/workspaces/prj/2d-linFEM/buildAmd64/Eigen/test/diagonalmatrices.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "diagonalmatrices_8"
+	}
+}

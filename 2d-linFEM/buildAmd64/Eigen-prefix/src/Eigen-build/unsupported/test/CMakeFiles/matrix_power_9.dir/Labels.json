@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/workspaces/prj/2d-linFEM/buildAmd64/Eigen/unsupported/test/matrix_power.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildUnsupported"
+		],
+		"name" : "matrix_power_9"
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/workspaces/prj/2d-linFEM/buildAmd64/Eigen/unsupported/test/EulerAngles.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildUnsupported"
+		],
+		"name" : "EulerAngles_1"
+	}
+}

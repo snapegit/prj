@@ -1,0 +1,9 @@
+/workspaces/prj/2d-linFEM/buildAmd64/CMakeFiles/rebuild_cache.dir
+/workspaces/prj/2d-linFEM/buildAmd64/CMakeFiles/edit_cache.dir
+/workspaces/prj/2d-linFEM/buildAmd64/CMakeFiles/fem2d.dir
+/workspaces/prj/2d-linFEM/buildAmd64/CMakeFiles/IGL.dir
+/workspaces/prj/2d-linFEM/buildAmd64/CMakeFiles/Eigen.dir
+/workspaces/prj/2d-linFEM/buildAmd64/unittest/CMakeFiles/rebuild_cache.dir
+/workspaces/prj/2d-linFEM/buildAmd64/unittest/CMakeFiles/edit_cache.dir
+/workspaces/prj/2d-linFEM/buildAmd64/unittest/CMakeFiles/unittest.dir
+/workspaces/prj/2d-linFEM/buildAmd64/unittest/CMakeFiles/GTestDownload.dir
