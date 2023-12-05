@@ -40,13 +40,12 @@ void computeStiffnessMatrix(MatrixType& stiffnessMatrix,
     
     Eigen::Matrix2d elementMap = coordinateTransform.inverse().transpose();
 // begin my solution------------------------------------------------------------------------------
-/* stiffness matrix is computed elementwise using formula derived in 2.b) see handwritten notes
- * utilizing linearity of the integral => calculate additive terms individually */
 
+    // stiffness matrix is computed elementwise using formula derived in 2.b) see handwritten notes
     // signature of the function: inline double integrate(const std::function<double(double, double)>& f)
     // iterate over matrix elements, A is a 3x3-matrix
     for (int i = 0; i < 3; ++i) {
-        for (int j = 0; j < 3; ++j) {
+        for (int j = i; j < 3; ++j) {//***1 matrix is symmetric and positive definite per definition
             auto integrand = [&](double x, double y){
                 // gradientLambda is a function defined in grad_shape.hpp
                 Eigen::Vector2d gradLi = elementMap * gradientLambda(i, x, y);
@@ -58,21 +57,23 @@ void computeStiffnessMatrix(MatrixType& stiffnessMatrix,
                 // use library function to calculate dot product
                 double dotProdGrad = gradLi.dot(gradLj);            
                 // evaluate sigma, coordinateTransform is a matrix, transform to local coordinate system
-                Eigen::Vector2d locPntVec = coordinateTransform * Eigen::Vector2d(x, y) 
-                                             + Eigen::Vector2d(a(0), a(1));
+                Eigen::Vector2d locPntVec = coordinateTransform * Eigen::Vector2d(x, y) + Eigen::Vector2d(a(0), a(1));
 	        double sigmaEval = sigma(locPntVec(0),locPntVec(1));
-                // calculate first term of the integrand
-                /* volumeFactor = determinant of the Jacboean
-                 * correction term for coordinate transformation */
-                double firstTerm = volumeFactor * sigmaEval * dotProdGrad;
-                // second term: dot product of the hat-functions
-                double secondTerm = r*Li*Lj;
-                // return value is sum of first and second term
-                return firstTerm + secondTerm;
+                // volumeFactor = determinant of the Jacboian, correction term for coordinate transform
+                // firstTerm: sigmaEval * dotProdGrad inner product of the gradient of hat functions
+                // second term:  r*Li*Lj inner product of hat-functions
+                //return volumeFactor * (firstTerm + secondTerm);
+                return volumeFactor * (sigmaEval * dotProdGrad + r*Li*Lj); 
             };
             // stiffnessMatrix is handed over with type alias MatrixType, see signature
             stiffnessMatrix(i,j) = integrate(integrand);
-       }
+        }
+    } 
+    // ***1 symmetrize matrix
+    for (int i = 0; i < 3; ++i) {
+        for (int j = 0; j < i; ++j) {
+            stiffnessMatrix(i, j) = stiffnessMatrix(j, i);
+        }
     }
 // end my solution--------------------------------------------------------------------------------
     

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/buildArm64/CMakeFiles/Eigen"
+		},
+		{
+			"file" : "/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/buildArm64/CMakeFiles/Eigen.rule"
+		},
+		{
+			"file" : "/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/buildArm64/CMakeFiles/Eigen-complete.rule"
+		},
+		{
+			"file" : "/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/buildArm64/Eigen-prefix/src/Eigen-stamp/Eigen-build.rule"
+		},
+		{
+			"file" : "/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/buildArm64/Eigen-prefix/src/Eigen-stamp/Eigen-configure.rule"
+		},
+		{
+			"file" : "/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/buildArm64/Eigen-prefix/src/Eigen-stamp/Eigen-download.rule"
+		},
+		{
+			"file" : "/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/buildArm64/Eigen-prefix/src/Eigen-stamp/Eigen-install.rule"
+		},
+		{
+			"file" : "/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/buildArm64/Eigen-prefix/src/Eigen-stamp/Eigen-mkdir.rule"
+		},
+		{
+			"file" : "/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/buildArm64/Eigen-prefix/src/Eigen-stamp/Eigen-patch.rule"
+		},
+		{
+			"file" : "/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/buildArm64/Eigen-prefix/src/Eigen-stamp/Eigen-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Eigen"
+		],
+		"name" : "Eigen"
+	}
+}

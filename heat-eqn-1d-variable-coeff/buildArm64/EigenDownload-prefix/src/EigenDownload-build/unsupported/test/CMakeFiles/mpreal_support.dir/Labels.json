@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/unsupported/test/mpreal_support.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildUnsupported"
+		],
+		"name" : "mpreal_support"
+	}
+}

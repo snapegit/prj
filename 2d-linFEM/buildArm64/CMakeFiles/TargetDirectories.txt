@@ -1,0 +1,9 @@
+/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/buildArm64/CMakeFiles/Eigen.dir
+/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/buildArm64/CMakeFiles/IGL.dir
+/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/buildArm64/CMakeFiles/fem2d.dir
+/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/buildArm64/CMakeFiles/edit_cache.dir
+/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/buildArm64/CMakeFiles/rebuild_cache.dir
+/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/buildArm64/unittest/CMakeFiles/GTestDownload.dir
+/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/buildArm64/unittest/CMakeFiles/unittest.dir
+/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/buildArm64/unittest/CMakeFiles/edit_cache.dir
+/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/buildArm64/unittest/CMakeFiles/rebuild_cache.dir

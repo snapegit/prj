@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/buildArm64/Eigen/test/dense_storage.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "dense_storage"
+	}
+}

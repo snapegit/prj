@@ -1,0 +1,1720 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      The system is: Android - 5.10.136-android12-9-27100597-abS908BXXS6CWI1 - aarch64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /data/data/com.termux/files/usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is Clang, found in:
+        /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/3.27.9/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /data/data/com.termux/files/usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is Clang, found in:
+        /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/3.27.9/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-boqT8A"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-boqT8A"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-boqT8A'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_2d7d6/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-boqT8A'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_2d7d6.dir/build.make CMakeFiles/cmTC_2d7d6.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-boqT8A'
+        Building C object CMakeFiles/cmTC_2d7d6.dir/CMakeCCompilerABI.c.o
+        /data/data/com.termux/files/usr/bin/cc   -O2 -g -DNDEBUG   -v -MD -MT CMakeFiles/cmTC_2d7d6.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_2d7d6.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_2d7d6.dir/CMakeCCompilerABI.c.o -c /data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeCCompilerABI.c
+        clang version 17.0.6
+        Target: aarch64-unknown-linux-android24
+        Thread model: posix
+        InstalledDir: /data/data/com.termux/files/usr/bin
+         (in-process)
+         "/data/data/com.termux/files/usr/bin/clang-17" -cc1 -triple aarch64-unknown-linux-android24 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -fcoverage-compilation-dir=/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-boqT8A -resource-dir /data/data/com.termux/files/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_2d7d6.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_2d7d6.dir/CMakeCCompilerABI.c.o -sys-header-deps -D NDEBUG -isysroot /data/data/com.termux/files -internal-isystem /data/data/com.termux/files/usr/lib/clang/17/include -internal-isystem /data/data/com.termux/files/usr/local/include -internal-externc-isystem /data/data/com.termux/files/usr/include/aarch64-linux-android -internal-externc-isystem /data/data/com.termux/files/include -internal-externc-isystem /data/data/com.termux/files/usr/include -O2 -fdebug-compilation-dir=/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-boqT8A -ferror-limit 19 -femulated-tls -fno-signed-char -fgnuc-version=4.2.1 -vectorize-loops -vectorize-slp -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_2d7d6.dir/CMakeCCompilerABI.c.o -x c /data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 17.0.6 based upon LLVM 17.0.6 default target aarch64-unknown-linux-android24
+        ignoring nonexistent directory "/data/data/com.termux/files/usr/local/include"
+        ignoring nonexistent directory "/data/data/com.termux/files/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /data/data/com.termux/files/usr/lib/clang/17/include
+         /data/data/com.termux/files/usr/include/aarch64-linux-android
+         /data/data/com.termux/files/usr/include
+        End of search list.
+        Linking C executable cmTC_2d7d6
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d7d6.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/cc -O2 -g -DNDEBUG  -v CMakeFiles/cmTC_2d7d6.dir/CMakeCCompilerABI.c.o -o cmTC_2d7d6 
+        clang version 17.0.6
+        Target: aarch64-unknown-linux-android24
+        Thread model: posix
+        InstalledDir: /data/data/com.termux/files/usr/bin
+         "/data/data/com.termux/files/usr/bin/ld.lld" --sysroot=/data/data/com.termux/files -pie -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=4096 --hash-style=gnu -rpath=/data/data/com.termux/files/usr/lib --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_2d7d6 /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/usr/lib -L/system/lib64 CMakeFiles/cmTC_2d7d6.dir/CMakeCCompilerABI.c.o /data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /data/data/com.termux/files/usr/lib/crtend_android.o
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-boqT8A'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-boqT8A'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/data/data/com.termux/files/usr/lib/clang/17/include]
+          add: [/data/data/com.termux/files/usr/include/aarch64-linux-android]
+          add: [/data/data/com.termux/files/usr/include]
+        end of search list found
+        collapse include dir [/data/data/com.termux/files/usr/lib/clang/17/include] ==> [/data/data/com.termux/files/usr/lib/clang/17/include]
+        collapse include dir [/data/data/com.termux/files/usr/include/aarch64-linux-android] ==> [/data/data/com.termux/files/usr/include/aarch64-linux-android]
+        collapse include dir [/data/data/com.termux/files/usr/include] ==> [/data/data/com.termux/files/usr/include]
+        implicit include dirs: [/data/data/com.termux/files/usr/lib/clang/17/include;/data/data/com.termux/files/usr/include/aarch64-linux-android;/data/data/com.termux/files/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-boqT8A']
+        ignore line: []
+        ignore line: [Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_2d7d6/fast]
+        ignore line: [make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-boqT8A']
+        ignore line: [/data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_2d7d6.dir/build.make CMakeFiles/cmTC_2d7d6.dir/build]
+        ignore line: [make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-boqT8A']
+        ignore line: [Building C object CMakeFiles/cmTC_2d7d6.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/data/data/com.termux/files/usr/bin/cc   -O2 -g -DNDEBUG   -v -MD -MT CMakeFiles/cmTC_2d7d6.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_2d7d6.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_2d7d6.dir/CMakeCCompilerABI.c.o -c /data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang version 17.0.6]
+        ignore line: [Target: aarch64-unknown-linux-android24]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /data/data/com.termux/files/usr/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "/data/data/com.termux/files/usr/bin/clang-17" -cc1 -triple aarch64-unknown-linux-android24 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -fcoverage-compilation-dir=/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-boqT8A -resource-dir /data/data/com.termux/files/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_2d7d6.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_2d7d6.dir/CMakeCCompilerABI.c.o -sys-header-deps -D NDEBUG -isysroot /data/data/com.termux/files -internal-isystem /data/data/com.termux/files/usr/lib/clang/17/include -internal-isystem /data/data/com.termux/files/usr/local/include -internal-externc-isystem /data/data/com.termux/files/usr/include/aarch64-linux-android -internal-externc-isystem /data/data/com.termux/files/include -internal-externc-isystem /data/data/com.termux/files/usr/include -O2 -fdebug-compilation-dir=/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-boqT8A -ferror-limit 19 -femulated-tls -fno-signed-char -fgnuc-version=4.2.1 -vectorize-loops -vectorize-slp -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_2d7d6.dir/CMakeCCompilerABI.c.o -x c /data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 17.0.6 based upon LLVM 17.0.6 default target aarch64-unknown-linux-android24]
+        ignore line: [ignoring nonexistent directory "/data/data/com.termux/files/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/data/data/com.termux/files/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /data/data/com.termux/files/usr/lib/clang/17/include]
+        ignore line: [ /data/data/com.termux/files/usr/include/aarch64-linux-android]
+        ignore line: [ /data/data/com.termux/files/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_2d7d6]
+        ignore line: [/data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d7d6.dir/link.txt --verbose=1]
+        ignore line: [/data/data/com.termux/files/usr/bin/cc -O2 -g -DNDEBUG  -v CMakeFiles/cmTC_2d7d6.dir/CMakeCCompilerABI.c.o -o cmTC_2d7d6 ]
+        ignore line: [clang version 17.0.6]
+        ignore line: [Target: aarch64-unknown-linux-android24]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /data/data/com.termux/files/usr/bin]
+        link line: [ "/data/data/com.termux/files/usr/bin/ld.lld" --sysroot=/data/data/com.termux/files -pie -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=4096 --hash-style=gnu -rpath=/data/data/com.termux/files/usr/lib --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_2d7d6 /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/usr/lib -L/system/lib64 CMakeFiles/cmTC_2d7d6.dir/CMakeCCompilerABI.c.o /data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /data/data/com.termux/files/usr/lib/crtend_android.o]
+          arg [/data/data/com.termux/files/usr/bin/ld.lld] ==> ignore
+          arg [--sysroot=/data/data/com.termux/files] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-EL] ==> ignore
+          arg [--fix-cortex-a53-843419] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-zmax-page-size=4096] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-rpath=/data/data/com.termux/files/usr/lib] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [aarch64linux] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/system/bin/linker64] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_2d7d6] ==> ignore
+          arg [/data/data/com.termux/files/usr/lib/crtbegin_dynamic.o] ==> obj [/data/data/com.termux/files/usr/lib/crtbegin_dynamic.o]
+          arg [-L/data/data/com.termux/files/usr/lib] ==> dir [/data/data/com.termux/files/usr/lib]
+          arg [-L/system/lib64] ==> dir [/system/lib64]
+          arg [CMakeFiles/cmTC_2d7d6.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [/data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [/data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [-lc] ==> lib [c]
+          arg [/data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [/data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [/data/data/com.termux/files/usr/lib/crtend_android.o] ==> obj [/data/data/com.termux/files/usr/lib/crtend_android.o]
+        remove lib [/data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a]
+        remove lib [/data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a]
+        collapse library dir [/data/data/com.termux/files/usr/lib] ==> [/data/data/com.termux/files/usr/lib]
+        collapse library dir [/system/lib64] ==> [/system/lib64]
+        implicit libs: [-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+        implicit objs: [/data/data/com.termux/files/usr/lib/crtbegin_dynamic.o;/data/data/com.termux/files/usr/lib/crtend_android.o]
+        implicit dirs: [/data/data/com.termux/files/usr/lib;/system/lib64]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-IP5Ung"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-IP5Ung"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-IP5Ung'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_6fd1f/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-IP5Ung'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_6fd1f.dir/build.make CMakeFiles/cmTC_6fd1f.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-IP5Ung'
+        Building CXX object CMakeFiles/cmTC_6fd1f.dir/CMakeCXXCompilerABI.cpp.o
+        /data/data/com.termux/files/usr/bin/c++   -O2 -g -DNDEBUG   -v -MD -MT CMakeFiles/cmTC_6fd1f.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_6fd1f.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_6fd1f.dir/CMakeCXXCompilerABI.cpp.o -c /data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
+        clang version 17.0.6
+        Target: aarch64-unknown-linux-android24
+        Thread model: posix
+        InstalledDir: /data/data/com.termux/files/usr/bin
+         (in-process)
+         "/data/data/com.termux/files/usr/bin/clang-17" -cc1 -triple aarch64-unknown-linux-android24 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -fcoverage-compilation-dir=/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-IP5Ung -resource-dir /data/data/com.termux/files/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_6fd1f.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_6fd1f.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D NDEBUG -isysroot /data/data/com.termux/files -internal-isystem /data/data/com.termux/files/usr/include/c++/v1 -internal-isystem /data/data/com.termux/files/usr/lib/clang/17/include -internal-isystem /data/data/com.termux/files/usr/local/include -internal-externc-isystem /data/data/com.termux/files/usr/include/aarch64-linux-android -internal-externc-isystem /data/data/com.termux/files/include -internal-externc-isystem /data/data/com.termux/files/usr/include -O2 -fdeprecated-macro -fdebug-compilation-dir=/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-IP5Ung -ferror-limit 19 -femulated-tls -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_6fd1f.dir/CMakeCXXCompilerABI.cpp.o -x c++ /data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 17.0.6 based upon LLVM 17.0.6 default target aarch64-unknown-linux-android24
+        ignoring nonexistent directory "/data/data/com.termux/files/usr/local/include"
+        ignoring nonexistent directory "/data/data/com.termux/files/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /data/data/com.termux/files/usr/include/c++/v1
+         /data/data/com.termux/files/usr/lib/clang/17/include
+         /data/data/com.termux/files/usr/include/aarch64-linux-android
+         /data/data/com.termux/files/usr/include
+        End of search list.
+        Linking CXX executable cmTC_6fd1f
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6fd1f.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++ -O2 -g -DNDEBUG  -v CMakeFiles/cmTC_6fd1f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_6fd1f 
+        clang version 17.0.6
+        Target: aarch64-unknown-linux-android24
+        Thread model: posix
+        InstalledDir: /data/data/com.termux/files/usr/bin
+         "/data/data/com.termux/files/usr/bin/ld.lld" --sysroot=/data/data/com.termux/files -pie -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=4096 --hash-style=gnu -rpath=/data/data/com.termux/files/usr/lib --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_6fd1f /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/usr/lib -L/system/lib64 CMakeFiles/cmTC_6fd1f.dir/CMakeCXXCompilerABI.cpp.o -lc++_shared /data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lm -lc /data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /data/data/com.termux/files/usr/lib/crtend_android.o
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-IP5Ung'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-IP5Ung'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/data/data/com.termux/files/usr/include/c++/v1]
+          add: [/data/data/com.termux/files/usr/lib/clang/17/include]
+          add: [/data/data/com.termux/files/usr/include/aarch64-linux-android]
+          add: [/data/data/com.termux/files/usr/include]
+        end of search list found
+        collapse include dir [/data/data/com.termux/files/usr/include/c++/v1] ==> [/data/data/com.termux/files/usr/include/c++/v1]
+        collapse include dir [/data/data/com.termux/files/usr/lib/clang/17/include] ==> [/data/data/com.termux/files/usr/lib/clang/17/include]
+        collapse include dir [/data/data/com.termux/files/usr/include/aarch64-linux-android] ==> [/data/data/com.termux/files/usr/include/aarch64-linux-android]
+        collapse include dir [/data/data/com.termux/files/usr/include] ==> [/data/data/com.termux/files/usr/include]
+        implicit include dirs: [/data/data/com.termux/files/usr/include/c++/v1;/data/data/com.termux/files/usr/lib/clang/17/include;/data/data/com.termux/files/usr/include/aarch64-linux-android;/data/data/com.termux/files/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:1 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-IP5Ung']
+        ignore line: []
+        ignore line: [Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_6fd1f/fast]
+        ignore line: [make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-IP5Ung']
+        ignore line: [/data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_6fd1f.dir/build.make CMakeFiles/cmTC_6fd1f.dir/build]
+        ignore line: [make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-IP5Ung']
+        ignore line: [Building CXX object CMakeFiles/cmTC_6fd1f.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/data/data/com.termux/files/usr/bin/c++   -O2 -g -DNDEBUG   -v -MD -MT CMakeFiles/cmTC_6fd1f.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_6fd1f.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_6fd1f.dir/CMakeCXXCompilerABI.cpp.o -c /data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang version 17.0.6]
+        ignore line: [Target: aarch64-unknown-linux-android24]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /data/data/com.termux/files/usr/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "/data/data/com.termux/files/usr/bin/clang-17" -cc1 -triple aarch64-unknown-linux-android24 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -fcoverage-compilation-dir=/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-IP5Ung -resource-dir /data/data/com.termux/files/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_6fd1f.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_6fd1f.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D NDEBUG -isysroot /data/data/com.termux/files -internal-isystem /data/data/com.termux/files/usr/include/c++/v1 -internal-isystem /data/data/com.termux/files/usr/lib/clang/17/include -internal-isystem /data/data/com.termux/files/usr/local/include -internal-externc-isystem /data/data/com.termux/files/usr/include/aarch64-linux-android -internal-externc-isystem /data/data/com.termux/files/include -internal-externc-isystem /data/data/com.termux/files/usr/include -O2 -fdeprecated-macro -fdebug-compilation-dir=/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-IP5Ung -ferror-limit 19 -femulated-tls -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_6fd1f.dir/CMakeCXXCompilerABI.cpp.o -x c++ /data/data/com.termux/files/usr/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 17.0.6 based upon LLVM 17.0.6 default target aarch64-unknown-linux-android24]
+        ignore line: [ignoring nonexistent directory "/data/data/com.termux/files/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/data/data/com.termux/files/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /data/data/com.termux/files/usr/include/c++/v1]
+        ignore line: [ /data/data/com.termux/files/usr/lib/clang/17/include]
+        ignore line: [ /data/data/com.termux/files/usr/include/aarch64-linux-android]
+        ignore line: [ /data/data/com.termux/files/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_6fd1f]
+        ignore line: [/data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6fd1f.dir/link.txt --verbose=1]
+        ignore line: [/data/data/com.termux/files/usr/bin/c++ -O2 -g -DNDEBUG  -v CMakeFiles/cmTC_6fd1f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_6fd1f ]
+        ignore line: [clang version 17.0.6]
+        ignore line: [Target: aarch64-unknown-linux-android24]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /data/data/com.termux/files/usr/bin]
+        link line: [ "/data/data/com.termux/files/usr/bin/ld.lld" --sysroot=/data/data/com.termux/files -pie -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=4096 --hash-style=gnu -rpath=/data/data/com.termux/files/usr/lib --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_6fd1f /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/usr/lib -L/system/lib64 CMakeFiles/cmTC_6fd1f.dir/CMakeCXXCompilerABI.cpp.o -lc++_shared /data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lm -lc /data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /data/data/com.termux/files/usr/lib/crtend_android.o]
+          arg [/data/data/com.termux/files/usr/bin/ld.lld] ==> ignore
+          arg [--sysroot=/data/data/com.termux/files] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-EL] ==> ignore
+          arg [--fix-cortex-a53-843419] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-zmax-page-size=4096] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-rpath=/data/data/com.termux/files/usr/lib] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [aarch64linux] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/system/bin/linker64] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_6fd1f] ==> ignore
+          arg [/data/data/com.termux/files/usr/lib/crtbegin_dynamic.o] ==> obj [/data/data/com.termux/files/usr/lib/crtbegin_dynamic.o]
+          arg [-L/data/data/com.termux/files/usr/lib] ==> dir [/data/data/com.termux/files/usr/lib]
+          arg [-L/system/lib64] ==> dir [/system/lib64]
+          arg [CMakeFiles/cmTC_6fd1f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++_shared] ==> lib [c++_shared]
+          arg [/data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [/data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [-lm] ==> lib [m]
+          arg [-lc] ==> lib [c]
+          arg [/data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [/data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [/data/data/com.termux/files/usr/lib/crtend_android.o] ==> obj [/data/data/com.termux/files/usr/lib/crtend_android.o]
+        remove lib [/data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a]
+        remove lib [/data/data/com.termux/files/usr/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a]
+        collapse library dir [/data/data/com.termux/files/usr/lib] ==> [/data/data/com.termux/files/usr/lib]
+        collapse library dir [/system/lib64] ==> [/system/lib64]
+        implicit libs: [c++_shared;-l:libunwind.a;dl;m;c;-l:libunwind.a;dl]
+        implicit objs: [/data/data/com.termux/files/usr/lib/crtbegin_dynamic.o;/data/data/com.termux/files/usr/lib/crtend_android.o]
+        implicit dirs: [/data/data/com.termux/files/usr/lib;/system/lib64]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:83 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test EIGEN_COMPILER_SUPPORT_CPP11"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-HX8FVj"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-HX8FVj"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "EIGEN_COMPILER_SUPPORT_CPP11"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-HX8FVj'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_032a7/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-HX8FVj'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_032a7.dir/build.make CMakeFiles/cmTC_032a7.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-HX8FVj'
+        Building CXX object CMakeFiles/cmTC_032a7.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DEIGEN_COMPILER_SUPPORT_CPP11  -O2 -g -DNDEBUG   -std=c++11 -MD -MT CMakeFiles/cmTC_032a7.dir/src.cxx.o -MF CMakeFiles/cmTC_032a7.dir/src.cxx.o.d -o CMakeFiles/cmTC_032a7.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-HX8FVj/src.cxx
+        Linking CXX executable cmTC_032a7
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_032a7.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++ -O2 -g -DNDEBUG CMakeFiles/cmTC_032a7.dir/src.cxx.o -o cmTC_032a7 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-HX8FVj'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-HX8FVj'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:94 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_std=cpp03"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-e7ckpw"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-e7ckpw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_std=cpp03"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-e7ckpw'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_dfe8b/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-e7ckpw'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_dfe8b.dir/build.make CMakeFiles/cmTC_dfe8b.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-e7ckpw'
+        Building CXX object CMakeFiles/cmTC_dfe8b.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_std=cpp03  -O2 -g -DNDEBUG   -std=c++03 -MD -MT CMakeFiles/cmTC_dfe8b.dir/src.cxx.o -MF CMakeFiles/cmTC_dfe8b.dir/src.cxx.o.d -o CMakeFiles/cmTC_dfe8b.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-e7ckpw/src.cxx
+        Linking CXX executable cmTC_dfe8b
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfe8b.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++ -O2 -g -DNDEBUG CMakeFiles/cmTC_dfe8b.dir/src.cxx.o -o cmTC_dfe8b 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-e7ckpw'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-e7ckpw'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/FindStandardMathLibrary.cmake:29 (CHECK_CXX_SOURCE_COMPILES)"
+      - "CMakeLists.txt:101 (find_package)"
+    checks:
+      - "Performing Test standard_math_library_linked_to_automatically"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-PEPd8V"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-PEPd8V"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "standard_math_library_linked_to_automatically"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-PEPd8V'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_f0217/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-PEPd8V'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_f0217.dir/build.make CMakeFiles/cmTC_f0217.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-PEPd8V'
+        Building CXX object CMakeFiles/cmTC_f0217.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -Dstandard_math_library_linked_to_automatically  -std=c++03  -O2 -g -DNDEBUG -MD -MT CMakeFiles/cmTC_f0217.dir/src.cxx.o -MF CMakeFiles/cmTC_f0217.dir/src.cxx.o.d -o CMakeFiles/cmTC_f0217.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-PEPd8V/src.cxx
+        /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-PEPd8V/src.cxx:2:14: warning: ignoring return value of function declared with const attribute [-Wunused-value]
+            2 | int main() { std::sin(0.0); std::log(0.0f); }
+              |              ^~~~~~~~ ~~~
+        1 warning generated.
+        Linking CXX executable cmTC_f0217
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0217.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03  -O2 -g -DNDEBUG CMakeFiles/cmTC_f0217.dir/src.cxx.o -o cmTC_f0217 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-PEPd8V'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-PEPd8V'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:153 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_WERROR"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-PhQybe"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-PhQybe"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_WERROR"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-PhQybe'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_5cd00/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-PhQybe'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_5cd00.dir/build.make CMakeFiles/cmTC_5cd00.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-PhQybe'
+        Building CXX object CMakeFiles/cmTC_5cd00.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_WERROR  -std=c++03  -O2 -g -DNDEBUG   -Werror -MD -MT CMakeFiles/cmTC_5cd00.dir/src.cxx.o -MF CMakeFiles/cmTC_5cd00.dir/src.cxx.o.d -o CMakeFiles/cmTC_5cd00.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-PhQybe/src.cxx
+        Linking CXX executable cmTC_5cd00
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cd00.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03  -O2 -g -DNDEBUG CMakeFiles/cmTC_5cd00.dir/src.cxx.o -o cmTC_5cd00 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-PhQybe'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-PhQybe'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:157 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_pedantic"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-gUGpGN"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-gUGpGN"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_pedantic"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-gUGpGN'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_714e9/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-gUGpGN'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_714e9.dir/build.make CMakeFiles/cmTC_714e9.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-gUGpGN'
+        Building CXX object CMakeFiles/cmTC_714e9.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_pedantic  -std=c++03 -Werror -O2 -g -DNDEBUG   -pedantic -MD -MT CMakeFiles/cmTC_714e9.dir/src.cxx.o -MF CMakeFiles/cmTC_714e9.dir/src.cxx.o.d -o CMakeFiles/cmTC_714e9.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-gUGpGN/src.cxx
+        Linking CXX executable cmTC_714e9
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_714e9.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_714e9.dir/src.cxx.o -o cmTC_714e9 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-gUGpGN'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-gUGpGN'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:158 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wall"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-TFMSoy"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-TFMSoy"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wall"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-TFMSoy'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_95389/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-TFMSoy'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_95389.dir/build.make CMakeFiles/cmTC_95389.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-TFMSoy'
+        Building CXX object CMakeFiles/cmTC_95389.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wall  -std=c++03 -pedantic -Werror -O2 -g -DNDEBUG   -Wall -MD -MT CMakeFiles/cmTC_95389.dir/src.cxx.o -MF CMakeFiles/cmTC_95389.dir/src.cxx.o.d -o CMakeFiles/cmTC_95389.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-TFMSoy/src.cxx
+        Linking CXX executable cmTC_95389
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95389.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_95389.dir/src.cxx.o -o cmTC_95389 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-TFMSoy'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-TFMSoy'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:159 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wextra"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-lkFANo"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-lkFANo"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wextra"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-lkFANo'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_95562/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-lkFANo'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_95562.dir/build.make CMakeFiles/cmTC_95562.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-lkFANo'
+        Building CXX object CMakeFiles/cmTC_95562.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wextra  -std=c++03 -pedantic -Wall -Werror -O2 -g -DNDEBUG   -Wextra -MD -MT CMakeFiles/cmTC_95562.dir/src.cxx.o -MF CMakeFiles/cmTC_95562.dir/src.cxx.o.d -o CMakeFiles/cmTC_95562.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-lkFANo/src.cxx
+        Linking CXX executable cmTC_95562
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95562.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_95562.dir/src.cxx.o -o cmTC_95562 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-lkFANo'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-lkFANo'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:162 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wundef"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-FHh7i4"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-FHh7i4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wundef"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-FHh7i4'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_91816/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-FHh7i4'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_91816.dir/build.make CMakeFiles/cmTC_91816.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-FHh7i4'
+        Building CXX object CMakeFiles/cmTC_91816.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wundef  -std=c++03 -pedantic -Wall -Wextra -Werror -O2 -g -DNDEBUG   -Wundef -MD -MT CMakeFiles/cmTC_91816.dir/src.cxx.o -MF CMakeFiles/cmTC_91816.dir/src.cxx.o.d -o CMakeFiles/cmTC_91816.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-FHh7i4/src.cxx
+        Linking CXX executable cmTC_91816
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91816.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_91816.dir/src.cxx.o -o cmTC_91816 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-FHh7i4'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-FHh7i4'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:163 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wcastalign"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-xMUoJJ"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-xMUoJJ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wcastalign"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-xMUoJJ'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_574e6/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-xMUoJJ'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_574e6.dir/build.make CMakeFiles/cmTC_574e6.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-xMUoJJ'
+        Building CXX object CMakeFiles/cmTC_574e6.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wcastalign  -std=c++03 -pedantic -Wall -Wextra -Wundef -Werror -O2 -g -DNDEBUG   -Wcast-align -MD -MT CMakeFiles/cmTC_574e6.dir/src.cxx.o -MF CMakeFiles/cmTC_574e6.dir/src.cxx.o.d -o CMakeFiles/cmTC_574e6.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-xMUoJJ/src.cxx
+        Linking CXX executable cmTC_574e6
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_574e6.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_574e6.dir/src.cxx.o -o cmTC_574e6 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-xMUoJJ'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-xMUoJJ'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:164 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wcharsubscripts"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-y1CM7c"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-y1CM7c"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wcharsubscripts"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-y1CM7c'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_019af/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-y1CM7c'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_019af.dir/build.make CMakeFiles/cmTC_019af.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-y1CM7c'
+        Building CXX object CMakeFiles/cmTC_019af.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wcharsubscripts  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Werror -O2 -g -DNDEBUG   -Wchar-subscripts -MD -MT CMakeFiles/cmTC_019af.dir/src.cxx.o -MF CMakeFiles/cmTC_019af.dir/src.cxx.o.d -o CMakeFiles/cmTC_019af.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-y1CM7c/src.cxx
+        Linking CXX executable cmTC_019af
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_019af.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_019af.dir/src.cxx.o -o cmTC_019af 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-y1CM7c'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-y1CM7c'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:165 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wnonvirtualdtor"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-3kWgii"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-3kWgii"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wnonvirtualdtor"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-3kWgii'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_16d5a/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-3kWgii'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_16d5a.dir/build.make CMakeFiles/cmTC_16d5a.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-3kWgii'
+        Building CXX object CMakeFiles/cmTC_16d5a.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wnonvirtualdtor  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Werror -O2 -g -DNDEBUG   -Wnon-virtual-dtor -MD -MT CMakeFiles/cmTC_16d5a.dir/src.cxx.o -MF CMakeFiles/cmTC_16d5a.dir/src.cxx.o.d -o CMakeFiles/cmTC_16d5a.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-3kWgii/src.cxx
+        Linking CXX executable cmTC_16d5a
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16d5a.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_16d5a.dir/src.cxx.o -o cmTC_16d5a 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-3kWgii'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-3kWgii'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:166 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wunusedlocaltypedefs"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-oXIntm"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-oXIntm"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wunusedlocaltypedefs"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-oXIntm'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_9329c/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-oXIntm'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_9329c.dir/build.make CMakeFiles/cmTC_9329c.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-oXIntm'
+        Building CXX object CMakeFiles/cmTC_9329c.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wunusedlocaltypedefs  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Werror -O2 -g -DNDEBUG   -Wunused-local-typedefs -MD -MT CMakeFiles/cmTC_9329c.dir/src.cxx.o -MF CMakeFiles/cmTC_9329c.dir/src.cxx.o.d -o CMakeFiles/cmTC_9329c.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-oXIntm/src.cxx
+        Linking CXX executable cmTC_9329c
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9329c.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_9329c.dir/src.cxx.o -o cmTC_9329c 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-oXIntm'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-oXIntm'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:167 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wpointerarith"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-UM36lc"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-UM36lc"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wpointerarith"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-UM36lc'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_0d6ff/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-UM36lc'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_0d6ff.dir/build.make CMakeFiles/cmTC_0d6ff.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-UM36lc'
+        Building CXX object CMakeFiles/cmTC_0d6ff.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wpointerarith  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Werror -O2 -g -DNDEBUG   -Wpointer-arith -MD -MT CMakeFiles/cmTC_0d6ff.dir/src.cxx.o -MF CMakeFiles/cmTC_0d6ff.dir/src.cxx.o.d -o CMakeFiles/cmTC_0d6ff.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-UM36lc/src.cxx
+        Linking CXX executable cmTC_0d6ff
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d6ff.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_0d6ff.dir/src.cxx.o -o cmTC_0d6ff 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-UM36lc'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-UM36lc'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:168 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wwritestrings"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-BaH3FI"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-BaH3FI"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wwritestrings"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-BaH3FI'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_0eddb/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-BaH3FI'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_0eddb.dir/build.make CMakeFiles/cmTC_0eddb.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-BaH3FI'
+        Building CXX object CMakeFiles/cmTC_0eddb.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wwritestrings  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Werror -O2 -g -DNDEBUG   -Wwrite-strings -MD -MT CMakeFiles/cmTC_0eddb.dir/src.cxx.o -MF CMakeFiles/cmTC_0eddb.dir/src.cxx.o.d -o CMakeFiles/cmTC_0eddb.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-BaH3FI/src.cxx
+        Linking CXX executable cmTC_0eddb
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0eddb.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_0eddb.dir/src.cxx.o -o cmTC_0eddb 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-BaH3FI'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-BaH3FI'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:169 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wformatsecurity"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-kDIdB1"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-kDIdB1"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wformatsecurity"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-kDIdB1'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_df18c/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-kDIdB1'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_df18c.dir/build.make CMakeFiles/cmTC_df18c.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-kDIdB1'
+        Building CXX object CMakeFiles/cmTC_df18c.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wformatsecurity  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Werror -O2 -g -DNDEBUG   -Wformat-security -MD -MT CMakeFiles/cmTC_df18c.dir/src.cxx.o -MF CMakeFiles/cmTC_df18c.dir/src.cxx.o.d -o CMakeFiles/cmTC_df18c.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-kDIdB1/src.cxx
+        Linking CXX executable cmTC_df18c
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df18c.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_df18c.dir/src.cxx.o -o cmTC_df18c 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-kDIdB1'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-kDIdB1'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:170 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wshorten64to32"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-yhWldF"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-yhWldF"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wshorten64to32"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-yhWldF'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_03b88/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-yhWldF'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_03b88.dir/build.make CMakeFiles/cmTC_03b88.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-yhWldF'
+        Building CXX object CMakeFiles/cmTC_03b88.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wshorten64to32  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Werror -O2 -g -DNDEBUG   -Wshorten-64-to-32 -MD -MT CMakeFiles/cmTC_03b88.dir/src.cxx.o -MF CMakeFiles/cmTC_03b88.dir/src.cxx.o.d -o CMakeFiles/cmTC_03b88.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-yhWldF/src.cxx
+        Linking CXX executable cmTC_03b88
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03b88.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_03b88.dir/src.cxx.o -o cmTC_03b88 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-yhWldF'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-yhWldF'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:171 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wlogicalop"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-osU4dB"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-osU4dB"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wlogicalop"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-osU4dB'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_6b589/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-osU4dB'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_6b589.dir/build.make CMakeFiles/cmTC_6b589.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-osU4dB'
+        Building CXX object CMakeFiles/cmTC_6b589.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wlogicalop  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Werror -O2 -g -DNDEBUG   -Wlogical-op -MD -MT CMakeFiles/cmTC_6b589.dir/src.cxx.o -MF CMakeFiles/cmTC_6b589.dir/src.cxx.o.d -o CMakeFiles/cmTC_6b589.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-osU4dB/src.cxx
+        error: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Werror,-Wunknown-warning-option]
+        make[4]: *** [CMakeFiles/cmTC_6b589.dir/build.make:79: CMakeFiles/cmTC_6b589.dir/src.cxx.o] Error 1
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-osU4dB'
+        make[3]: *** [Makefile:127: cmTC_6b589/fast] Error 2
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-osU4dB'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:172 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wenumconversion"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-ZhjfZh"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-ZhjfZh"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wenumconversion"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-ZhjfZh'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_eff06/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-ZhjfZh'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_eff06.dir/build.make CMakeFiles/cmTC_eff06.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-ZhjfZh'
+        Building CXX object CMakeFiles/cmTC_eff06.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wenumconversion  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Werror -O2 -g -DNDEBUG   -Wenum-conversion -MD -MT CMakeFiles/cmTC_eff06.dir/src.cxx.o -MF CMakeFiles/cmTC_eff06.dir/src.cxx.o.d -o CMakeFiles/cmTC_eff06.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-ZhjfZh/src.cxx
+        Linking CXX executable cmTC_eff06
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eff06.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_eff06.dir/src.cxx.o -o cmTC_eff06 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-ZhjfZh'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-ZhjfZh'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:173 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wcpp11extensions"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-5cWF5X"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-5cWF5X"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wcpp11extensions"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-5cWF5X'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_6b07a/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-5cWF5X'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_6b07a.dir/build.make CMakeFiles/cmTC_6b07a.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-5cWF5X'
+        Building CXX object CMakeFiles/cmTC_6b07a.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wcpp11extensions  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Werror -O2 -g -DNDEBUG   -Wc++11-extensions -MD -MT CMakeFiles/cmTC_6b07a.dir/src.cxx.o -MF CMakeFiles/cmTC_6b07a.dir/src.cxx.o.d -o CMakeFiles/cmTC_6b07a.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-5cWF5X/src.cxx
+        Linking CXX executable cmTC_6b07a
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b07a.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_6b07a.dir/src.cxx.o -o cmTC_6b07a 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-5cWF5X'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-5cWF5X'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:174 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wdoublepromotion"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-B4C9qG"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-B4C9qG"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wdoublepromotion"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-B4C9qG'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_524a7/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-B4C9qG'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_524a7.dir/build.make CMakeFiles/cmTC_524a7.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-B4C9qG'
+        Building CXX object CMakeFiles/cmTC_524a7.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wdoublepromotion  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Werror -O2 -g -DNDEBUG   -Wdouble-promotion -MD -MT CMakeFiles/cmTC_524a7.dir/src.cxx.o -MF CMakeFiles/cmTC_524a7.dir/src.cxx.o.d -o CMakeFiles/cmTC_524a7.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-B4C9qG/src.cxx
+        Linking CXX executable cmTC_524a7
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_524a7.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_524a7.dir/src.cxx.o -o cmTC_524a7 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-B4C9qG'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-B4C9qG'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:180 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wshadow"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-seDPIZ"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-seDPIZ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wshadow"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-seDPIZ'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_7187e/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-seDPIZ'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_7187e.dir/build.make CMakeFiles/cmTC_7187e.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-seDPIZ'
+        Building CXX object CMakeFiles/cmTC_7187e.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wshadow  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Werror -O2 -g -DNDEBUG   -Wshadow -MD -MT CMakeFiles/cmTC_7187e.dir/src.cxx.o -MF CMakeFiles/cmTC_7187e.dir/src.cxx.o.d -o CMakeFiles/cmTC_7187e.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-seDPIZ/src.cxx
+        Linking CXX executable cmTC_7187e
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7187e.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_7187e.dir/src.cxx.o -o cmTC_7187e 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-seDPIZ'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-seDPIZ'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:183 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wnopsabi"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-t3GBmy"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-t3GBmy"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wnopsabi"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-t3GBmy'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_94eb3/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-t3GBmy'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_94eb3.dir/build.make CMakeFiles/cmTC_94eb3.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-t3GBmy'
+        Building CXX object CMakeFiles/cmTC_94eb3.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wnopsabi  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Werror -O2 -g -DNDEBUG   -Wno-psabi -MD -MT CMakeFiles/cmTC_94eb3.dir/src.cxx.o -MF CMakeFiles/cmTC_94eb3.dir/src.cxx.o.d -o CMakeFiles/cmTC_94eb3.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-t3GBmy/src.cxx
+        Linking CXX executable cmTC_94eb3
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94eb3.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_94eb3.dir/src.cxx.o -o cmTC_94eb3 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-t3GBmy'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-t3GBmy'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:184 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wnovariadicmacros"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-XaJxtm"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-XaJxtm"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wnovariadicmacros"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-XaJxtm'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_31a6a/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-XaJxtm'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_31a6a.dir/build.make CMakeFiles/cmTC_31a6a.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-XaJxtm'
+        Building CXX object CMakeFiles/cmTC_31a6a.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wnovariadicmacros  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Werror -O2 -g -DNDEBUG   -Wno-variadic-macros -MD -MT CMakeFiles/cmTC_31a6a.dir/src.cxx.o -MF CMakeFiles/cmTC_31a6a.dir/src.cxx.o.d -o CMakeFiles/cmTC_31a6a.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-XaJxtm/src.cxx
+        Linking CXX executable cmTC_31a6a
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31a6a.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_31a6a.dir/src.cxx.o -o cmTC_31a6a 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-XaJxtm'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-XaJxtm'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:185 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wnolonglong"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-JVUsHq"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-JVUsHq"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wnolonglong"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-JVUsHq'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_819fd/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-JVUsHq'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_819fd.dir/build.make CMakeFiles/cmTC_819fd.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-JVUsHq'
+        Building CXX object CMakeFiles/cmTC_819fd.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Wnolonglong  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Werror -O2 -g -DNDEBUG   -Wno-long-long -MD -MT CMakeFiles/cmTC_819fd.dir/src.cxx.o -MF CMakeFiles/cmTC_819fd.dir/src.cxx.o.d -o CMakeFiles/cmTC_819fd.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-JVUsHq/src.cxx
+        Linking CXX executable cmTC_819fd
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_819fd.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_819fd.dir/src.cxx.o -o cmTC_819fd 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-JVUsHq'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-JVUsHq'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:187 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_fnochecknew"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-rLCGYk"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-rLCGYk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_fnochecknew"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-rLCGYk'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_c9a38/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-rLCGYk'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_c9a38.dir/build.make CMakeFiles/cmTC_c9a38.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-rLCGYk'
+        Building CXX object CMakeFiles/cmTC_c9a38.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_fnochecknew  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -Werror -O2 -g -DNDEBUG   -fno-check-new -MD -MT CMakeFiles/cmTC_c9a38.dir/src.cxx.o -MF CMakeFiles/cmTC_c9a38.dir/src.cxx.o.d -o CMakeFiles/cmTC_c9a38.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-rLCGYk/src.cxx
+        Linking CXX executable cmTC_c9a38
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9a38.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_c9a38.dir/src.cxx.o -o cmTC_c9a38 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-rLCGYk'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-rLCGYk'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:188 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_fnocommon"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-gZW8vY"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-gZW8vY"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_fnocommon"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-gZW8vY'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_e1979/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-gZW8vY'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_e1979.dir/build.make CMakeFiles/cmTC_e1979.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-gZW8vY'
+        Building CXX object CMakeFiles/cmTC_e1979.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_fnocommon  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror -O2 -g -DNDEBUG   -fno-common -MD -MT CMakeFiles/cmTC_e1979.dir/src.cxx.o -MF CMakeFiles/cmTC_e1979.dir/src.cxx.o.d -o CMakeFiles/cmTC_e1979.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-gZW8vY/src.cxx
+        Linking CXX executable cmTC_e1979
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1979.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_e1979.dir/src.cxx.o -o cmTC_e1979 
+        c++: error: argument unused during compilation: '-fno-check-new' [-Werror,-Wunused-command-line-argument]
+        make[4]: *** [CMakeFiles/cmTC_e1979.dir/build.make:100: cmTC_e1979] Error 1
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-gZW8vY'
+        make[3]: *** [Makefile:127: cmTC_e1979/fast] Error 2
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-gZW8vY'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:189 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_fstrictaliasing"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-qDmC5y"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-qDmC5y"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_fstrictaliasing"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-qDmC5y'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_52000/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-qDmC5y'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_52000.dir/build.make CMakeFiles/cmTC_52000.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-qDmC5y'
+        Building CXX object CMakeFiles/cmTC_52000.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_fstrictaliasing  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror -O2 -g -DNDEBUG   -fstrict-aliasing -MD -MT CMakeFiles/cmTC_52000.dir/src.cxx.o -MF CMakeFiles/cmTC_52000.dir/src.cxx.o.d -o CMakeFiles/cmTC_52000.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-qDmC5y/src.cxx
+        Linking CXX executable cmTC_52000
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52000.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_52000.dir/src.cxx.o -o cmTC_52000 
+        c++: error: argument unused during compilation: '-fno-check-new' [-Werror,-Wunused-command-line-argument]
+        make[4]: *** [CMakeFiles/cmTC_52000.dir/build.make:100: cmTC_52000] Error 1
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-qDmC5y'
+        make[3]: *** [Makefile:127: cmTC_52000/fast] Error 2
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-qDmC5y'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:190 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_wd981"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-ajQd36"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-ajQd36"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_wd981"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-ajQd36'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_7008c/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-ajQd36'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_7008c.dir/build.make CMakeFiles/cmTC_7008c.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-ajQd36'
+        Building CXX object CMakeFiles/cmTC_7008c.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_wd981  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror -O2 -g -DNDEBUG   -wd981 -MD -MT CMakeFiles/cmTC_7008c.dir/src.cxx.o -MF CMakeFiles/cmTC_7008c.dir/src.cxx.o.d -o CMakeFiles/cmTC_7008c.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-ajQd36/src.cxx
+        c++: error: unknown argument: '-wd981'
+        make[4]: *** [CMakeFiles/cmTC_7008c.dir/build.make:79: CMakeFiles/cmTC_7008c.dir/src.cxx.o] Error 1
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-ajQd36'
+        make[3]: *** [Makefile:127: cmTC_7008c/fast] Error 2
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-ajQd36'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:191 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_wd2304"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-kyvoVI"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-kyvoVI"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_wd2304"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-kyvoVI'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_6f5d3/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-kyvoVI'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_6f5d3.dir/build.make CMakeFiles/cmTC_6f5d3.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-kyvoVI'
+        Building CXX object CMakeFiles/cmTC_6f5d3.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_wd2304  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror -O2 -g -DNDEBUG   -wd2304 -MD -MT CMakeFiles/cmTC_6f5d3.dir/src.cxx.o -MF CMakeFiles/cmTC_6f5d3.dir/src.cxx.o.d -o CMakeFiles/cmTC_6f5d3.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-kyvoVI/src.cxx
+        c++: error: unknown argument: '-wd2304'
+        make[4]: *** [CMakeFiles/cmTC_6f5d3.dir/build.make:79: CMakeFiles/cmTC_6f5d3.dir/src.cxx.o] Error 1
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-kyvoVI'
+        make[3]: *** [Makefile:127: cmTC_6f5d3/fast] Error 2
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-kyvoVI'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:196 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_STRICTANSI"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-m8zieJ"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-m8zieJ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_STRICTANSI"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-m8zieJ'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_b44aa/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-m8zieJ'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_b44aa.dir/build.make CMakeFiles/cmTC_b44aa.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-m8zieJ'
+        Building CXX object CMakeFiles/cmTC_b44aa.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_STRICTANSI  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror -O2 -g -DNDEBUG   -strict-ansi -MD -MT CMakeFiles/cmTC_b44aa.dir/src.cxx.o -MF CMakeFiles/cmTC_b44aa.dir/src.cxx.o.d -o CMakeFiles/cmTC_b44aa.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-m8zieJ/src.cxx
+        c++: error: unknown argument: '-strict-ansi'
+        make[4]: *** [CMakeFiles/cmTC_b44aa.dir/build.make:79: CMakeFiles/cmTC_b44aa.dir/src.cxx.o] Error 1
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-m8zieJ'
+        make[3]: *** [Makefile:127: cmTC_b44aa/fast] Error 2
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-m8zieJ'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:197 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Qunusedarguments"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-MKsoCZ"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-MKsoCZ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Qunusedarguments"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-MKsoCZ'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_f5c4f/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-MKsoCZ'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_f5c4f.dir/build.make CMakeFiles/cmTC_f5c4f.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-MKsoCZ'
+        Building CXX object CMakeFiles/cmTC_f5c4f.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_Qunusedarguments  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror -O2 -g -DNDEBUG   -Qunused-arguments -MD -MT CMakeFiles/cmTC_f5c4f.dir/src.cxx.o -MF CMakeFiles/cmTC_f5c4f.dir/src.cxx.o.d -o CMakeFiles/cmTC_f5c4f.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-MKsoCZ/src.cxx
+        Linking CXX executable cmTC_f5c4f
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5c4f.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_f5c4f.dir/src.cxx.o -o cmTC_f5c4f 
+        c++: error: argument unused during compilation: '-fno-check-new' [-Werror,-Wunused-command-line-argument]
+        make[4]: *** [CMakeFiles/cmTC_f5c4f.dir/build.make:100: cmTC_f5c4f] Error 1
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-MKsoCZ'
+        make[3]: *** [Makefile:127: cmTC_f5c4f/fast] Error 2
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-MKsoCZ'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:77 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:202 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_ansi"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-x9vWJa"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-x9vWJa"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_ansi"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-x9vWJa'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_0d8aa/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-x9vWJa'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_0d8aa.dir/build.make CMakeFiles/cmTC_0d8aa.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-x9vWJa'
+        Building CXX object CMakeFiles/cmTC_0d8aa.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_ansi  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror -O2 -g -DNDEBUG   -ansi -MD -MT CMakeFiles/cmTC_0d8aa.dir/src.cxx.o -MF CMakeFiles/cmTC_0d8aa.dir/src.cxx.o.d -o CMakeFiles/cmTC_0d8aa.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-x9vWJa/src.cxx
+        Linking CXX executable cmTC_0d8aa
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d8aa.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror -O2 -g -DNDEBUG CMakeFiles/cmTC_0d8aa.dir/src.cxx.o -o cmTC_0d8aa 
+        c++: error: argument unused during compilation: '-fno-check-new' [-Werror,-Wunused-command-line-argument]
+        make[4]: *** [CMakeFiles/cmTC_0d8aa.dir/build.make:100: cmTC_0d8aa] Error 1
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-x9vWJa'
+        make[3]: *** [Makefile:127: cmTC_0d8aa/fast] Error 2
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-x9vWJa'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:301 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_OPENMP"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-8ssn1Q"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-8ssn1Q"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_OPENMP"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-8ssn1Q'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_73fca/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-8ssn1Q'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_73fca.dir/build.make CMakeFiles/cmTC_73fca.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-8ssn1Q'
+        Building CXX object CMakeFiles/cmTC_73fca.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_OPENMP  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new  -O2 -g -DNDEBUG   -fopenmp -MD -MT CMakeFiles/cmTC_73fca.dir/src.cxx.o -MF CMakeFiles/cmTC_73fca.dir/src.cxx.o.d -o CMakeFiles/cmTC_73fca.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-8ssn1Q/src.cxx
+        Linking CXX executable cmTC_73fca
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73fca.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new  -O2 -g -DNDEBUG CMakeFiles/cmTC_73fca.dir/src.cxx.o -o cmTC_73fca 
+        c++: warning: argument unused during compilation: '-fno-check-new' [-Wunused-command-line-argument]
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-8ssn1Q'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-8ssn1Q'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "cmake/FindBLAS.cmake:512 (find_package)"
+      - "cmake/FindLAPACK.cmake:138 (find_package)"
+      - "test/CMakeLists.txt:30 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-BkJ2xd"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-BkJ2xd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-BkJ2xd'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_9a41e/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-BkJ2xd'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_9a41e.dir/build.make CMakeFiles/cmTC_9a41e.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-BkJ2xd'
+        Building C object CMakeFiles/cmTC_9a41e.dir/src.c.o
+        /data/data/com.termux/files/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -O2 -g -DNDEBUG -MD -MT CMakeFiles/cmTC_9a41e.dir/src.c.o -MF CMakeFiles/cmTC_9a41e.dir/src.c.o.d -o CMakeFiles/cmTC_9a41e.dir/src.c.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-BkJ2xd/src.c
+        /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-BkJ2xd/src.c:13:3: error: call to undeclared function 'pthread_cancel'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+           13 |   pthread_cancel(thread);
+              |   ^
+        /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-BkJ2xd/src.c:13:3: note: did you mean 'pthread_once'?
+        /data/data/com.termux/files/usr/include/pthread.h:258:5: note: 'pthread_once' declared here
+          258 | int pthread_once(pthread_once_t* _Nonnull __once, void (* _Nonnull __init_routine)(void));
+              |     ^
+        1 error generated.
+        make[4]: *** [CMakeFiles/cmTC_9a41e.dir/build.make:79: CMakeFiles/cmTC_9a41e.dir/src.c.o] Error 1
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-BkJ2xd'
+        make[3]: *** [Makefile:127: cmTC_9a41e/fast] Error 2
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-BkJ2xd'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "cmake/FindBLAS.cmake:512 (find_package)"
+      - "cmake/FindLAPACK.cmake:138 (find_package)"
+      - "test/CMakeLists.txt:30 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-nRKydD"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-nRKydD"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-nRKydD'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_661a4/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-nRKydD'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_661a4.dir/build.make CMakeFiles/cmTC_661a4.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-nRKydD'
+        Building C object CMakeFiles/cmTC_661a4.dir/CheckFunctionExists.c.o
+        /data/data/com.termux/files/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -O2 -g -DNDEBUG -MD -MT CMakeFiles/cmTC_661a4.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_661a4.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_661a4.dir/CheckFunctionExists.c.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-nRKydD/CheckFunctionExists.c
+        Linking C executable cmTC_661a4
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_661a4.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -O2 -g -DNDEBUG CMakeFiles/cmTC_661a4.dir/CheckFunctionExists.c.o -o cmTC_661a4  -lpthreads 
+        ld.lld: error: unable to find library -lpthreads
+        cc: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[4]: *** [CMakeFiles/cmTC_661a4.dir/build.make:100: cmTC_661a4] Error 1
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-nRKydD'
+        make[3]: *** [Makefile:127: cmTC_661a4/fast] Error 2
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-nRKydD'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "cmake/FindBLAS.cmake:512 (find_package)"
+      - "cmake/FindLAPACK.cmake:138 (find_package)"
+      - "test/CMakeLists.txt:30 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-lykU2w"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-lykU2w"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-lykU2w'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_bae97/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-lykU2w'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_bae97.dir/build.make CMakeFiles/cmTC_bae97.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-lykU2w'
+        Building C object CMakeFiles/cmTC_bae97.dir/CheckFunctionExists.c.o
+        /data/data/com.termux/files/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -O2 -g -DNDEBUG -MD -MT CMakeFiles/cmTC_bae97.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_bae97.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_bae97.dir/CheckFunctionExists.c.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-lykU2w/CheckFunctionExists.c
+        Linking C executable cmTC_bae97
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bae97.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -O2 -g -DNDEBUG CMakeFiles/cmTC_bae97.dir/CheckFunctionExists.c.o -o cmTC_bae97  -lpthread 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-lykU2w'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-lykU2w'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "cmake/FindBLAS.cmake:299 (check_function_exists)"
+      - "cmake/FindBLAS.cmake:738 (check_fortran_libraries)"
+      - "cmake/FindLAPACK.cmake:138 (find_package)"
+      - "test/CMakeLists.txt:30 (find_package)"
+    checks:
+      - "Looking for sgemm_"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-fhNrS7"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-fhNrS7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "BLAS_openblas_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-fhNrS7'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_a98f5/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-fhNrS7'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_a98f5.dir/build.make CMakeFiles/cmTC_a98f5.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-fhNrS7'
+        Building C object CMakeFiles/cmTC_a98f5.dir/CheckFunctionExists.c.o
+        /data/data/com.termux/files/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -O2 -g -DNDEBUG -MD -MT CMakeFiles/cmTC_a98f5.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_a98f5.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_a98f5.dir/CheckFunctionExists.c.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-fhNrS7/CheckFunctionExists.c
+        Linking C executable cmTC_a98f5
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a98f5.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_ -O2 -g -DNDEBUG CMakeFiles/cmTC_a98f5.dir/CheckFunctionExists.c.o -o cmTC_a98f5  /data/data/com.termux/files/usr/lib/libopenblas.so 
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-fhNrS7'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-fhNrS7'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/data/data/com.termux/files/usr/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "test/CMakeLists.txt:276 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_FASTMATH"
+    directories:
+      source: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-WdsmaC"
+      binary: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-WdsmaC"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new"
+      CMAKE_MODULE_PATH: "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/Eigen/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORT_FASTMATH"
+      cached: true
+      stdout: |
+        Change Dir: '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-WdsmaC'
+        
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_0f44c/fast
+        make[3]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-WdsmaC'
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_0f44c.dir/build.make CMakeFiles/cmTC_0f44c.dir/build
+        make[4]: Entering directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-WdsmaC'
+        Building CXX object CMakeFiles/cmTC_0f44c.dir/src.cxx.o
+        /data/data/com.termux/files/usr/bin/c++ -DCOMPILER_SUPPORT_FASTMATH  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new  -O2 -g -DNDEBUG   -ffast-math -MD -MT CMakeFiles/cmTC_0f44c.dir/src.cxx.o -MF CMakeFiles/cmTC_0f44c.dir/src.cxx.o.d -o CMakeFiles/cmTC_0f44c.dir/src.cxx.o -c /data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-WdsmaC/src.cxx
+        Linking CXX executable cmTC_0f44c
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f44c.dir/link.txt --verbose=1
+        /data/data/com.termux/files/usr/bin/c++  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new  -O2 -g -DNDEBUG CMakeFiles/cmTC_0f44c.dir/src.cxx.o -o cmTC_0f44c 
+        c++: warning: argument unused during compilation: '-fno-check-new' [-Wunused-command-line-argument]
+        make[4]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-WdsmaC'
+        make[3]: Leaving directory '/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-build/CMakeFiles/CMakeScratch/TryCompile-WdsmaC'
+        
+      exitCode: 0
+...

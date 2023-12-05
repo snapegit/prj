@@ -9,7 +9,7 @@
 #include <iostream>
 
 
-// typedef creates type aliases, here member functios of the eigen library
+// typedef creates type aliases, here member functions of the Eigen library
 // no new structs or types, only giving things new names
 
 //! Sparse Matrix type. Makes using this type easier.
@@ -29,35 +29,6 @@ typedef Eigen::VectorXd Vector;
 //! Our function pointer, typedef'd to make it easier to use
 typedef double(*FunctionPointer)(double, double);
 
-
-/* restriction: The solution must only be added
- * within the provided space
- * **1 lambda functions are used instead below
-//--------------- helper functions -----------------------
-// function to calculate actual x-coordinate from the index
-double x(int i, double dx){
-    // type conversion
-    double index = i;
-    // calculate coordinate, incl. frame of zeros
-    return (index+1)*dx;
-}
-// function to calculate actual y-coordinate from the index
-double y(int j, double dx){
-    // type conversion
-    double index = j;
-    // calculate coordinate, incl. frame of zeros
-    return (index+1)*dx;
-// function to calculate entries on the main diagonal of A
-double S(int i,int j, FunctionPointer s, double dx){
-    return sigma(x(i+0.5,dx),y(j,dx))+sigma(x(i-0.5,dx),y(j,dx))+sigma(x(i,dx),y(j+0.5,dx))+sigma(x(i,dx),y(j-0.5,dx));
-}
-// lambda function to calculate entries on the main diagonal of A
-auto S = [&](int i,int j, FunctionPointer sigma){
-    return sigma(x(i+0.5),y(j))+sigma(x(i-0.5),y(j))+sigma(x(i),y(j+0.5))+sigma(x(i),y(j-0.5));
-};
-*/
-
-
 //----------------poissonBegin----------------
 //! Create the Poisson matrix for 2D finite difference.
 //! @param[out] A will be the Poisson matrix (as in the exercise)
@@ -68,9 +39,7 @@ void createPorousMediaMatrix2D(SparseMatrix& A, FunctionPointer sigma, int N, do
     triplets.reserve(5*N*N-4*N);
 
 // begin my solution---------------------------------------------------------------------------------
-    // **1 see info above
-    // lambda functions are necessary because function defintions
-    // within functions are not allowed
+    // lambda functions are necessary because function defintions within functions are not allowed
     // passing the parameters of lambda functions by reference
     // function to calculate actual x-coordinate from the index
     auto x = [&](double i) {// hiden type converions for i int=>double
@@ -81,7 +50,7 @@ void createPorousMediaMatrix2D(SparseMatrix& A, FunctionPointer sigma, int N, do
         return (j+1) * dx;
     };
     // The matrix A is a sparse matrix which is tridiagonal along its main diagonal
-    // all other N\times N sub-matrices are diagonal
+    // all other N x N sub-matrices are diagonal
     // populate Triplets with indices and computes values for \sigma_{ij}
     // each iteration of j advances N rows down in the A matrix
     for(int j = 0; j < N; ++j) {

@@ -1,4 +1,0 @@
-/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/CMakeFiles/Eigen.dir
-/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/CMakeFiles/finite_difference.dir
-/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/CMakeFiles/edit_cache.dir
-/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/CMakeFiles/rebuild_cache.dir

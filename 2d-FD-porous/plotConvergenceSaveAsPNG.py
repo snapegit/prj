@@ -18,5 +18,4 @@ plt.xlabel('$N$')
 plt.ylabel('Error')
 plt.grid('on')
 #plt.show()
-plt.savefig('./plt/plotConvergence.png')
-
+plt.savefig('./plt/convergence.png')

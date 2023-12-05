@@ -1,4 +1,0 @@
-# Target labels
- BuildUnsupported
-# Source files and their labels
-/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen/unsupported/test/polynomialsolver.cpp

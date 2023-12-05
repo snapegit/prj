@@ -39,12 +39,12 @@ int main(int, char**) {
 
     solveL(0.5, sigma);
 
-    /* 
+/**/ 
     // Uncomment this block to perform analysis of convergence
     std::cout << "Convergence Analysis" << std::endl;
     convergenceAnalysis("square", 6, f_square, sigma, g_square, 0.5,
 			uex_square, uex_grad_square); 
-    */
+/**/
 
     }
     catch (std::runtime_error& e) {

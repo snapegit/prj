@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/data/data/com.termux/files/usr/bin/cmake;-P;/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/buildArm64/unittest/GTestDownload-prefix/src/GTestDownload-stamp/download-GTestDownload.cmake;COMMAND;/data/data/com.termux/files/usr/bin/cmake;-P;/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/buildArm64/unittest/GTestDownload-prefix/src/GTestDownload-stamp/verify-GTestDownload.cmake;COMMAND;/data/data/com.termux/files/usr/bin/cmake;-P;/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/buildArm64/unittest/GTestDownload-prefix/src/GTestDownload-stamp/extract-GTestDownload.cmake
+source_dir=/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/buildArm64/unittest/gtest_source
+work_dir=/data/data/com.termux/files/home/arm64workbench/prj/2d-linFEM/buildArm64/unittest
+url(s)=https://github.com/google/googletest/archive/release-1.8.1.zip
+hash=
+no_extract=
+

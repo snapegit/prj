@@ -67,7 +67,7 @@ int solveFiniteElement(Vector& u,
     /* only vertices on the boundary were populated by setDiricheltBoundary
      * write results for g(boundaryVertex) in the load vector
      * solver later only treats inner vertices */
-    F = -(A * u);
+    F -= (A * u);
 // end my solution------------------------------------------------------------
     
 

@@ -1,2 +1,0 @@
-/data/data/com.termux/files/usr/bin/llvm-ar qc libcreate_poisson_matrix.a CMakeFiles/create_poisson_matrix.dir/create_poisson_matrix.cpp.o
-/data/data/com.termux/files/usr/bin/llvm-ranlib libcreate_poisson_matrix.a

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/CMakeFiles/EigenDownload"
+		},
+		{
+			"file" : "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/CMakeFiles/EigenDownload.rule"
+		},
+		{
+			"file" : "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/CMakeFiles/EigenDownload-complete.rule"
+		},
+		{
+			"file" : "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-stamp/EigenDownload-build.rule"
+		},
+		{
+			"file" : "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-stamp/EigenDownload-configure.rule"
+		},
+		{
+			"file" : "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-stamp/EigenDownload-download.rule"
+		},
+		{
+			"file" : "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-stamp/EigenDownload-install.rule"
+		},
+		{
+			"file" : "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-stamp/EigenDownload-mkdir.rule"
+		},
+		{
+			"file" : "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-stamp/EigenDownload-patch.rule"
+		},
+		{
+			"file" : "/data/data/com.termux/files/home/arm64workbench/prj/heat-eqn-1d-variable-coeff/buildArm64/EigenDownload-prefix/src/EigenDownload-stamp/EigenDownload-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"EigenDownload"
+		],
+		"name" : "EigenDownload"
+	}
+}

@@ -1,9 +1,0 @@
-prefix=/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen_install
-exec_prefix=${prefix}
-
-Name: Eigen3
-Description: A C++ template library for linear algebra: vectors, matrices, and related algorithms
-Requires:
-Version: 3.3.7
-Libs:
-Cflags: -I${prefix}/include/eigen3

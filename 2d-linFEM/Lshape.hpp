@@ -7,12 +7,17 @@
 #include "fem_solve.hpp"
 
 double f_lshape(double x, double y) {
-    // return 0;
-	return sin(M_PI * y) * sin(M_PI * y);
+/*
+    return 0;
+*/
+/**/ 
+    return sin(M_PI * y) * sin(M_PI * y);
+/**/
 }
 
 double g_lshape(double x, double y) {
-    /* double r = std::sqrt(x * x + y * y);
+/*
+    double r = std::sqrt(x * x + y * y);
 
     double theta = std::atan2(y, x);
 
@@ -21,12 +26,16 @@ double g_lshape(double x, double y) {
         theta += 2 * M_PI;
     }
 
-    return std::pow(r, 2.0 / 3.0) * std::sin(2 * theta / 3); */
+    return std::pow(r, 2.0 / 3.0) * std::sin(2 * theta / 3);
+*/
+/**/
     return x*x*x + y;
+/**/
 }
 
 Eigen::Vector2d g_grad_lshape(double x, double y) {
-    /* double r = std::sqrt(x * x + y * y);
+/*
+    double r = std::sqrt(x * x + y * y);
 
     double theta = std::atan2(y, x);
 
@@ -36,10 +45,13 @@ Eigen::Vector2d g_grad_lshape(double x, double y) {
     }
     Eigen::Vector2d grad;
     grad << -2.0/3.0*std::pow(r, -1.0 / 3.0) * std::sin(theta / 3), 2.0/3.0*std::pow(r, -1.0 / 3.0) * std::cos(theta / 3);
-    return grad; */
+    return grad;
+*/
+/**/
     Eigen::Vector2d grad;
     grad << 3*x*x, 1;
     return grad;
+/**/
 }
 
 void solveL(double r, const std::function<double(double, double)>& sigma) {

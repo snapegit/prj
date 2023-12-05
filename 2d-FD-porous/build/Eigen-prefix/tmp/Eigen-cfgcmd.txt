@@ -1,1 +1,0 @@
-cmd='/data/data/com.termux/files/usr/bin/cmake;-DCMAKE_CXX_COMPILER=/data/data/com.termux/files/usr/bin/c++;-DCMAKE_C_COMPILER=/data/data/com.termux/files/usr/bin/cc;-DCMAKE_INSTALL_PREFIX=/data/data/com.termux/files/home/arm64workbench/prj/2d-FD-porous/build/Eigen_install;-GUnix Makefiles;-S;<SOURCE_DIR><SOURCE_SUBDIR>;-B;<BINARY_DIR>'
