@@ -42,14 +42,14 @@ void assembleStiffnessMatrix(Matrix& A, const Eigen::MatrixXd& vertices,
     for (int element = 0; element < numberOfElements; ++element) {
         auto indicesVerticesTriangle = triangles.row(element); //Eigen::Vector2d somehow not working
         // capture coordinates of vertices of an individual triangle as points a,b,c
-        Eigen::Vector2d a = vertices.row(indicesVerticesTriangle(0));
-        Eigen::Vector2d b = vertices.row(indicesVerticesTriangle(1));
-        Eigen::Vector2d c = vertices.row(indicesVerticesTriangle(2));
+        const auto& a = vertices.row(indicesVerticesTriangle(0));
+        const auto& b = vertices.row(indicesVerticesTriangle(1));
+        const auto& c = vertices.row(indicesVerticesTriangle(2));
         // declare element stiffness matrices and initialize it with zeros
         Eigen::Matrix3d stiffnessMatrix = Eigen::Matrix3d::Zero();
-        /* call previously implemented function to compute stiffness matrices of individual triangular
-         * elements, implemented in stiffness_matrix.hpp, the stiffness matrix is passed by referenced
-         * => entries change for each element, outer for-loop */
+        // call previously implemented function to compute stiffness matrices of individual triangular
+        // elements, implemented in stiffness_matrix.hpp, the stiffness matrix is passed by referenced
+        // => entries change for each element, outer for-loop
         computeStiffnessMatrix(stiffnessMatrix, a, b, c, sigma, r);
         // iterate over stiffness matrix of individual elements to create triplets
         for (int i = 0; i < 3; ++i) {
@@ -59,10 +59,10 @@ void assembleStiffnessMatrix(Matrix& A, const Eigen::MatrixXd& vertices,
             }
         }
     }
-    /* .setFromTriplets is a member funciton of Eigen::SparseMatrix
-     * expects a list/vector of triplets to populate matrix A which
-     * is a Eigen::SparseMatrix, Eigen documentation */
-// end my solution----------------------------------------------------------------------------------
+    // .setFromTriplets is a member funciton of Eigen::SparseMatrix
+    // expects a list/vector of triplets to populate matrix A which
+    // is a Eigen::SparseMatrix, Eigen documentation
+ // end my solution----------------------------------------------------------------------------------
     A.setFromTriplets(triplets.begin(), triplets.end());
 }
 //----------------AssembleMatrixEnd----------------

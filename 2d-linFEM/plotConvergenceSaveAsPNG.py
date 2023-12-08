@@ -15,6 +15,7 @@ print(-diff(log(errorsH1)) / diff (log(numberOfElements)))
 print("EOC (H1): ", -polyfit(log(numberOfElements), log(errorsH1), 1)[0])
 
 plt.subplot(121)
+plt.subplots_adjust(wspace=0.5) # some additional horizontal spacing
 loglog(numberOfElements, errors, "-o")
 title("$L^2$ error")
 xlabel("Number of free vertices")

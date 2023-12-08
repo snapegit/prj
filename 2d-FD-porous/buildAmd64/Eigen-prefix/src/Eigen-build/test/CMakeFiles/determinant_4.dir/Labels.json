@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/workspaces/prj/2d-FD-porous/buildAmd64/Eigen/test/determinant.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "determinant_4"
+	}
+}

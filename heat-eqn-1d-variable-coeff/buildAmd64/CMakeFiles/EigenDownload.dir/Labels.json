@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/workspaces/prj/heat-eqn-1d-variable-coeff/buildAmd64/CMakeFiles/EigenDownload"
+		},
+		{
+			"file" : "/workspaces/prj/heat-eqn-1d-variable-coeff/buildAmd64/CMakeFiles/EigenDownload.rule"
+		},
+		{
+			"file" : "/workspaces/prj/heat-eqn-1d-variable-coeff/buildAmd64/CMakeFiles/EigenDownload-complete.rule"
+		},
+		{
+			"file" : "/workspaces/prj/heat-eqn-1d-variable-coeff/buildAmd64/EigenDownload-prefix/src/EigenDownload-stamp/EigenDownload-install.rule"
+		},
+		{
+			"file" : "/workspaces/prj/heat-eqn-1d-variable-coeff/buildAmd64/EigenDownload-prefix/src/EigenDownload-stamp/EigenDownload-mkdir.rule"
+		},
+		{
+			"file" : "/workspaces/prj/heat-eqn-1d-variable-coeff/buildAmd64/EigenDownload-prefix/src/EigenDownload-stamp/EigenDownload-download.rule"
+		},
+		{
+			"file" : "/workspaces/prj/heat-eqn-1d-variable-coeff/buildAmd64/EigenDownload-prefix/src/EigenDownload-stamp/EigenDownload-update.rule"
+		},
+		{
+			"file" : "/workspaces/prj/heat-eqn-1d-variable-coeff/buildAmd64/EigenDownload-prefix/src/EigenDownload-stamp/EigenDownload-patch.rule"
+		},
+		{
+			"file" : "/workspaces/prj/heat-eqn-1d-variable-coeff/buildAmd64/EigenDownload-prefix/src/EigenDownload-stamp/EigenDownload-configure.rule"
+		},
+		{
+			"file" : "/workspaces/prj/heat-eqn-1d-variable-coeff/buildAmd64/EigenDownload-prefix/src/EigenDownload-stamp/EigenDownload-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"EigenDownload"
+		],
+		"name" : "EigenDownload"
+	}
+}
